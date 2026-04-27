@@ -26,29 +26,26 @@
     <section class="auth-box">
       <p class="eyebrow">Account</p>
       <h1>Login</h1>
-      <p class="auth-text">Later this page will let you enter your personal office account.</p>
+      <p class="auth-text">Enter your name and password to open Mogamed Office.</p>
 
-      <form class="auth-form">
+      <form class="auth-form" id="loginForm">
         <label>
-          Email
-          <input type="email" placeholder="you@example.com">
+          Name
+          <input id="loginName" type="text" placeholder="Enter name">
         </label>
 
         <label>
           Password
-          <input type="password" placeholder="Your password">
+          <input id="loginPassword" type="password" placeholder="Enter password">
         </label>
 
-        <button type="button">Login</button>
+        <button type="submit">Enter Office</button>
       </form>
 
-      <p class="auth-small">
-        No account yet?
-        <a href="create-account.html">Create account</a>
-      </p>
+      <p class="auth-error" id="loginError"></p>
     </section>
   </main>
 
-  <script src="../scripts/app.js"></script>
+  <script src="../scripts/login.js"></script>
 </body>
 </html>
