@@ -7,35 +7,25 @@
   <title>Login — Mogamed Office</title>
 
   <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/auth.css">
 </head>
 
-<body>
-  <header class="site-header">
-    <div class="logo">Mogamed Office</div>
+<body class="login-page">
+  <main class="login-screen">
+    <section class="login-card">
+      <p class="login-kicker">Mogamed Office</p>
 
-    <nav class="main-menu">
-      <a href="../index.html">Home</a>
-      <a href="news.html">AI News</a>
-      <a href="catalan.html">Catalan</a>
-      <a href="links.html">Links</a>
-      <a href="login.html">Login</a>
-    </nav>
-  </header>
+      <h1>Login to Your Office</h1>
+      <p class="login-subtitle">Enter your name and password to continue.</p>
 
-  <main class="page">
-    <section class="auth-box">
-      <p class="eyebrow">Account</p>
-      <h1>Login</h1>
-      <p class="auth-text">Enter your name and password to open Mogamed Office.</p>
-
-      <form class="auth-form" id="loginForm">
+      <form class="login-form" id="loginForm">
         <label>
-          Name
-          <input id="loginName" type="text" placeholder="Enter name">
+          <span>Name</span>
+          <input id="loginName" type="text" placeholder="Klimentiy">
         </label>
 
         <label>
-          Password
+          <span>Password</span>
           <input id="loginPassword" type="password" placeholder="Enter password">
         </label>
 
