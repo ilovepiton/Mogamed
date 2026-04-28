@@ -312,3 +312,14 @@ body {
   color: #f87171;
   font-weight: 700;
 }
+.logout-button {
+  background: transparent;
+  border: none;
+  color: #cbd5e1;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  color: #ffffff;
+}
