@@ -155,17 +155,18 @@ body {
   font-size: 14px;
 }
 
-/* AI NEWS PAGE — COMPACT DARK NEWSPAPER STYLE */
+/* AI NEWS PAGE — DARK EL PAIS STYLE */
 
 .ai-news-page {
   max-width: 1180px;
 }
 
 .news-hero {
-  margin-bottom: 28px;
+  margin-bottom: 30px;
 }
 
 .ai-news-feed {
+  width: 100%;
   border-radius: 24px;
   overflow: hidden;
   background: rgba(17, 24, 39, 0.72);
@@ -174,11 +175,12 @@ body {
 
 .ai-news-row {
   display: grid;
-  grid-template-columns: 360px 1fr;
-  gap: 28px;
+  grid-template-columns: 390px 1fr;
+  gap: 30px;
   align-items: center;
-  padding: 18px 22px;
+  padding: 20px 24px;
   border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+  background: rgba(11, 16, 32, 0.35);
 }
 
 .ai-news-row:last-child {
@@ -186,10 +188,10 @@ body {
 }
 
 .ai-news-photo {
-  width: 360px;
-  height: 185px;
+  width: 390px;
+  height: 205px;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 8px;
   background: rgba(15, 23, 42, 0.85);
 }
 
@@ -204,10 +206,11 @@ body {
 
 .ai-news-text {
   color: #ffffff;
+  min-width: 0;
 }
 
 .ai-news-category {
-  margin: 0 0 7px;
+  margin: 0 0 8px;
   color: #f8fafc;
   font-size: 12px;
   font-weight: 900;
@@ -219,7 +222,7 @@ body {
   margin: 0 0 10px;
   color: #ffffff;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 30px;
+  font-size: 31px;
   line-height: 1.06;
   font-weight: 900;
 }
