@@ -273,12 +273,13 @@ body {
 .app-section h2 {
   margin: 0 0 22px;
   font-size: 28px;
+  color: #ffffff;
 }
 
 .app-circle-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 26px;
+  gap: 28px;
   align-items: start;
 }
 
@@ -292,8 +293,10 @@ body {
 }
 
 .circle-app-icon {
-  width: 92px;
-  height: 92px;
+  width: 94px;
+  height: 94px;
+  min-width: 94px;
+  min-height: 94px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -415,6 +418,8 @@ body {
   .circle-app-icon {
     width: 82px;
     height: 82px;
+    min-width: 82px;
+    min-height: 82px;
     font-size: 19px;
   }
 }
