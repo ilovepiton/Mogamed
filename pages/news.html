@@ -25,26 +25,63 @@
     <section class="hero">
       <p class="eyebrow">AI News</p>
       <h1>Future-changing AI news</h1>
-      <p>Only important AI updates from Telegram channels will appear here.</p>
+      <p>Important AI updates from Telegram channels, filtered by real value.</p>
     </section>
 
-    <section class="news-list">
+    <section class="featured-news">
+      <div class="featured-news-image">
+        <div class="image-placeholder">Image from Telegram post</div>
+      </div>
+
+      <div class="featured-news-content">
+        <p class="card-label">IMPORTANCE 5/5 · AI AGENTS</p>
+        <h2>Main AI story will appear here</h2>
+        <p>
+          This will be the most important AI news of the day. Later the system will take it from Telegram,
+          summarize it and explain why it matters.
+        </p>
+
+        <div class="news-meta">
+          <span>Source: Telegram</span>
+          <span>Today</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="news-toolbar">
+      <button>Top News</button>
+      <button>Latest</button>
+      <button>AI Agents</button>
+      <button>AI Coding</button>
+      <button>AI Video</button>
+    </section>
+
+    <section class="news-grid">
       <article class="news-card">
         <p class="card-label">IMPORTANCE 5/5</p>
         <h2>Telegram AI news will appear here</h2>
         <p>
-          This page will later collect Telegram posts, remove trash and show only the most important news.
+          This card will later collect a real Telegram post, clean it and show only the useful part.
         </p>
         <p class="news-source">Source: Telegram channels</p>
       </article>
 
       <article class="news-card">
         <p class="card-label">RULE</p>
-        <h2>Pictures only from original Telegram posts</h2>
+        <h2>Pictures only from original posts</h2>
         <p>
-          If a Telegram post has an image, the site will show it. If there is no image, the news will stay without an image.
+          If the Telegram post has an image, the site will show it. If there is no image, the news stays text-only.
         </p>
         <p class="news-source">No fake placeholder images.</p>
+      </article>
+
+      <article class="news-card">
+        <p class="card-label">FILTER</p>
+        <h2>Trash and ads will be removed</h2>
+        <p>
+          The future system should ignore weak posts, repeated news, ads and useless hype.
+        </p>
+        <p class="news-source">Importance filter: 1–5</p>
       </article>
     </section>
   </main>
