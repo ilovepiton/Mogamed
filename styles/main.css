@@ -1,128 +1,117 @@
-/* FINAL AI NEWS — EL PAIS STYLE, DARK VERSION */
+/* NEWS PAGE ONLY — compact dark newspaper layout */
 
 .ai-news-page {
-  max-width: 1180px !important;
+  max-width: 1180px;
 }
 
 .news-hero {
-  margin-bottom: 30px !important;
+  margin-bottom: 28px;
 }
 
 .ai-news-feed {
-  display: block !important;
-  width: 100% !important;
-  border-radius: 24px !important;
-  overflow: hidden !important;
-  background: rgba(17, 24, 39, 0.55) !important;
-  border: 1px solid rgba(148, 163, 184, 0.16) !important;
+  border-radius: 24px;
+  overflow: hidden;
+  background: rgba(17, 24, 39, 0.72);
+  border: 1px solid rgba(148, 163, 184, 0.16);
 }
 
 .ai-news-row {
-  display: grid !important;
-  grid-template-columns: 420px 1fr !important;
-  gap: 34px !important;
-  align-items: center !important;
-
-  padding: 22px !important;
-  border-bottom: 1px solid rgba(148, 163, 184, 0.18) !important;
-
-  background: rgba(11, 16, 32, 0.42) !important;
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 28px;
+  align-items: center;
+  padding: 18px 22px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.16);
 }
 
 .ai-news-row:last-child {
-  border-bottom: none !important;
+  border-bottom: none;
 }
 
 .ai-news-photo {
-  width: 420px !important;
-  height: 230px !important;
-  max-width: 420px !important;
-  max-height: 230px !important;
-  overflow: hidden !important;
-  border-radius: 4px !important;
-  background: rgba(15, 23, 42, 0.85) !important;
+  width: 360px;
+  height: 185px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: rgba(15, 23, 42, 0.85);
 }
 
 .ai-news-photo img {
-  width: 100% !important;
-  height: 100% !important;
-  max-width: 100% !important;
-  max-height: 230px !important;
-  object-fit: cover !important;
-  display: block !important;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
+/* Text only for AI News */
 .ai-news-text {
-  min-width: 0 !important;
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
 .ai-news-category {
-  margin: 0 0 8px !important;
-  color: #e5e7eb !important;
-  font-size: 13px !important;
-  font-weight: 900 !important;
-  letter-spacing: 0.4px !important;
-  text-transform: uppercase !important;
+  margin: 0 0 7px;
+  color: #f8fafc;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .ai-news-text h2 {
-  margin: 0 0 12px !important;
-  color: #ffffff !important;
-  font-family: Georgia, "Times New Roman", serif !important;
-  font-size: 34px !important;
-  line-height: 1.05 !important;
-  font-weight: 900 !important;
+  margin: 0 0 10px;
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+  line-height: 1.06;
+  font-weight: 900;
 }
 
 .ai-news-meta {
-  margin: 0 0 12px !important;
-  color: #94a3b8 !important;
-  font-size: 13px !important;
-  font-weight: 800 !important;
-  text-transform: uppercase !important;
+  margin: 0 0 10px;
+  color: #cbd5e1;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 .ai-news-summary {
-  margin: 0 !important;
-  color: #cbd5e1 !important;
-  font-family: Georgia, "Times New Roman", serif !important;
-  font-size: 21px !important;
-  line-height: 1.25 !important;
+  margin: 0;
+  color: #e5e7eb;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 19px;
+  line-height: 1.24;
 }
 
 .ai-news-empty-photo {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  border: 1px dashed rgba(148, 163, 184, 0.28) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed rgba(148, 163, 184, 0.35);
 }
 
 .ai-news-empty-photo span {
-  color: #64748b !important;
-  font-size: 13px !important;
-  font-weight: 900 !important;
-  text-transform: uppercase !important;
+  color: #94a3b8;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
-/* IMPORTANT: only stack on real small screens */
-@media (max-width: 760px) {
+@media (max-width: 800px) {
   .ai-news-row {
-    grid-template-columns: 1fr !important;
-    gap: 16px !important;
+    grid-template-columns: 1fr;
+    gap: 14px;
   }
 
   .ai-news-photo {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: 210px !important;
+    width: 100%;
+    height: 200px;
   }
 
   .ai-news-text h2 {
-    font-size: 27px !important;
+    font-size: 25px;
   }
 
   .ai-news-summary {
-    font-size: 18px !important;
+    font-size: 17px;
   }
 }
