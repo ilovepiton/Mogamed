@@ -21,67 +21,60 @@
     </nav>
   </header>
 
-  <main class="page">
-    <section class="hero">
+  <main class="page news-page">
+    <section class="hero news-hero">
       <p class="eyebrow">AI News</p>
       <h1>Future-changing AI news</h1>
       <p>Important AI updates from Telegram channels, filtered by real value.</p>
     </section>
 
-    <section class="featured-news">
-      <div class="featured-news-image">
-        <div class="image-placeholder">Image from Telegram post</div>
-      </div>
-
-      <div class="featured-news-content">
-        <p class="card-label">IMPORTANCE 5/5 · AI AGENTS</p>
-        <h2>Main AI story will appear here</h2>
-        <p>
-          This will be the most important AI news of the day. Later the system will take it from Telegram,
-          summarize it and explain why it matters.
-        </p>
-
-        <div class="news-meta">
-          <span>Source: Telegram</span>
-          <span>Today</span>
+    <section class="newspaper-list">
+      <article class="newspaper-item">
+        <div class="newspaper-image">
+          <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1200&auto=format&fit=crop" alt="AI technology">
         </div>
-      </div>
-    </section>
 
-    <section class="news-toolbar">
-      <button>Top News</button>
-      <button>Latest</button>
-      <button>AI Agents</button>
-      <button>AI Coding</button>
-      <button>AI Video</button>
-    </section>
-
-    <section class="news-grid">
-      <article class="news-card">
-        <p class="card-label">IMPORTANCE 5/5</p>
-        <h2>Telegram AI news will appear here</h2>
-        <p>
-          This card will later collect a real Telegram post, clean it and show only the useful part.
-        </p>
-        <p class="news-source">Source: Telegram channels</p>
+        <div class="newspaper-content">
+          <p class="news-category">AI AGENTS</p>
+          <h2>AI agent learns to complete complex tasks inside the browser</h2>
+          <p class="news-info">TELEGRAM AI CHANNEL · TODAY · IMPORTANCE 5/5</p>
+          <p class="news-summary">
+            A new generation of AI agents can use websites, click buttons, read pages and complete multi-step tasks.
+            This is important because personal automation will become much stronger.
+          </p>
+        </div>
       </article>
 
-      <article class="news-card">
-        <p class="card-label">RULE</p>
-        <h2>Pictures only from original posts</h2>
-        <p>
-          If the Telegram post has an image, the site will show it. If there is no image, the news stays text-only.
-        </p>
-        <p class="news-source">No fake placeholder images.</p>
+      <article class="newspaper-item">
+        <div class="newspaper-image">
+          <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1200&auto=format&fit=crop" alt="AI robot">
+        </div>
+
+        <div class="newspaper-content">
+          <p class="news-category">AI TOOLS</p>
+          <h2>New AI tools are moving from simple chat to real work automation</h2>
+          <p class="news-info">TELEGRAM AI CHANNEL · TODAY · IMPORTANCE 4/5</p>
+          <p class="news-summary">
+            Tools are becoming more useful for coding, design, research and daily work.
+            Later Mogamed Office will collect only updates that can be useful for your projects.
+          </p>
+        </div>
       </article>
 
-      <article class="news-card">
-        <p class="card-label">FILTER</p>
-        <h2>Trash and ads will be removed</h2>
-        <p>
-          The future system should ignore weak posts, repeated news, ads and useless hype.
-        </p>
-        <p class="news-source">Importance filter: 1–5</p>
+      <article class="newspaper-item">
+        <div class="newspaper-image empty-news-image">
+          <span>No image in Telegram post</span>
+        </div>
+
+        <div class="newspaper-content">
+          <p class="news-category">RULE</p>
+          <h2>Pictures will appear only if the original Telegram post has an image</h2>
+          <p class="news-info">MOGAMED OFFICE RULE · SYSTEM · IMPORTANCE 5/5</p>
+          <p class="news-summary">
+            If a Telegram post has a picture, it will be shown here. If there is no picture, the news will stay text-only.
+            No fake placeholder images will be used in the real version.
+          </p>
+        </div>
       </article>
     </section>
   </main>
