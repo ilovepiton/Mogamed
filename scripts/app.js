@@ -1,8 +1,11 @@
-console.log("Klims Office is running");
+console.log("Mogamed Office is running");
 
-// Later this file will control:
-// - daily AI news
-// - Catalan words
-// - quick links
-// - daily mission
-// - user actions
+const isLoggedIn = localStorage.getItem("mogamedLoggedIn");
+
+if (isLoggedIn !== "yes") {
+  const currentPath = window.location.pathname;
+
+  if (!currentPath.includes("login.html")) {
+    window.location.href = "pages/login.html";
+  }
+}
