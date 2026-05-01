@@ -423,3 +423,11 @@ body {
     font-size: 19px;
   }
 }
+/* Logo images inside round app buttons */
+
+.logo-image-icon img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  display: block;
+}
