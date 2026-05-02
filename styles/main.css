@@ -503,3 +503,8 @@ body {
   width: 56px !important;
   height: 56px !important;
 }
+.chatgpt-logo {
+  width: 58px;
+  height: 58px;
+  display: block;
+}
