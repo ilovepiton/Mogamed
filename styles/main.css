@@ -264,22 +264,22 @@ body {
   line-height: 1.5;
 }
 
-/* LINKS PAGE — ROUND APP ICONS */
+/* LINKS PAGE — ROUND APP BUTTONS */
 
 .app-section {
   margin-top: 34px;
 }
 
 .app-section h2 {
-  margin: 0 0 22px;
+  margin: 0 0 24px;
   font-size: 28px;
   color: #ffffff;
 }
 
 .app-circle-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 28px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 34px 30px;
   align-items: start;
 }
 
@@ -287,26 +287,26 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
   color: #ffffff;
   text-decoration: none;
 }
 
 .circle-app-icon {
-  width: 94px;
-  height: 94px;
-  min-width: 94px;
-  min-height: 94px;
+  width: 104px;
+  height: 104px;
+  min-width: 104px;
+  min-height: 104px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 900;
   letter-spacing: 0.4px;
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.30);
+  border: 1px solid rgba(255, 255, 255, 0.14);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
@@ -315,6 +315,8 @@ body {
   font-size: 15px;
   font-weight: 700;
   text-align: center;
+  max-width: 130px;
+  line-height: 1.25;
 }
 
 .circle-app:hover .circle-app-icon {
@@ -326,14 +328,10 @@ body {
   color: #ffffff;
 }
 
-/* Different app colors */
+/* App colors */
 
 .chatgpt-icon {
   background: linear-gradient(135deg, #10a37f, #0f766e);
-}
-
-.claude-icon {
-  background: linear-gradient(135deg, #d97706, #92400e);
 }
 
 .github-icon {
@@ -344,20 +342,24 @@ body {
   background: linear-gradient(135deg, #ef4444, #991b1b);
 }
 
-.drive-icon {
-  background: linear-gradient(135deg, #2563eb, #16a34a);
-}
-
 .translate-icon {
   background: linear-gradient(135deg, #3b82f6, #1d4ed8);
 }
 
-.study-icon {
-  background: linear-gradient(135deg, #22c55e, #15803d);
+.discord-icon {
+  background: linear-gradient(135deg, #5865f2, #3730a3);
 }
 
-.wiki-icon {
-  background: linear-gradient(135deg, #64748b, #334155);
+.proton-icon {
+  background: linear-gradient(135deg, #6d4aff, #3210a8);
+}
+
+.kings-icon {
+  background: linear-gradient(135deg, #1e3a8a, #dc2626);
+}
+
+.magic-icon {
+  background: linear-gradient(135deg, #7c3aed, #111827);
 }
 
 /* MOBILE */
@@ -416,18 +418,10 @@ body {
   }
 
   .circle-app-icon {
-    width: 82px;
-    height: 82px;
-    min-width: 82px;
-    min-height: 82px;
+    width: 88px;
+    height: 88px;
+    min-width: 88px;
+    min-height: 88px;
     font-size: 19px;
   }
-}
-/* Logo images inside round app buttons */
-
-.logo-image-icon img {
-  width: 42px;
-  height: 42px;
-  object-fit: contain;
-  display: block;
 }
