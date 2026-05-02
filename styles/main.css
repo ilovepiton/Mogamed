@@ -328,6 +328,31 @@ body {
   color: #ffffff;
 }
 
+/* Logo images inside app buttons */
+
+.logo-icon img {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+  display: block;
+}
+
+.youtube-icon img,
+.discord-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.proton-icon img {
+  width: 44px;
+  height: 44px;
+}
+
+.translate-icon img {
+  width: 42px;
+  height: 42px;
+}
+
 /* App colors */
 
 .chatgpt-icon {
@@ -423,5 +448,10 @@ body {
     min-width: 88px;
     min-height: 88px;
     font-size: 19px;
+  }
+
+  .logo-icon img {
+    width: 38px;
+    height: 38px;
   }
 }
