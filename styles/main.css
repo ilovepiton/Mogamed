@@ -455,3 +455,51 @@ body {
     height: 38px;
   }
 }
+/* FIX: crop logos inside circle icons */
+
+.circle-app-icon {
+  overflow: hidden !important;
+  position: relative !important;
+  border-radius: 50% !important;
+}
+
+.logo-icon img {
+  width: 52px !important;
+  height: 52px !important;
+  max-width: 52px !important;
+  max-height: 52px !important;
+  object-fit: contain !important;
+  display: block !important;
+}
+
+/* Individual logo sizes */
+
+.chatgpt-icon img {
+  width: 44px !important;
+  height: 44px !important;
+}
+
+.github-icon img {
+  width: 62px !important;
+  height: 62px !important;
+}
+
+.youtube-icon img {
+  width: 54px !important;
+  height: 54px !important;
+}
+
+.translate-icon img {
+  width: 56px !important;
+  height: 56px !important;
+}
+
+.discord-icon img {
+  width: 58px !important;
+  height: 58px !important;
+}
+
+.proton-icon img {
+  width: 56px !important;
+  height: 56px !important;
+}
