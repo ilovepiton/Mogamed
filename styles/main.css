@@ -308,6 +308,8 @@ body {
   box-shadow: 0 18px 42px rgba(0, 0, 0, 0.30);
   border: 1px solid rgba(255, 255, 255, 0.14);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
+  overflow: hidden;
+  position: relative;
 }
 
 .circle-app span {
@@ -331,26 +333,48 @@ body {
 /* Logo images inside app buttons */
 
 .logo-icon img {
-  width: 46px;
-  height: 46px;
+  width: 52px;
+  height: 52px;
+  max-width: 52px;
+  max-height: 52px;
   object-fit: contain;
   display: block;
 }
 
-.youtube-icon img,
-.discord-icon img {
-  width: 50px;
-  height: 50px;
+.chatgpt-icon img,
+.kings-icon img,
+.magic-icon img {
+  width: 104px;
+  height: 104px;
+  max-width: 104px;
+  max-height: 104px;
+  object-fit: cover;
+  display: block;
 }
 
-.proton-icon img {
-  width: 44px;
-  height: 44px;
+.github-icon img {
+  width: 62px;
+  height: 62px;
+}
+
+.youtube-icon img {
+  width: 54px;
+  height: 54px;
 }
 
 .translate-icon img {
-  width: 42px;
-  height: 42px;
+  width: 56px;
+  height: 56px;
+}
+
+.discord-icon img {
+  width: 58px;
+  height: 58px;
+}
+
+.proton-icon img {
+  width: 56px;
+  height: 56px;
 }
 
 /* App colors */
@@ -380,11 +404,11 @@ body {
 }
 
 .kings-icon {
-  background: linear-gradient(135deg, #1e3a8a, #dc2626);
+  background: #ffffff;
 }
 
 .magic-icon {
-  background: linear-gradient(135deg, #7c3aed, #111827);
+  background: #ffffff;
 }
 
 /* MOBILE */
@@ -454,57 +478,13 @@ body {
     width: 38px;
     height: 38px;
   }
-}
-/* FIX: crop logos inside circle icons */
 
-.circle-app-icon {
-  overflow: hidden !important;
-  position: relative !important;
-  border-radius: 50% !important;
-}
-
-.logo-icon img {
-  width: 52px !important;
-  height: 52px !important;
-  max-width: 52px !important;
-  max-height: 52px !important;
-  object-fit: contain !important;
-  display: block !important;
-}
-
-/* Individual logo sizes */
-
-.chatgpt-icon img {
-  width: 44px !important;
-  height: 44px !important;
-}
-
-.github-icon img {
-  width: 62px !important;
-  height: 62px !important;
-}
-
-.youtube-icon img {
-  width: 54px !important;
-  height: 54px !important;
-}
-
-.translate-icon img {
-  width: 56px !important;
-  height: 56px !important;
-}
-
-.discord-icon img {
-  width: 58px !important;
-  height: 58px !important;
-}
-
-.proton-icon img {
-  width: 56px !important;
-  height: 56px !important;
-}
-.chatgpt-logo {
-  width: 58px;
-  height: 58px;
-  display: block;
+  .chatgpt-icon img,
+  .kings-icon img,
+  .magic-icon img {
+    width: 88px;
+    height: 88px;
+    max-width: 88px;
+    max-height: 88px;
+  }
 }
