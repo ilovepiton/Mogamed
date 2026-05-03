@@ -614,3 +614,109 @@ body {
     grid-template-columns: 1fr;
   }
 }
+/* FINAL CATALAN CARD DESIGN FIX */
+
+.catalan-page {
+  max-width: 1180px !important;
+}
+
+.daily-words-top {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 20px !important;
+  margin-bottom: 24px !important;
+}
+
+.daily-info-card {
+  padding: 24px !important;
+  border-radius: 22px !important;
+  background: #111827 !important;
+  border: 1px solid #263244 !important;
+}
+
+.daily-info-card h2 {
+  margin: 0 0 10px !important;
+  color: #ffffff !important;
+  font-size: 24px !important;
+}
+
+.daily-info-card p {
+  color: #cbd5e1 !important;
+  line-height: 1.5 !important;
+}
+
+.daily-word-grid {
+  display: grid !important;
+  grid-template-columns: repeat(5, 1fr) !important;
+  gap: 18px !important;
+}
+
+.daily-word-card {
+  padding: 22px !important;
+  border-radius: 20px !important;
+  background: #111827 !important;
+  border: 1px solid #263244 !important;
+  min-height: 230px !important;
+}
+
+.daily-word-card h2 {
+  margin: 14px 0 10px !important;
+  font-size: 30px !important;
+  color: #ffffff !important;
+}
+
+.word-type {
+  display: inline-block !important;
+  padding: 6px 10px !important;
+  border-radius: 999px !important;
+  background: #2563eb !important;
+  color: #ffffff !important;
+  font-size: 11px !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.7px !important;
+}
+
+.review-word .word-type {
+  background: #14b8a6 !important;
+}
+
+.word-translation {
+  margin: 0 0 12px !important;
+  color: #93c5fd !important;
+  font-weight: 800 !important;
+  line-height: 1.35 !important;
+}
+
+.word-example {
+  margin: 0 0 8px !important;
+  color: #e5e7eb !important;
+  line-height: 1.45 !important;
+}
+
+.word-example-ru {
+  margin: 0 !important;
+  color: #94a3b8 !important;
+  line-height: 1.45 !important;
+}
+
+@media (max-width: 1100px) {
+  .daily-word-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .daily-words-top {
+    grid-template-columns: 1fr !important;
+  }
+
+  .daily-word-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .daily-word-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
