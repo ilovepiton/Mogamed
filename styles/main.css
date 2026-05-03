@@ -239,87 +239,71 @@ body {
 }
 
 .daily-words-top {
-  display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 18px;
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 
-.daily-progress-card,
-.daily-rule-card {
+.centered-daily-card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.daily-info-card {
+  width: 100%;
+  max-width: 560px;
   padding: 24px;
   border-radius: 22px;
-  background: rgba(17, 24, 39, 0.82);
-  border: 1px solid rgba(148, 163, 184, 0.16);
+  background: #111827;
+  border: 1px solid #263244;
 }
 
-.daily-progress-card h2,
-.daily-rule-card h2 {
+.daily-info-card h2 {
   margin: 0 0 10px;
+  color: #ffffff;
   font-size: 24px;
 }
 
-.daily-rule-card p,
-.progress-note {
-  margin: 0;
+.daily-info-card p {
   color: #cbd5e1;
   line-height: 1.5;
-}
-
-.daily-rule-card strong {
-  color: #ffffff;
 }
 
 .daily-word-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 16px;
+  gap: 18px;
 }
 
 .daily-word-card {
-  position: relative;
-  min-height: 230px;
-  padding: 20px;
-  border-radius: 22px;
+  padding: 22px;
+  border-radius: 20px;
   background: #111827;
   border: 1px solid #263244;
-  overflow: hidden;
-}
-
-.daily-word-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at top right, rgba(96, 165, 250, 0.16), transparent 38%);
-  pointer-events: none;
+  min-height: 230px;
 }
 
 .daily-word-card h2 {
-  position: relative;
-  margin: 18px 0 10px;
-  color: #ffffff;
+  margin: 14px 0 10px;
   font-size: 30px;
-  line-height: 1;
+  color: #ffffff;
 }
 
 .word-type {
-  position: relative;
   display: inline-block;
-  padding: 6px 9px;
+  padding: 6px 10px;
   border-radius: 999px;
+  background: #2563eb;
   color: #ffffff;
   font-size: 11px;
   font-weight: 900;
   letter-spacing: 0.7px;
-  background: rgba(37, 99, 235, 0.9);
 }
 
 .review-word .word-type {
-  background: rgba(20, 184, 166, 0.9);
+  background: #14b8a6;
 }
 
 .word-translation {
-  position: relative;
   margin: 0 0 12px;
   color: #93c5fd;
   font-weight: 800;
@@ -327,14 +311,12 @@ body {
 }
 
 .word-example {
-  position: relative;
   margin: 0 0 8px;
   color: #e5e7eb;
   line-height: 1.45;
 }
 
 .word-example-ru {
-  position: relative;
   margin: 0;
   color: #94a3b8;
   line-height: 1.45;
@@ -531,10 +513,6 @@ body {
   .app-circle-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-
-  .daily-words-top {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width: 800px) {
@@ -558,6 +536,10 @@ body {
 
   .daily-word-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .daily-info-card {
+    max-width: 100%;
   }
 
   .hero h1 {
@@ -612,111 +594,5 @@ body {
 
   .daily-word-grid {
     grid-template-columns: 1fr;
-  }
-}
-/* FINAL CATALAN CARD DESIGN FIX */
-
-.catalan-page {
-  max-width: 1180px !important;
-}
-
-.daily-words-top {
-  display: grid !important;
-  grid-template-columns: repeat(2, 1fr) !important;
-  gap: 20px !important;
-  margin-bottom: 24px !important;
-}
-
-.daily-info-card {
-  padding: 24px !important;
-  border-radius: 22px !important;
-  background: #111827 !important;
-  border: 1px solid #263244 !important;
-}
-
-.daily-info-card h2 {
-  margin: 0 0 10px !important;
-  color: #ffffff !important;
-  font-size: 24px !important;
-}
-
-.daily-info-card p {
-  color: #cbd5e1 !important;
-  line-height: 1.5 !important;
-}
-
-.daily-word-grid {
-  display: grid !important;
-  grid-template-columns: repeat(5, 1fr) !important;
-  gap: 18px !important;
-}
-
-.daily-word-card {
-  padding: 22px !important;
-  border-radius: 20px !important;
-  background: #111827 !important;
-  border: 1px solid #263244 !important;
-  min-height: 230px !important;
-}
-
-.daily-word-card h2 {
-  margin: 14px 0 10px !important;
-  font-size: 30px !important;
-  color: #ffffff !important;
-}
-
-.word-type {
-  display: inline-block !important;
-  padding: 6px 10px !important;
-  border-radius: 999px !important;
-  background: #2563eb !important;
-  color: #ffffff !important;
-  font-size: 11px !important;
-  font-weight: 900 !important;
-  letter-spacing: 0.7px !important;
-}
-
-.review-word .word-type {
-  background: #14b8a6 !important;
-}
-
-.word-translation {
-  margin: 0 0 12px !important;
-  color: #93c5fd !important;
-  font-weight: 800 !important;
-  line-height: 1.35 !important;
-}
-
-.word-example {
-  margin: 0 0 8px !important;
-  color: #e5e7eb !important;
-  line-height: 1.45 !important;
-}
-
-.word-example-ru {
-  margin: 0 !important;
-  color: #94a3b8 !important;
-  line-height: 1.45 !important;
-}
-
-@media (max-width: 1100px) {
-  .daily-word-grid {
-    grid-template-columns: repeat(3, 1fr) !important;
-  }
-}
-
-@media (max-width: 800px) {
-  .daily-words-top {
-    grid-template-columns: 1fr !important;
-  }
-
-  .daily-word-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
-  }
-}
-
-@media (max-width: 520px) {
-  .daily-word-grid {
-    grid-template-columns: 1fr !important;
   }
 }
