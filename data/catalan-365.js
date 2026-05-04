@@ -1,5 +1,4 @@
-const catalan365 = [
-  {
+window.catalan365 = [  {
     day: 1,
     words: [
       {
