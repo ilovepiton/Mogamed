@@ -1397,3 +1397,28 @@ a {
 .proton-icon {
   background: linear-gradient(135deg, #3b82f6, #1d4ed8) !important;
 }
+/* SOFT PINK BUTTONS ONLY */
+
+.card-link,
+.quiz-next-button {
+  background: linear-gradient(135deg, #d946ef, #7c3aed) !important;
+  box-shadow:
+    0 14px 34px rgba(168, 85, 247, 0.26),
+    0 0 22px rgba(217, 70, 239, 0.16) !important;
+}
+
+.card-link:hover,
+.quiz-next-button:hover {
+  background: linear-gradient(135deg, #e879f9, #8b5cf6) !important;
+  box-shadow:
+    0 16px 38px rgba(168, 85, 247, 0.32),
+    0 0 26px rgba(217, 70, 239, 0.20) !important;
+}
+
+/* optional: small soft purple border on buttons */
+
+.card-link,
+.quiz-next-button,
+.quiz-reset-button {
+  border: 1px solid rgba(232, 121, 249, 0.22) !important;
+}
