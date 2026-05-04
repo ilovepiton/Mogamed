@@ -1422,3 +1422,64 @@ a {
 .quiz-reset-button {
   border: 1px solid rgba(232, 121, 249, 0.22) !important;
 }
+/* LONG TELEGRAM NEWS TEXT FIX */
+
+.ai-news-feed {
+  overflow: visible !important;
+}
+
+.ai-news-row {
+  align-items: start !important;
+  min-height: auto !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.ai-news-text {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  overflow: visible !important;
+}
+
+.ai-news-text h2,
+.ai-news-summary,
+.ai-news-meta,
+.ai-news-category {
+  max-width: 100% !important;
+  overflow-wrap: anywhere !important;
+  word-break: normal !important;
+  white-space: normal !important;
+}
+
+.ai-news-summary {
+  line-height: 1.35 !important;
+}
+
+.ai-news-photo {
+  flex-shrink: 0 !important;
+}
+
+.ai-news-row.no-image-news {
+  min-height: auto !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.ai-news-row.no-image-news .ai-news-text {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.ai-news-row.no-image-news h2,
+.ai-news-row.no-image-news .ai-news-summary {
+  max-width: 100% !important;
+}
+
+/* If Telegram text is very long, make it readable */
+.ai-news-summary p {
+  margin: 0 0 12px !important;
+}
+
+.ai-news-summary p:last-child {
+  margin-bottom: 0 !important;
+}
