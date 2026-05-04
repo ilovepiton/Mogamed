@@ -1806,3 +1806,29 @@ a {
     width: calc(100% - 36px);
   }
 }
+/* FIX TELEGRAM SMALL IMAGES */
+
+.news-image-hero {
+  width: min(620px, 100%) !important;
+  max-width: 620px !important;
+  min-height: 0 !important;
+  height: auto !important;
+  margin: 0 auto 28px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.news-image-hero img {
+  width: auto !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: 360px !important;
+  object-fit: contain !important;
+  object-position: center !important;
+}
+
+/* If image is tiny, do not stretch it into a banner */
+.news-image-hero:has(img) {
+  background: rgba(15, 23, 42, 0.42) !important;
+}
