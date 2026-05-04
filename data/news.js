@@ -1,35 +1,35 @@
 window.aiNews = [
   {
-    title: "AI agent learns to complete complex tasks inside the browser",
-    category: "AI Agents",
-    source: "Telegram AI Channel",
-    channel: "your_pet_project",
+    title: "AI News system is ready",
+    category: "System",
+    source: "Mogamed Office",
+    channel: "",
     date: "Today",
     importance: 5,
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=900&q=80",
-    summary: "A new generation of AI agents can use websites, click buttons, read pages and complete multi-step tasks.",
+    image: "",
+    summary: "Telegram news system is ready. The site can show news from data/news.js. If a Telegram post has no image, the news card uses the full width for text.",
+    link: ""
+  },
+  {
+    title: "Your Pet Project channel connected",
+    category: "AI / Projects",
+    source: "Your Pet Project",
+    channel: "your_pet_project",
+    date: "Today",
+    importance: 4,
+    image: "",
+    summary: "The channel @your_pet_project is saved as a Telegram source. Automatic updates will try to read public posts from this channel.",
     link: "https://t.me/your_pet_project"
   },
   {
-    title: "New AI tools are moving from simple chat to real work automation",
-    category: "AI Tools",
-    source: "Telegram AI Channel",
+    title: "Serge AI channel connected",
+    category: "AI News",
+    source: "Serge AI",
     channel: "serge_ai",
     date: "Today",
     importance: 4,
-    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=900&q=80",
-    summary: "AI tools are becoming more useful for coding, design, research and daily work.",
-    link: "https://t.me/serge_ai"
-  },
-  {
-    title: "Pictures appear only if the original Telegram post has an image",
-    category: "System Rule",
-    source: "System",
-    channel: "",
-    date: "Rule",
-    importance: 3,
     image: "",
-    summary: "No fake placeholder images. If the Telegram post has no picture, the news card uses the full width for text. Long Telegram messages will stay inside the glass card and the card will grow down automatically.",
-    link: ""
+    summary: "The channel @serge_ai is saved as a Telegram source. Automatic updates will try to read public posts from this channel.",
+    link: "https://t.me/serge_ai"
   }
 ];
