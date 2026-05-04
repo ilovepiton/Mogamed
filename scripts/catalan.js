@@ -13,6 +13,18 @@ function getDayNumber() {
   return ((diffDays % 365) + 365) % 365 + 1;
 }
 
+function getWordsData() {
+  if (window.catalan365 && Array.isArray(window.catalan365)) {
+    return window.catalan365;
+  }
+
+  if (typeof catalan365 !== "undefined" && Array.isArray(catalan365)) {
+    return catalan365;
+  }
+
+  return null;
+}
+
 function createWordCard(item) {
   const typeClass = item.type === "review" ? "review-word" : "new-word";
   const typeLabel = item.type === "review" ? "REVIEW" : "NEW";
@@ -28,18 +40,22 @@ function createWordCard(item) {
   `;
 }
 
-function showError(title, textRu) {
+function showMessage(title, textEn, textRu) {
   const dailyDate = document.getElementById("dailyDate");
   const dailyWordsGrid = document.getElementById("dailyWordsGrid");
 
+  if (!dailyDate || !dailyWordsGrid) {
+    return;
+  }
+
   dailyDate.textContent = title;
+
   dailyWordsGrid.innerHTML = `
     <article class="daily-word-card">
-      <div class="word-type">ERROR</div>
+      <div class="word-type">INFO</div>
       <h2>${title}</h2>
-      <p class="word-translation">${textRu}</p>
-      <p class="word-example">Check data/catalan-365.js and scripts/catalan.js</p>
-      <p class="word-example-ru">Проверь файл со словами и файл скрипта.</p>
+      <p class="word-translation">${textEn}</p>
+      <p class="word-example-ru">${textRu}</p>
     </article>
   `;
 }
@@ -52,30 +68,26 @@ function renderCatalanWords() {
     return;
   }
 
-  if (!window.catalan365) {
-    showError("Words file is not loaded", "Файл со словами не загрузился.");
-    return;
-  }
+  const wordsData = getWordsData();
 
-  if (!Array.isArray(window.catalan365)) {
-    showError("Wrong words format", "catalan365 должен быть массивом.");
+  if (!wordsData) {
+    showMessage(
+      "Words file is not loaded",
+      "Check data/catalan-365.js",
+      "Файл со словами не загрузился. Проверь, что файл начинается с window.catalan365 = ["
+    );
     return;
   }
 
   const dayNumber = getDayNumber();
-  const todayData = window.catalan365.find((item) => Number(item.day) === dayNumber);
+  const todayData = wordsData.find((item) => Number(item.day) === dayNumber);
 
   if (!todayData || !Array.isArray(todayData.words)) {
-    dailyDate.textContent = `Day ${dayNumber} · No words yet`;
-    dailyWordsGrid.innerHTML = `
-      <article class="daily-word-card">
-        <div class="word-type">EMPTY</div>
-        <h2>No words yet</h2>
-        <p class="word-translation">Fill day ${dayNumber} in data/catalan-365.js</p>
-        <p class="word-example">The system is working, but this day has no words.</p>
-        <p class="word-example-ru">Система работает, но для этого дня нет слов.</p>
-      </article>
-    `;
+    showMessage(
+      `Day ${dayNumber} · No words yet`,
+      `Fill day ${dayNumber} in data/catalan-365.js`,
+      `Для дня ${dayNumber} пока нет слов.`
+    );
     return;
   }
 
