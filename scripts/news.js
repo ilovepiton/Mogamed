@@ -36,17 +36,12 @@ function formatLongText(text) {
 function getSourceTitle(username) {
   const sources = getTelegramSources();
   const cleanUsername = String(username || "").replace("@", "");
-
   const source = sources.find((item) => item.username === cleanUsername);
 
-  if (!source) {
-    return "";
-  }
-
-  return source.title;
+  return source ? source.title : "";
 }
 
-function createNewsCard(item) {
+function createNewsCard(item, index) {
   const title = escapeHtml(item.title || "Telegram update");
   const category = escapeHtml(item.category || "AI News");
   const source = escapeHtml(item.source || getSourceTitle(item.channel) || "Telegram");
@@ -55,37 +50,61 @@ function createNewsCard(item) {
   const summary = formatLongText(item.summary || "");
   const image = String(item.image || "").trim();
   const link = String(item.link || "").trim();
-
   const meta = `${source}${date ? " · " + date : ""}${importance}`;
 
-  const textBlock = `
-    <div class="ai-news-text">
-      <p class="ai-news-category">${category}</p>
-      <h2>${title}</h2>
-      <p class="ai-news-meta">${meta}</p>
-      <div class="ai-news-summary">${summary}</div>
-      ${
-        link
-          ? `<a class="news-read-link" href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">Open Telegram post</a>`
-          : ""
-      }
-    </div>
+  const readLink = link
+    ? `<a class="news-read-link" href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">Open Telegram post</a>`
+    : "";
+
+  const readMoreButton = `
+    <button class="news-more-button" type="button" data-news-more="${index}">
+      Read more
+    </button>
   `;
 
   if (!image) {
     return `
-      <article class="ai-news-row no-image-news">
-        ${textBlock}
+      <article class="news-card-modern no-image-news">
+        <div class="news-card-body">
+          <p class="ai-news-category">${category}</p>
+          <h2>${title}</h2>
+          <p class="ai-news-meta">${meta}</p>
+
+          <div class="ai-news-summary news-collapsed" id="newsText${index}">
+            ${summary}
+          </div>
+
+          <div class="news-actions">
+            ${readMoreButton}
+            ${readLink}
+          </div>
+        </div>
       </article>
     `;
   }
 
   return `
-    <article class="ai-news-row">
-      <div class="ai-news-photo">
+    <article class="news-card-modern">
+      <div class="news-image-hero">
         <img src="${escapeHtml(image)}" alt="${title}">
+        <div class="news-image-overlay">
+          <p class="ai-news-category">${category}</p>
+          <h2>${title}</h2>
+        </div>
       </div>
-      ${textBlock}
+
+      <div class="news-card-body">
+        <p class="ai-news-meta">${meta}</p>
+
+        <div class="ai-news-summary news-collapsed" id="newsText${index}">
+          ${summary}
+        </div>
+
+        <div class="news-actions">
+          ${readMoreButton}
+          ${readLink}
+        </div>
+      </div>
     </article>
   `;
 }
@@ -110,6 +129,23 @@ function renderNewsSources() {
     .join("");
 }
 
+function setupReadMoreButtons() {
+  document.querySelectorAll("[data-news-more]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const index = button.dataset.newsMore;
+      const text = document.getElementById(`newsText${index}`);
+
+      if (!text) {
+        return;
+      }
+
+      const isOpen = text.classList.toggle("news-expanded");
+      text.classList.toggle("news-collapsed", !isOpen);
+      button.textContent = isOpen ? "Show less" : "Read more";
+    });
+  });
+}
+
 function renderAiNews() {
   const newsFeed = document.getElementById("aiNewsFeed");
 
@@ -121,8 +157,8 @@ function renderAiNews() {
 
   if (!news.length) {
     newsFeed.innerHTML = `
-      <article class="ai-news-row no-image-news">
-        <div class="ai-news-text">
+      <article class="news-card-modern no-image-news">
+        <div class="news-card-body">
           <p class="ai-news-category">No News</p>
           <h2>No AI news yet</h2>
           <p class="ai-news-meta">System · Waiting</p>
@@ -135,7 +171,8 @@ function renderAiNews() {
     return;
   }
 
-  newsFeed.innerHTML = news.map((item) => createNewsCard(item)).join("");
+  newsFeed.innerHTML = news.map((item, index) => createNewsCard(item, index)).join("");
+  setupReadMoreButtons();
 }
 
 renderNewsSources();
