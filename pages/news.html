@@ -24,44 +24,23 @@
       <p class="eyebrow">AI News</p>
       <h1>Future-changing AI news</h1>
       <p>Important AI updates from Telegram channels, filtered by real value.</p>
+
+      <div class="telegram-sources-box">
+        <span>Sources:</span>
+
+        <div id="telegramSourcesList" class="telegram-sources-list">
+          <!-- Telegram sources will appear here -->
+        </div>
+      </div>
     </section>
 
-    <section class="ai-news-feed">
-      <article class="ai-news-row">
-        <div class="ai-news-photo">
-          <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=900&q=80" alt="AI">
-        </div>
-
-        <div class="ai-news-text">
-          <p class="ai-news-category">AI Agents</p>
-          <h2>AI agent learns to complete complex tasks inside the browser</h2>
-          <p class="ai-news-meta">Telegram AI Channel · Today · Importance 5/5</p>
-          <p class="ai-news-summary">A new generation of AI agents can use websites, click buttons, read pages and complete multi-step tasks.</p>
-        </div>
-      </article>
-
-      <article class="ai-news-row">
-        <div class="ai-news-photo">
-          <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=900&q=80" alt="Robot">
-        </div>
-
-        <div class="ai-news-text">
-          <p class="ai-news-category">AI Tools</p>
-          <h2>New AI tools are moving from simple chat to real work automation</h2>
-          <p class="ai-news-meta">Telegram AI Channel · Today · Importance 4/5</p>
-          <p class="ai-news-summary">AI tools are becoming more useful for coding, design, research and daily work.</p>
-        </div>
-      </article>
-
-      <article class="ai-news-row no-image-news">
-        <div class="ai-news-text">
-          <p class="ai-news-category">System Rule</p>
-          <h2>Pictures appear only if the original Telegram post has an image</h2>
-          <p class="ai-news-meta">System · Rule</p>
-          <p class="ai-news-summary">No fake placeholder images. If the Telegram post has no picture, the news card uses the full width for text.</p>
-        </div>
-      </article>
+    <section class="ai-news-feed" id="aiNewsFeed">
+      <!-- News will appear here automatically -->
     </section>
   </main>
+
+  <script src="../data/telegram-sources.js?v=1"></script>
+  <script src="../data/news.js?v=1"></script>
+  <script src="../scripts/news.js?v=1"></script>
 </body>
 </html>
