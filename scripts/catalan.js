@@ -1,9 +1,36 @@
 const START_DATE = "2026-05-02";
-const QUIZ_STORAGE_KEY = "mogamed_catalan_quiz_memory_v2";
-const QUIZ_STATS_KEY = "mogamed_catalan_quiz_stats_v2";
+
+const QUIZ_STORAGE_KEY = "mogamed_catalan_quiz_memory_v3";
+const QUIZ_STATS_KEY = "mogamed_catalan_quiz_stats_v3";
+const CLOUD_SECRET_KEY = "mogamed_catalan_cloud_secret_v1";
 
 let currentQuizQuestion = null;
 let quizLocked = false;
+let supabaseClient = null;
+let cloudSecretCode = "";
+
+function initSupabase() {
+  if (!window.supabase || !window.SUPABASE_CONFIG) {
+    return null;
+  }
+
+  if (!window.SUPABASE_CONFIG.url || !window.SUPABASE_CONFIG.publishableKey) {
+    return null;
+  }
+
+  return window.supabase.createClient(
+    window.SUPABASE_CONFIG.url,
+    window.SUPABASE_CONFIG.publishableKey
+  );
+}
+
+function setCloudStatus(message) {
+  const el = document.getElementById("cloudStatus");
+
+  if (el) {
+    el.textContent = message;
+  }
+}
 
 function getDayNumber() {
   const start = new Date(START_DATE + "T00:00:00");
@@ -232,6 +259,111 @@ function getWordMemory(wordId) {
   };
 }
 
+async function saveCloudProgress() {
+  if (!supabaseClient || !cloudSecretCode) {
+    return;
+  }
+
+  const memory = loadQuizMemory();
+  const stats = loadQuizStats();
+
+  const { error } = await supabaseClient
+    .from("catalan_quiz_progress")
+    .upsert({
+      secret_code: cloudSecretCode,
+      memory,
+      stats,
+      updated_at: new Date().toISOString()
+    });
+
+  if (error) {
+    setCloudStatus("Cloud save error. Progress is still saved locally.");
+    console.error(error);
+    return;
+  }
+
+  setCloudStatus("Cloud save connected. Progress saved online.");
+}
+
+async function loadCloudProgress(secretCode) {
+  if (!supabaseClient) {
+    setCloudStatus("Supabase is not connected.");
+    return;
+  }
+
+  const cleanCode = String(secretCode || "").trim();
+
+  if (!cleanCode) {
+    setCloudStatus("Enter your secret code.");
+    return;
+  }
+
+  cloudSecretCode = cleanCode;
+  localStorage.setItem(CLOUD_SECRET_KEY, cloudSecretCode);
+
+  setCloudStatus("Loading cloud progress...");
+
+  const { data, error } = await supabaseClient
+    .from("catalan_quiz_progress")
+    .select("memory, stats")
+    .eq("secret_code", cloudSecretCode)
+    .maybeSingle();
+
+  if (error) {
+    setCloudStatus("Could not load cloud progress. Local progress is still active.");
+    console.error(error);
+    return;
+  }
+
+  if (data) {
+    saveQuizMemory(data.memory || {});
+    saveQuizStats(data.stats || {});
+    setCloudStatus("Cloud progress loaded.");
+  } else {
+    await saveCloudProgress();
+    setCloudStatus("New cloud profile created.");
+  }
+
+  renderQuizStats();
+  renderMemoryProgress();
+  renderQuizQuestion();
+}
+
+function setupCloudSave() {
+  supabaseClient = initSupabase();
+
+  const input = document.getElementById("secretCodeInput");
+  const button = document.getElementById("connectCloudButton");
+
+  if (!supabaseClient) {
+    setCloudStatus("Cloud save is not configured yet.");
+    return;
+  }
+
+  const savedSecret = localStorage.getItem(CLOUD_SECRET_KEY);
+
+  if (savedSecret && input) {
+    input.value = savedSecret;
+    loadCloudProgress(savedSecret);
+  } else {
+    setCloudStatus("Enter secret code to sync progress across devices.");
+  }
+
+  if (button) {
+    button.addEventListener("click", () => {
+      loadCloudProgress(input ? input.value : "");
+    });
+  }
+
+  if (input) {
+    input.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        loadCloudProgress(input.value);
+      }
+    });
+  }
+}
+
 function updateWordMemory(wordId, isCorrect) {
   const { allMemory, wordMemory } = getWordMemory(wordId);
   const now = Date.now();
@@ -274,6 +406,7 @@ function updateGlobalStats(isCorrect) {
   saveQuizStats(stats);
   renderQuizStats();
   renderMemoryProgress();
+  saveCloudProgress();
 }
 
 function getQuizWeight(word) {
@@ -495,8 +628,8 @@ function checkQuizAnswer(button) {
   }
 }
 
-function resetQuizMemory() {
-  const confirmReset = confirm("Reset all Catalan quiz memory on this device?");
+async function resetQuizMemory() {
+  const confirmReset = confirm("Reset all Catalan quiz memory on this device and cloud profile?");
 
   if (!confirmReset) {
     return;
@@ -507,6 +640,11 @@ function resetQuizMemory() {
 
   renderQuizStats();
   renderMemoryProgress();
+
+  if (supabaseClient && cloudSecretCode) {
+    await saveCloudProgress();
+  }
+
   renderQuizQuestion();
 }
 
@@ -529,3 +667,4 @@ function setupQuiz() {
 
 renderCatalanWords();
 setupQuiz();
+setupCloudSave();
