@@ -10,27 +10,25 @@ function getDayNumber() {
   const diffMs = today - start;
   const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
 
-  const dayNumber = ((diffDays % 365) + 365) % 365 + 1;
-
-  return dayNumber;
+  return ((diffDays % 365) + 365) % 365 + 1;
 }
 
-function findTodayWords() {
-  const dayNumber = getDayNumber();
+function createWordCard(item) {
+  const typeClass = item.type === "review" ? "review-word" : "new-word";
+  const typeLabel = item.type === "review" ? "REVIEW" : "NEW";
 
-  const todayData = catalan365.find((item) => item.day === dayNumber);
-
-  if (!todayData) {
-    return {
-      day: dayNumber,
-      words: []
-    };
-  }
-
-  return todayData;
+  return `
+    <article class="daily-word-card ${typeClass}">
+      <div class="word-type">${typeLabel}</div>
+      <h2>${item.word || ""}</h2>
+      <p class="word-translation">${item.translationEn || ""} / ${item.translationRu || ""}</p>
+      <p class="word-example">${item.example || ""}</p>
+      <p class="word-example-ru">${item.exampleRu || ""}</p>
+    </article>
+  `;
 }
 
-function renderWords() {
+function renderCatalanWords() {
   const dailyDate = document.getElementById("dailyDate");
   const dailyWordsGrid = document.getElementById("dailyWordsGrid");
 
@@ -38,38 +36,56 @@ function renderWords() {
     return;
   }
 
-  const todayData = findTodayWords();
-
-  dailyDate.textContent = `Day ${todayData.day} · Today’s Catalan words`;
-
-  if (!todayData.words || todayData.words.length === 0) {
+  if (typeof catalan365 === "undefined") {
+    dailyDate.textContent = "Words file is not loaded";
     dailyWordsGrid.innerHTML = `
       <article class="daily-word-card">
-        <div class="word-type">EMPTY</div>
-        <h2>No words yet</h2>
-        <p class="word-translation">Fill this day in data/catalan-365.js</p>
-        <p class="word-example">The page is working, but this day has no words.</p>
+        <div class="word-type">ERROR</div>
+        <h2>No data file</h2>
+        <p class="word-translation">Check data/catalan-365.js</p>
+        <p class="word-example">The page cannot find catalan365.</p>
+        <p class="word-example-ru">Файл со словами не подключился.</p>
       </article>
     `;
     return;
   }
 
-  dailyWordsGrid.innerHTML = todayData.words
-    .map((item) => {
-      const typeClass = item.type === "review" ? "review-word" : "new-word";
-      const typeLabel = item.type === "review" ? "REVIEW" : "NEW";
+  if (!Array.isArray(catalan365)) {
+    dailyDate.textContent = "Wrong words format";
+    dailyWordsGrid.innerHTML = `
+      <article class="daily-word-card">
+        <div class="word-type">ERROR</div>
+        <h2>Wrong format</h2>
+        <p class="word-translation">catalan365 must be an array</p>
+        <p class="word-example">The file must start with: const catalan365 = [</p>
+        <p class="word-example-ru">Файл должен быть массивом.</p>
+      </article>
+    `;
+    return;
+  }
 
-      return `
-        <article class="daily-word-card ${typeClass}">
-          <div class="word-type">${typeLabel}</div>
-          <h2>${item.word}</h2>
-          <p class="word-translation">${item.translationEn} / ${item.translationRu}</p>
-          <p class="word-example">${item.example}</p>
-          <p class="word-example-ru">${item.exampleRu}</p>
-        </article>
-      `;
-    })
+  const dayNumber = getDayNumber();
+  const todayData = catalan365.find((item) => Number(item.day) === dayNumber);
+
+  if (!todayData || !Array.isArray(todayData.words)) {
+    dailyDate.textContent = `Day ${dayNumber} · No words yet`;
+    dailyWordsGrid.innerHTML = `
+      <article class="daily-word-card">
+        <div class="word-type">EMPTY</div>
+        <h2>No words yet</h2>
+        <p class="word-translation">Fill day ${dayNumber} in data/catalan-365.js</p>
+        <p class="word-example">The system is working, but this day has no words.</p>
+        <p class="word-example-ru">Система работает, но для этого дня нет слов.</p>
+      </article>
+    `;
+    return;
+  }
+
+  dailyDate.textContent = `Day ${todayData.day} · Today’s Catalan words`;
+
+  dailyWordsGrid.innerHTML = todayData.words
+    .map((item) => createWordCard(item))
     .join("");
 }
 
-renderWords();
+document.addEventListener("DOMContentLoaded", renderCatalanWords);
