@@ -1,6 +1,6 @@
 const START_DATE = "2026-05-02";
-const QUIZ_STORAGE_KEY = "mogamed_catalan_quiz_memory_v1";
-const QUIZ_STATS_KEY = "mogamed_catalan_quiz_stats_v1";
+const QUIZ_STORAGE_KEY = "mogamed_catalan_quiz_memory_v2";
+const QUIZ_STATS_KEY = "mogamed_catalan_quiz_stats_v2";
 
 let currentQuizQuestion = null;
 let quizLocked = false;
@@ -154,13 +154,15 @@ function loadQuizStats() {
     return {
       correct: 0,
       wrong: 0,
-      streak: 0
+      streak: 0,
+      bestStreak: 0
     };
   } catch (error) {
     return {
       correct: 0,
       wrong: 0,
-      streak: 0
+      streak: 0,
+      bestStreak: 0
     };
   }
 }
@@ -181,6 +183,35 @@ function renderQuizStats() {
   if (streakEl) streakEl.textContent = stats.streak || 0;
 }
 
+function renderMemoryProgress() {
+  const memory = loadQuizMemory();
+  const memoryItems = Object.values(memory);
+
+  const totalPracticed = memoryItems.length;
+
+  const strongWords = memoryItems.filter((item) => {
+    return Number(item.strength || 0) >= 3;
+  }).length;
+
+  const difficultWords = memoryItems.filter((item) => {
+    return Number(item.wrong || 0) > Number(item.correct || 0);
+  }).length;
+
+  const totalAttempts = memoryItems.reduce((sum, item) => {
+    return sum + Number(item.correct || 0) + Number(item.wrong || 0);
+  }, 0);
+
+  const totalPracticedEl = document.getElementById("totalPracticed");
+  const strongWordsEl = document.getElementById("strongWords");
+  const difficultWordsEl = document.getElementById("difficultWords");
+  const totalAttemptsEl = document.getElementById("totalAttempts");
+
+  if (totalPracticedEl) totalPracticedEl.textContent = totalPracticed;
+  if (strongWordsEl) strongWordsEl.textContent = strongWords;
+  if (difficultWordsEl) difficultWordsEl.textContent = difficultWords;
+  if (totalAttemptsEl) totalAttemptsEl.textContent = totalAttempts;
+}
+
 function getWordMemory(wordId) {
   const memory = loadQuizMemory();
 
@@ -190,7 +221,8 @@ function getWordMemory(wordId) {
       wrong: 0,
       strength: 0,
       nextReviewAt: 0,
-      lastAnsweredAt: 0
+      lastAnsweredAt: 0,
+      firstSeenAt: Date.now()
     };
   }
 
@@ -224,6 +256,7 @@ function updateWordMemory(wordId, isCorrect) {
   allMemory[wordId] = wordMemory;
 
   saveQuizMemory(allMemory);
+  renderMemoryProgress();
 }
 
 function updateGlobalStats(isCorrect) {
@@ -232,6 +265,7 @@ function updateGlobalStats(isCorrect) {
   if (isCorrect) {
     stats.correct = (stats.correct || 0) + 1;
     stats.streak = (stats.streak || 0) + 1;
+    stats.bestStreak = Math.max(stats.bestStreak || 0, stats.streak || 0);
   } else {
     stats.wrong = (stats.wrong || 0) + 1;
     stats.streak = 0;
@@ -239,6 +273,7 @@ function updateGlobalStats(isCorrect) {
 
   saveQuizStats(stats);
   renderQuizStats();
+  renderMemoryProgress();
 }
 
 function getQuizWeight(word) {
@@ -461,9 +496,17 @@ function checkQuizAnswer(button) {
 }
 
 function resetQuizMemory() {
+  const confirmReset = confirm("Reset all Catalan quiz memory on this device?");
+
+  if (!confirmReset) {
+    return;
+  }
+
   localStorage.removeItem(QUIZ_STORAGE_KEY);
   localStorage.removeItem(QUIZ_STATS_KEY);
+
   renderQuizStats();
+  renderMemoryProgress();
   renderQuizQuestion();
 }
 
@@ -480,6 +523,7 @@ function setupQuiz() {
   }
 
   renderQuizStats();
+  renderMemoryProgress();
   renderQuizQuestion();
 }
 
