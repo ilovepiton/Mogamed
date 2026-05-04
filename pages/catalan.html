@@ -39,9 +39,51 @@
     <section class="daily-word-grid" id="dailyWordsGrid">
       <!-- Words will appear here automatically -->
     </section>
+
+    <section class="quiz-section">
+      <div class="quiz-header">
+        <div>
+          <p class="eyebrow">Memory Quiz</p>
+          <h2>Practice until your brain remembers</h2>
+          <p>If you make a mistake, this word will appear more often. If you answer correctly, it will appear less often.</p>
+        </div>
+
+        <div class="quiz-stats">
+          <div>
+            <span id="quizCorrect">0</span>
+            <p>Correct</p>
+          </div>
+          <div>
+            <span id="quizWrong">0</span>
+            <p>Wrong</p>
+          </div>
+          <div>
+            <span id="quizStreak">0</span>
+            <p>Streak</p>
+          </div>
+        </div>
+      </div>
+
+      <article class="quiz-card">
+        <p class="card-label" id="quizMode">CATALAN → ENGLISH</p>
+        <h2 id="quizQuestion">Loading quiz...</h2>
+        <p id="quizHint" class="quiz-hint">Choose the correct answer.</p>
+
+        <div class="quiz-options" id="quizOptions">
+          <!-- Quiz buttons will appear here -->
+        </div>
+
+        <div class="quiz-result" id="quizResult"></div>
+
+        <div class="quiz-actions">
+          <button id="nextQuizButton" class="quiz-next-button">Next question</button>
+          <button id="resetQuizButton" class="quiz-reset-button">Reset quiz memory</button>
+        </div>
+      </article>
+    </section>
   </main>
 
-  <script src="../data/catalan-365.js?v=20"></script>
-  <script src="../scripts/catalan.js?v=20"></script>
+  <script src="../data/catalan-365.js?v=30"></script>
+  <script src="../scripts/catalan.js?v=30"></script>
 </body>
 </html>
