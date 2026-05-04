@@ -1,0 +1,39 @@
+name: Update Telegram News
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch Telegram news
+        run: node scripts/fetch-telegram-news.js
+
+      - name: Commit updated news
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          if git diff --quiet data/news.js; then
+            echo "No news changes"
+            exit 0
+          fi
+
+          git add data/news.js
+          git commit -m "Update Telegram news"
+          git push
