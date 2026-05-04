@@ -47,7 +47,7 @@ function getSourceTitle(username) {
 }
 
 function createNewsCard(item) {
-  const title = escapeHtml(item.title);
+  const title = escapeHtml(item.title || "Telegram update");
   const category = escapeHtml(item.category || "AI News");
   const source = escapeHtml(item.source || getSourceTitle(item.channel) || "Telegram");
   const date = escapeHtml(item.date || "");
