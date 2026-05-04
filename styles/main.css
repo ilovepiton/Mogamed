@@ -239,3 +239,42 @@ a {
   align-items: center;
   padding: 20px 24px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.16
+/* CYBERPUNK BACKGROUND ONLY */
+
+body {
+  position: relative;
+  background: #0b1020;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("https://images.steamusercontent.com/ugc/1667986149730418478/2413CC1530027A6CE43882C157358AD1E9DCC081/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(8px) saturate(1.25) brightness(1.35);
+  transform: scale(1.05);
+  opacity: 0.82;
+  z-index: -3;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.10), rgba(15, 23, 42, 0.44)),
+    radial-gradient(circle at 20% 20%, rgba(34, 211, 238, 0.22), transparent 34%),
+    radial-gradient(circle at 82% 24%, rgba(236, 72, 153, 0.14), transparent 34%);
+  z-index: -2;
+  pointer-events: none;
+}
+
+.site-header,
+.page {
+  position: relative;
+  z-index: 1;
+}
