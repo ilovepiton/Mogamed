@@ -1265,3 +1265,135 @@ a {
     max-height: 88px !important;
   }
 }
+/* RESTORE BLUE CYBERPUNK STYLE */
+
+:root {
+  --cyber-blue: #2563eb;
+  --cyber-cyan: #22d3ee;
+  --cyber-soft-blue: #38bdf8;
+  --cyber-dark-blue: #1d4ed8;
+}
+
+/* Glass blocks blue borders */
+
+.hero,
+.card,
+.daily-info-card,
+.daily-word-card,
+.quiz-card,
+.ai-news-feed {
+  background:
+    radial-gradient(circle at top right, rgba(34, 211, 238, 0.14), transparent 42%),
+    linear-gradient(135deg, rgba(15, 23, 42, 0.64), rgba(15, 23, 42, 0.46)) !important;
+  border: 1px solid rgba(34, 211, 238, 0.24) !important;
+  box-shadow:
+    0 18px 55px rgba(0, 0, 0, 0.24),
+    0 0 28px rgba(34, 211, 238, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.10) !important;
+}
+
+/* Labels back to blue */
+
+.eyebrow,
+.card-label,
+.ai-news-category {
+  color: #bae6fd !important;
+  text-shadow:
+    0 0 14px rgba(34, 211, 238, 0.35),
+    0 2px 10px rgba(0, 0, 0, 0.45) !important;
+}
+
+/* Main buttons blue */
+
+.card-link,
+.quiz-next-button {
+  background: linear-gradient(135deg, var(--cyber-blue), var(--cyber-cyan)) !important;
+  box-shadow:
+    0 14px 34px rgba(37, 99, 235, 0.30),
+    0 0 26px rgba(34, 211, 238, 0.22) !important;
+}
+
+.card-link:hover,
+.quiz-next-button:hover {
+  background: linear-gradient(135deg, #1d4ed8, #06b6d4) !important;
+}
+
+/* Reset button blue border */
+
+.quiz-reset-button {
+  background: rgba(15, 23, 42, 0.62) !important;
+  border: 1px solid rgba(34, 211, 238, 0.24) !important;
+}
+
+.quiz-reset-button:hover {
+  background: rgba(34, 211, 238, 0.16) !important;
+}
+
+/* NEW / REVIEW badges blue */
+
+.word-type {
+  background: linear-gradient(135deg, var(--cyber-blue), var(--cyber-cyan)) !important;
+  color: #ffffff !important;
+  box-shadow:
+    0 12px 28px rgba(37, 99, 235, 0.30),
+    0 0 22px rgba(34, 211, 238, 0.22) !important;
+}
+
+.review-word .word-type {
+  background: linear-gradient(135deg, #3b82f6, #06b6d4) !important;
+  box-shadow:
+    0 12px 28px rgba(59, 130, 246, 0.28),
+    0 0 22px rgba(34, 211, 238, 0.22) !important;
+}
+
+/* Translation text blue */
+
+.word-translation {
+  color: #7dd3fc !important;
+}
+
+/* Quiz options blue */
+
+.quiz-option-button {
+  border: 1px solid rgba(34, 211, 238, 0.24) !important;
+}
+
+.quiz-option-button:hover {
+  background: rgba(14, 165, 233, 0.22) !important;
+  border-color: rgba(34, 211, 238, 0.60) !important;
+}
+
+/* Quiz stats blue */
+
+.quiz-stats div {
+  border: 1px solid rgba(34, 211, 238, 0.24) !important;
+}
+
+/* Links icons blue glow */
+
+.circle-app-icon {
+  border: 1px solid rgba(34, 211, 238, 0.28) !important;
+  box-shadow:
+    0 18px 42px rgba(0, 0, 0, 0.30),
+    0 0 28px rgba(34, 211, 238, 0.10) !important;
+}
+
+.circle-app:hover .circle-app-icon {
+  box-shadow:
+    0 24px 55px rgba(37, 99, 235, 0.30),
+    0 0 34px rgba(34, 211, 238, 0.26) !important;
+}
+
+/* App icon backgrounds blue style */
+
+.translate-icon {
+  background: linear-gradient(135deg, #3b82f6, #06b6d4) !important;
+}
+
+.discord-icon {
+  background: linear-gradient(135deg, #5865f2, #2563eb) !important;
+}
+
+.proton-icon {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8) !important;
+}
