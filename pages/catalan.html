@@ -3,9 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Catalan — Mogamed Office</title>
-
   <link rel="stylesheet" href="../styles/main.css">
 </head>
 
@@ -53,10 +51,12 @@
             <span id="quizCorrect">0</span>
             <p>Correct</p>
           </div>
+
           <div>
             <span id="quizWrong">0</span>
             <p>Wrong</p>
           </div>
+
           <div>
             <span id="quizStreak">0</span>
             <p>Streak</p>
@@ -73,4 +73,17 @@
           <!-- Quiz buttons will appear here -->
         </div>
 
-        <div class="quiz-result" id="quizResult"></div
+        <div class="quiz-result" id="quizResult"></div>
+
+        <div class="quiz-actions">
+          <button id="nextQuizButton" class="quiz-next-button">Next question</button>
+          <button id="resetQuizButton" class="quiz-reset-button">Reset quiz memory</button>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="../data/catalan-365.js?v=60"></script>
+  <script src="../scripts/catalan.js?v=60"></script>
+</body>
+</html>
