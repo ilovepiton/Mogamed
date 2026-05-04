@@ -14,7 +14,7 @@ const CHANNELS = [
 ];
 
 const OUTPUT_FILE = "data/news.js";
-const MAX_NEWS = 30;
+const MAX_NEWS = 20;
 
 function stripHtml(html) {
   return String(html || "")
@@ -43,6 +43,15 @@ function cleanText(text) {
     .trim();
 }
 
+function makeFingerprint(text) {
+  return String(text || "")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .replace(/[^\p{L}\p{N} ]/gu, "")
+    .trim()
+    .slice(0, 260);
+}
+
 function extractFirstLine(text) {
   const lines = String(text || "")
     .split("\n")
@@ -63,16 +72,27 @@ function extractFirstLine(text) {
 }
 
 function extractImage(block) {
-  const backgroundMatch = block.match(/background-image:url\('([^']+)'\)/i);
+  /*
+    IMPORTANT:
+    Do NOT use generic <img src=""> here.
+    Telegram page often contains tiny emoji/sticker images.
+    We only want real Telegram post photos.
+  */
 
-  if (backgroundMatch && backgroundMatch[1]) {
-    return backgroundMatch[1].replace(/&amp;/g, "&");
+  const photoWrapMatch = block.match(
+    /class="tgme_widget_message_photo_wrap"[\s\S]*?background-image:url\('([^']+)'\)/i
+  );
+
+  if (photoWrapMatch && photoWrapMatch[1]) {
+    return photoWrapMatch[1].replace(/&amp;/g, "&");
   }
 
-  const imgMatch = block.match(/<img[^>]+src="([^"]+)"/i);
+  const photoMatch = block.match(
+    /tgme_widget_message_photo[^>]*style="[^"]*background-image:url\('([^']+)'\)/i
+  );
 
-  if (imgMatch && imgMatch[1]) {
-    return imgMatch[1].replace(/&amp;/g, "&");
+  if (photoMatch && photoMatch[1]) {
+    return photoMatch[1].replace(/&amp;/g, "&");
   }
 
   return "";
@@ -105,7 +125,9 @@ function extractPostId(block) {
 }
 
 function extractText(block) {
-  const textMatch = block.match(/<div class="tgme_widget_message_text[^"]*"[^>]*>([\s\S]*?)<\/div>/i);
+  const textMatch = block.match(
+    /<div class="tgme_widget_message_text[^"]*"[^>]*>([\s\S]*?)<\/div>/i
+  );
 
   if (!textMatch || !textMatch[1]) {
     return "";
@@ -159,7 +181,9 @@ function getImportance(text) {
 
 function splitMessageBlocks(html) {
   const blocks = [];
-  const regex = /<div class="tgme_widget_message_wrap[\s\S]*?(?=<div class="tgme_widget_message_wrap|<\/section>|<\/body>|$)/g;
+  const regex =
+    /<div class="tgme_widget_message_wrap[\s\S]*?(?=<div class="tgme_widget_message_wrap|<\/section>|<\/body>|$)/g;
+
   const matches = html.match(regex) || [];
 
   for (const match of matches) {
@@ -200,6 +224,7 @@ async function fetchChannel(channel) {
 
     const postId = extractPostId(block);
     const link = postId ? `https://t.me/${postId}` : `https://t.me/${channel.username}`;
+    const image = extractImage(block);
 
     news.push({
       title: extractFirstLine(text),
@@ -208,9 +233,10 @@ async function fetchChannel(channel) {
       channel: channel.username,
       date: extractDate(block),
       importance: getImportance(text),
-      image: extractImage(block),
+      image,
       summary: text,
-      link
+      link,
+      fingerprint: makeFingerprint(text)
     });
   }
 
@@ -218,7 +244,12 @@ async function fetchChannel(channel) {
 }
 
 function makeNewsFile(news) {
-  return `window.aiNews = ${JSON.stringify(news, null, 2)};\n`;
+  const cleanNews = news.map((item) => {
+    const { fingerprint, ...publicItem } = item;
+    return publicItem;
+  });
+
+  return `window.aiNews = ${JSON.stringify(cleanNews, null, 2)};\n`;
 }
 
 async function main() {
@@ -234,15 +265,25 @@ async function main() {
     }
   }
 
-  const seen = new Set();
+  const seenLinks = new Set();
+  const seenTexts = new Set();
 
   const uniqueNews = allNews
     .filter((item) => {
-      if (!item.link || seen.has(item.link)) {
+      const linkKey = item.link || "";
+      const textKey = item.fingerprint || makeFingerprint(item.summary);
+
+      if (!textKey) {
         return false;
       }
 
-      seen.add(item.link);
+      if (seenLinks.has(linkKey) || seenTexts.has(textKey)) {
+        return false;
+      }
+
+      seenLinks.add(linkKey);
+      seenTexts.add(textKey);
+
       return true;
     })
     .sort((a, b) => {
