@@ -26,6 +26,21 @@
       <p>The words change automatically every day from your 365-day list.</p>
     </section>
 
+    <section class="cloud-save-section">
+      <article class="cloud-save-card">
+        <p class="card-label">Cloud Save</p>
+        <h2>Save progress everywhere</h2>
+        <p>Enter your secret code once. Then your Catalan quiz progress will load on any browser or device.</p>
+
+        <div class="cloud-save-row">
+          <input id="secretCodeInput" class="cloud-save-input" type="password" placeholder="Enter secret code">
+          <button id="connectCloudButton" class="quiz-next-button">Connect</button>
+        </div>
+
+        <p id="cloudStatus" class="cloud-status">Cloud save is not connected yet.</p>
+      </article>
+    </section>
+
     <section class="daily-words-top centered-daily-card">
       <article class="daily-info-card">
         <p class="card-label">Today</p>
@@ -66,7 +81,7 @@
         </div>
 
         <p class="quiz-progress-note">
-          Your quiz memory is saved in this browser. If you close the site and come back later, your progress stays here.
+          Your quiz memory is saved locally and, after cloud connection, synced with Supabase.
         </p>
       </div>
     </section>
@@ -116,7 +131,9 @@
     </section>
   </main>
 
-  <script src="../data/catalan-365.js?v=80"></script>
-  <script src="../scripts/catalan.js?v=80"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="../data/supabase-config.js?v=1"></script>
+  <script src="../data/catalan-365.js?v=90"></script>
+  <script src="../scripts/catalan.js?v=90"></script>
 </body>
 </html>
