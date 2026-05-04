@@ -127,7 +127,7 @@ window.catalan365 = [
         exampleRu: "Бабушка полезен во многих повседневных ситуациях.",
         type: "new"
       },
-        {
+      {
         word: "nen",
         translationRu: "мальчик",
         translationEn: "boy",
@@ -31024,6 +31024,4 @@ window.catalan365 = [
       }
     ]
   }
-];
-
 ];
