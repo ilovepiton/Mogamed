@@ -1556,3 +1556,127 @@ a {
     grid-template-columns: 1fr;
   }
 }
+/* TELEGRAM NEWS SOURCES + READ LINK */
+
+.telegram-sources-box {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.telegram-sources-box span {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.telegram-sources-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.telegram-source-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.48);
+  border: 1px solid rgba(34, 211, 238, 0.28);
+  color: #bae6fd;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 900;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+}
+
+.telegram-source-pill:hover {
+  background: rgba(14, 165, 233, 0.18);
+  color: #ffffff;
+}
+
+.news-read-link {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #d946ef, #7c3aed);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 900;
+  box-shadow:
+    0 14px 34px rgba(168, 85, 247, 0.24),
+    0 0 22px rgba(217, 70, 239, 0.14);
+}
+
+.news-read-link:hover {
+  background: linear-gradient(135deg, #e879f9, #8b5cf6);
+}
+
+.ai-news-summary p {
+  margin: 0 0 12px;
+}
+
+.ai-news-summary p:last-child {
+  margin-bottom: 0;
+}
+
+/* Long Telegram posts must stay inside cards */
+
+.ai-news-feed {
+  overflow: visible !important;
+}
+
+.ai-news-row {
+  align-items: start !important;
+  min-height: auto !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.ai-news-text {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  overflow: visible !important;
+}
+
+.ai-news-text h2,
+.ai-news-summary,
+.ai-news-meta,
+.ai-news-category {
+  max-width: 100% !important;
+  overflow-wrap: anywhere !important;
+  word-break: normal !important;
+  white-space: normal !important;
+}
+
+.ai-news-summary {
+  line-height: 1.35 !important;
+}
+
+.ai-news-photo {
+  flex-shrink: 0 !important;
+}
+
+.ai-news-row.no-image-news {
+  display: block !important;
+  min-height: auto !important;
+  height: auto !important;
+  overflow: visible !important;
+  padding: 32px 36px !important;
+}
+
+.ai-news-row.no-image-news .ai-news-text {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.ai-news-row.no-image-news h2,
+.ai-news-row.no-image-news .ai-news-summary {
+  max-width: 100% !important;
+}
