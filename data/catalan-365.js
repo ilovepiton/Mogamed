@@ -1,4 +1,5 @@
-window.catalan365 = [  {
+window.catalan365 = [
+  {
     day: 1,
     words: [
       {
@@ -126,7 +127,7 @@ window.catalan365 = [  {
         exampleRu: "Бабушка полезен во многих повседневных ситуациях.",
         type: "new"
       },
-      {
+        {
         word: "nen",
         translationRu: "мальчик",
         translationEn: "boy",
