@@ -911,3 +911,118 @@ body a {
     font-size: 30px;
   }
 }
+/* DAY CYBERPUNK STYLE FIX */
+
+body {
+  background: #dbeafe;
+  color: #ffffff;
+}
+
+body::before {
+  background-image: url("https://images.steamusercontent.com/ugc/1667986149730418478/2413CC1530027A6CE43882C157358AD1E9DCC081/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(10px) saturate(1.25) contrast(1.03) brightness(1.18);
+  transform: scale(1.06);
+  opacity: 0.72;
+}
+
+body::after {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.18), rgba(15, 23, 42, 0.36)),
+    radial-gradient(circle at 18% 15%, rgba(125, 211, 252, 0.30), transparent 34%),
+    radial-gradient(circle at 82% 20%, rgba(236, 72, 153, 0.18), transparent 30%),
+    rgba(15, 23, 42, 0.18);
+}
+
+.site-header {
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.55);
+}
+
+.logo {
+  color: #ffffff;
+  text-shadow:
+    0 2px 18px rgba(0, 0, 0, 0.65),
+    0 0 20px rgba(56, 189, 248, 0.35);
+}
+
+.main-menu a {
+  color: #ffffff;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.75);
+}
+
+.hero,
+.daily-info-card,
+.daily-word-card,
+.quiz-card,
+.card,
+.ai-news-feed,
+.quiz-stats div {
+  background:
+    linear-gradient(135deg, rgba(15, 23, 42, 0.60), rgba(15, 23, 42, 0.46)) !important;
+  border: 1px solid rgba(255, 255, 255, 0.26) !important;
+  backdrop-filter: blur(18px) saturate(1.15) !important;
+  box-shadow:
+    0 22px 70px rgba(0, 0, 0, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.10) !important;
+}
+
+.hero h1,
+.daily-info-card h2,
+.daily-word-card h2,
+.quiz-card h2,
+.card h2 {
+  color: #ffffff;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.55);
+}
+
+.hero p,
+.daily-info-card p,
+.card p,
+.quiz-header p,
+.quiz-hint,
+.word-example {
+  color: rgba(255, 255, 255, 0.88) !important;
+}
+
+.word-example-ru {
+  color: rgba(226, 232, 240, 0.74) !important;
+}
+
+.word-translation {
+  color: #7dd3fc !important;
+  text-shadow: 0 0 14px rgba(14, 165, 233, 0.28);
+}
+
+.eyebrow,
+.card-label {
+  color: #bae6fd !important;
+  text-shadow: 0 0 12px rgba(14, 165, 233, 0.35);
+}
+
+.word-type {
+  background: linear-gradient(135deg, #0284c7, #22d3ee) !important;
+  box-shadow: 0 8px 24px rgba(34, 211, 238, 0.24);
+}
+
+.review-word .word-type {
+  background: linear-gradient(135deg, #0d9488, #22c55e) !important;
+}
+
+.quiz-option-button {
+  background: rgba(15, 23, 42, 0.52) !important;
+  border: 1px solid rgba(255, 255, 255, 0.24) !important;
+  color: #ffffff !important;
+  backdrop-filter: blur(12px);
+}
+
+.quiz-option-button:hover {
+  background: rgba(30, 41, 59, 0.66) !important;
+}
+
+.card-link,
+.quiz-next-button {
+  background: linear-gradient(135deg, #0284c7, #22d3ee) !important;
+  box-shadow: 0 14px 34px rgba(14, 165, 233, 0.30);
+}
