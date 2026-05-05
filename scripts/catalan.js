@@ -1,449 +1,247 @@
-const START_DATE = "2026-05-02";
+const DAILY_START_DATE = new Date("2026-05-01T00:00:00");
 
-const QUIZ_STORAGE_KEY = "mogamed_catalan_quiz_memory_v3";
-const QUIZ_STATS_KEY = "mogamed_catalan_quiz_stats_v3";
+const QUIZ_STORAGE_KEY = "mogamed_catalan_quiz_memory_v1";
 const CLOUD_SECRET_KEY = "mogamed_catalan_cloud_secret_v1";
 
-let currentQuizQuestion = null;
-let quizLocked = false;
+const SUPABASE_TABLE = "catalan_quiz_progress";
+
+const dailyDate = document.getElementById("dailyDate");
+const dailyWordsGrid = document.getElementById("dailyWordsGrid");
+
+const quizMode = document.getElementById("quizMode");
+const quizQuestion = document.getElementById("quizQuestion");
+const quizHint = document.getElementById("quizHint");
+const quizOptions = document.getElementById("quizOptions");
+const quizResult = document.getElementById("quizResult");
+
+const quizCorrect = document.getElementById("quizCorrect");
+const quizWrong = document.getElementById("quizWrong");
+const quizStreak = document.getElementById("quizStreak");
+
+const totalPracticed = document.getElementById("totalPracticed");
+const strongWords = document.getElementById("strongWords");
+const difficultWords = document.getElementById("difficultWords");
+const totalAttempts = document.getElementById("totalAttempts");
+
+const nextQuizButton = document.getElementById("nextQuizButton");
+const dontKnowButton = document.getElementById("dontKnowButton");
+const resetQuizButton = document.getElementById("resetQuizButton");
+
+const secretCodeInput = document.getElementById("secretCodeInput");
+const connectCloudButton = document.getElementById("connectCloudButton");
+const cloudStatus = document.getElementById("cloudStatus");
+
+let quizMemory = {};
+let quizStats = {
+  correct: 0,
+  wrong: 0,
+  streak: 0
+};
+
+let currentQuizWord = null;
+let currentQuizAnswer = "";
+let currentQuizMode = "ca-en";
+let currentQuizAnswered = false;
+
 let supabaseClient = null;
-let cloudSecretCode = "";
+let cloudSecret = localStorage.getItem(CLOUD_SECRET_KEY) || "";
 
-function initSupabase() {
-  if (!window.supabase || !window.SUPABASE_CONFIG) {
-    return null;
-  }
-
-  if (!window.SUPABASE_CONFIG.url || !window.SUPABASE_CONFIG.publishableKey) {
-    return null;
-  }
-
-  return window.supabase.createClient(
-    window.SUPABASE_CONFIG.url,
-    window.SUPABASE_CONFIG.publishableKey
-  );
-}
-
-function setCloudStatus(message) {
-  const el = document.getElementById("cloudStatus");
-
-  if (el) {
-    el.textContent = message;
-  }
-}
-
-function getDayNumber() {
-  const start = new Date(START_DATE + "T00:00:00");
-  const today = new Date();
-
-  start.setHours(0, 0, 0, 0);
-  today.setHours(0, 0, 0, 0);
-
-  const diffMs = today - start;
-  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-
-  return ((diffDays % 365) + 365) % 365 + 1;
-}
-
-function getWordsData() {
-  if (window.catalan365 && Array.isArray(window.catalan365)) {
-    return window.catalan365;
-  }
-
-  if (typeof catalan365 !== "undefined" && Array.isArray(catalan365)) {
-    return catalan365;
-  }
-
-  return null;
-}
-
-function createWordCard(item) {
-  const typeClass = item.type === "review" ? "review-word" : "new-word";
-  const typeLabel = item.type === "review" ? "REVIEW" : "NEW";
-
-  return `
-    <article class="daily-word-card ${typeClass}">
-      <div class="word-type">${typeLabel}</div>
-      <h2>${item.word || ""}</h2>
-      <p class="word-translation">${item.translationEn || ""} / ${item.translationRu || ""}</p>
-      <p class="word-example">${item.example || ""}</p>
-      <p class="word-example-ru">${item.exampleRu || ""}</p>
-    </article>
-  `;
-}
-
-function showMessage(title, textEn, textRu) {
-  const dailyDate = document.getElementById("dailyDate");
-  const dailyWordsGrid = document.getElementById("dailyWordsGrid");
-
-  if (!dailyDate || !dailyWordsGrid) {
-    return;
-  }
-
-  dailyDate.textContent = title;
-
-  dailyWordsGrid.innerHTML = `
-    <article class="daily-word-card">
-      <div class="word-type">INFO</div>
-      <h2>${title}</h2>
-      <p class="word-translation">${textEn}</p>
-      <p class="word-example-ru">${textRu}</p>
-    </article>
-  `;
-}
-
-function renderCatalanWords() {
-  const dailyDate = document.getElementById("dailyDate");
-  const dailyWordsGrid = document.getElementById("dailyWordsGrid");
-
-  if (!dailyDate || !dailyWordsGrid) {
-    return;
-  }
-
-  const wordsData = getWordsData();
-
-  if (!wordsData) {
-    showMessage(
-      "Words file is not loaded",
-      "Check data/catalan-365.js",
-      "Файл со словами не загрузился. Проверь, что файл начинается с window.catalan365 = ["
-    );
-    return;
-  }
-
-  const dayNumber = getDayNumber();
-  const todayData = wordsData.find((item) => Number(item.day) === dayNumber);
-
-  if (!todayData || !Array.isArray(todayData.words)) {
-    showMessage(
-      `Day ${dayNumber} · No words yet`,
-      `Fill day ${dayNumber} in data/catalan-365.js`,
-      `Для дня ${dayNumber} пока нет слов.`
-    );
-    return;
-  }
-
-  dailyDate.textContent = `Day ${todayData.day} · Today’s Catalan words`;
-
-  dailyWordsGrid.innerHTML = todayData.words
-    .map((item) => createWordCard(item))
-    .join("");
-}
-
-function getAvailableWordsForQuiz() {
-  const wordsData = getWordsData();
-  const dayNumber = getDayNumber();
-
-  if (!wordsData) {
+function getAllWords() {
+  if (!window.catalan365 || !Array.isArray(window.catalan365)) {
     return [];
   }
 
-  const availableDays = wordsData.filter((dayItem) => {
-    return Number(dayItem.day) <= dayNumber && Array.isArray(dayItem.words);
-  });
-
-  const words = [];
-
-  availableDays.forEach((dayItem) => {
-    dayItem.words.forEach((wordItem, index) => {
-      words.push({
+  return window.catalan365.flatMap((dayItem) => {
+    return dayItem.words.map((wordItem) => {
+      return {
         ...wordItem,
         day: dayItem.day,
-        id: `${dayItem.day}_${index}_${wordItem.word}`
-      });
+        id: `${dayItem.day}-${wordItem.word}`
+      };
     });
   });
+}
 
-  return words.filter((item) => item.word && item.translationEn && item.translationRu);
+function getCurrentDayNumber() {
+  const now = new Date();
+  const diff = now.getTime() - DAILY_START_DATE.getTime();
+  const dayIndex = Math.floor(diff / (1000 * 60 * 60 * 24)) + 1;
+
+  if (dayIndex < 1) {
+    return 1;
+  }
+
+  if (dayIndex > 365) {
+    return ((dayIndex - 1) % 365) + 1;
+  }
+
+  return dayIndex;
+}
+
+function getTodayData() {
+  const dayNumber = getCurrentDayNumber();
+
+  if (!window.catalan365 || !Array.isArray(window.catalan365)) {
+    return null;
+  }
+
+  return window.catalan365.find((item) => item.day === dayNumber) || window.catalan365[0];
+}
+
+function escapeHtml(value) {
+  return String(value || "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function renderDailyWords() {
+  const todayData = getTodayData();
+
+  if (!todayData || !dailyWordsGrid) {
+    if (dailyDate) {
+      dailyDate.textContent = "Words are not loaded";
+    }
+
+    return;
+  }
+
+  if (dailyDate) {
+    dailyDate.textContent = `Day ${todayData.day} · Today’s Catalan words`;
+  }
+
+  dailyWordsGrid.innerHTML = todayData.words
+    .map((item) => {
+      const isReview = item.type === "review";
+
+      return `
+        <article class="daily-word-card ${isReview ? "review-word" : "new-word"}">
+          <span class="word-type">${isReview ? "Review" : "New"}</span>
+          <h2>${escapeHtml(item.word)}</h2>
+          <p class="word-translation">${escapeHtml(item.translationEn)} / ${escapeHtml(item.translationRu)}</p>
+          <p class="word-example">${escapeHtml(item.example)}</p>
+          <p class="word-example-ru">${escapeHtml(item.exampleRu)}</p>
+        </article>
+      `;
+    })
+    .join("");
 }
 
 function loadQuizMemory() {
   try {
     const saved = localStorage.getItem(QUIZ_STORAGE_KEY);
-    return saved ? JSON.parse(saved) : {};
-  } catch (error) {
-    return {};
-  }
-}
 
-function saveQuizMemory(memory) {
-  localStorage.setItem(QUIZ_STORAGE_KEY, JSON.stringify(memory));
-}
-
-function loadQuizStats() {
-  try {
-    const saved = localStorage.getItem(QUIZ_STATS_KEY);
-
-    if (saved) {
-      return JSON.parse(saved);
+    if (!saved) {
+      return;
     }
 
-    return {
+    const parsed = JSON.parse(saved);
+
+    quizMemory = parsed.quizMemory || {};
+    quizStats = parsed.quizStats || {
       correct: 0,
       wrong: 0,
-      streak: 0,
-      bestStreak: 0
+      streak: 0
     };
   } catch (error) {
-    return {
+    quizMemory = {};
+    quizStats = {
       correct: 0,
       wrong: 0,
-      streak: 0,
-      bestStreak: 0
+      streak: 0
     };
   }
 }
 
-function saveQuizStats(stats) {
-  localStorage.setItem(QUIZ_STATS_KEY, JSON.stringify(stats));
-}
-
-function renderQuizStats() {
-  const stats = loadQuizStats();
-
-  const correctEl = document.getElementById("quizCorrect");
-  const wrongEl = document.getElementById("quizWrong");
-  const streakEl = document.getElementById("quizStreak");
-
-  if (correctEl) correctEl.textContent = stats.correct || 0;
-  if (wrongEl) wrongEl.textContent = stats.wrong || 0;
-  if (streakEl) streakEl.textContent = stats.streak || 0;
-}
-
-function renderMemoryProgress() {
-  const memory = loadQuizMemory();
-  const memoryItems = Object.values(memory);
-
-  const totalPracticed = memoryItems.length;
-
-  const strongWords = memoryItems.filter((item) => {
-    return Number(item.strength || 0) >= 3;
-  }).length;
-
-  const difficultWords = memoryItems.filter((item) => {
-    return Number(item.wrong || 0) > Number(item.correct || 0);
-  }).length;
-
-  const totalAttempts = memoryItems.reduce((sum, item) => {
-    return sum + Number(item.correct || 0) + Number(item.wrong || 0);
-  }, 0);
-
-  const totalPracticedEl = document.getElementById("totalPracticed");
-  const strongWordsEl = document.getElementById("strongWords");
-  const difficultWordsEl = document.getElementById("difficultWords");
-  const totalAttemptsEl = document.getElementById("totalAttempts");
-
-  if (totalPracticedEl) totalPracticedEl.textContent = totalPracticed;
-  if (strongWordsEl) strongWordsEl.textContent = strongWords;
-  if (difficultWordsEl) difficultWordsEl.textContent = difficultWords;
-  if (totalAttemptsEl) totalAttemptsEl.textContent = totalAttempts;
-}
-
-function getWordMemory(wordId) {
-  const memory = loadQuizMemory();
-
-  if (!memory[wordId]) {
-    memory[wordId] = {
-      correct: 0,
-      wrong: 0,
-      strength: 0,
-      nextReviewAt: 0,
-      lastAnsweredAt: 0,
-      firstSeenAt: Date.now()
-    };
-  }
-
-  return {
-    allMemory: memory,
-    wordMemory: memory[wordId]
+function saveQuizMemory() {
+  const data = {
+    quizMemory,
+    quizStats,
+    updatedAt: new Date().toISOString()
   };
-}
 
-async function saveCloudProgress() {
-  if (!supabaseClient || !cloudSecretCode) {
-    return;
-  }
-
-  const memory = loadQuizMemory();
-  const stats = loadQuizStats();
-
-  const { error } = await supabaseClient
-    .from("catalan_quiz_progress")
-    .upsert({
-      secret_code: cloudSecretCode,
-      memory,
-      stats,
-      updated_at: new Date().toISOString()
-    });
-
-  if (error) {
-    setCloudStatus("Cloud save error. Progress is still saved locally.");
-    console.error(error);
-    return;
-  }
-
-  setCloudStatus("Cloud save connected. Progress saved online.");
-}
-
-async function loadCloudProgress(secretCode) {
-  if (!supabaseClient) {
-    setCloudStatus("Supabase is not connected.");
-    return;
-  }
-
-  const cleanCode = String(secretCode || "").trim();
-
-  if (!cleanCode) {
-    setCloudStatus("Enter your secret code.");
-    return;
-  }
-
-  cloudSecretCode = cleanCode;
-  localStorage.setItem(CLOUD_SECRET_KEY, cloudSecretCode);
-
-  setCloudStatus("Loading cloud progress...");
-
-  const { data, error } = await supabaseClient
-    .from("catalan_quiz_progress")
-    .select("memory, stats")
-    .eq("secret_code", cloudSecretCode)
-    .maybeSingle();
-
-  if (error) {
-    setCloudStatus("Could not load cloud progress. Local progress is still active.");
-    console.error(error);
-    return;
-  }
-
-  if (data) {
-    saveQuizMemory(data.memory || {});
-    saveQuizStats(data.stats || {});
-    setCloudStatus("Cloud progress loaded.");
-  } else {
-    await saveCloudProgress();
-    setCloudStatus("New cloud profile created.");
-  }
-
-  renderQuizStats();
-  renderMemoryProgress();
-  renderQuizQuestion();
-}
-
-function setupCloudSave() {
-  supabaseClient = initSupabase();
-
-  const input = document.getElementById("secretCodeInput");
-  const button = document.getElementById("connectCloudButton");
-
-  if (!supabaseClient) {
-    setCloudStatus("Cloud save is not configured yet.");
-    return;
-  }
-
-  const savedSecret = localStorage.getItem(CLOUD_SECRET_KEY);
-
-  if (savedSecret && input) {
-    input.value = savedSecret;
-    loadCloudProgress(savedSecret);
-  } else {
-    setCloudStatus("Enter secret code to sync progress across devices.");
-  }
-
-  if (button) {
-    button.addEventListener("click", () => {
-      loadCloudProgress(input ? input.value : "");
-    });
-  }
-
-  if (input) {
-    input.addEventListener("keydown", (event) => {
-      if (event.key === "Enter") {
-        loadCloudProgress(input.value);
-      }
-    });
-  }
-}
-
-function updateWordMemory(wordId, isCorrect) {
-  const { allMemory, wordMemory } = getWordMemory(wordId);
-  const now = Date.now();
-
-  if (isCorrect) {
-    wordMemory.correct += 1;
-    wordMemory.strength += 1;
-
-    const delayMinutes = Math.min(
-      60 * 24 * 14,
-      Math.pow(2, Math.max(0, wordMemory.strength)) * 10
-    );
-
-    wordMemory.nextReviewAt = now + delayMinutes * 60 * 1000;
-  } else {
-    wordMemory.wrong += 1;
-    wordMemory.strength = Math.max(-3, wordMemory.strength - 2);
-    wordMemory.nextReviewAt = now + 60 * 1000;
-  }
-
-  wordMemory.lastAnsweredAt = now;
-  allMemory[wordId] = wordMemory;
-
-  saveQuizMemory(allMemory);
-  renderMemoryProgress();
-}
-
-function updateGlobalStats(isCorrect) {
-  const stats = loadQuizStats();
-
-  if (isCorrect) {
-    stats.correct = (stats.correct || 0) + 1;
-    stats.streak = (stats.streak || 0) + 1;
-    stats.bestStreak = Math.max(stats.bestStreak || 0, stats.streak || 0);
-  } else {
-    stats.wrong = (stats.wrong || 0) + 1;
-    stats.streak = 0;
-  }
-
-  saveQuizStats(stats);
-  renderQuizStats();
-  renderMemoryProgress();
+  localStorage.setItem(QUIZ_STORAGE_KEY, JSON.stringify(data));
   saveCloudProgress();
 }
 
-function getQuizWeight(word) {
-  const memory = loadQuizMemory();
-  const item = memory[word.id];
-  const now = Date.now();
-
-  if (!item) {
-    return 12;
+function getWordMemory(wordId) {
+  if (!quizMemory[wordId]) {
+    quizMemory[wordId] = {
+      correct: 0,
+      wrong: 0,
+      seen: 0,
+      weight: 3,
+      lastSeenAt: null
+    };
   }
 
-  let weight = 4;
-
-  if (item.wrong > item.correct) {
-    weight += 10;
-  }
-
-  if (item.strength < 0) {
-    weight += Math.abs(item.strength) * 8;
-  }
-
-  if (item.nextReviewAt <= now) {
-    weight += 6;
-  }
-
-  if (item.strength >= 3 && item.nextReviewAt > now) {
-    weight = 1;
-  }
-
-  return Math.max(1, weight);
+  return quizMemory[wordId];
 }
 
-function pickWeightedWord(words) {
-  const weighted = words.map((word) => ({
-    word,
-    weight: getQuizWeight(word)
-  }));
+function updateQuizStats() {
+  if (quizCorrect) {
+    quizCorrect.textContent = quizStats.correct || 0;
+  }
+
+  if (quizWrong) {
+    quizWrong.textContent = quizStats.wrong || 0;
+  }
+
+  if (quizStreak) {
+    quizStreak.textContent = quizStats.streak || 0;
+  }
+}
+
+function renderQuizProgress() {
+  const memoryValues = Object.values(quizMemory);
+
+  const practiced = memoryValues.filter((item) => item.seen > 0).length;
+  const strong = memoryValues.filter((item) => item.correct >= 3 && item.wrong === 0).length;
+  const difficult = memoryValues.filter((item) => item.wrong > item.correct).length;
+  const attempts = memoryValues.reduce((sum, item) => sum + (item.seen || 0), 0);
+
+  if (totalPracticed) {
+    totalPracticed.textContent = practiced;
+  }
+
+  if (strongWords) {
+    strongWords.textContent = strong;
+  }
+
+  if (difficultWords) {
+    difficultWords.textContent = difficult;
+  }
+
+  if (totalAttempts) {
+    totalAttempts.textContent = attempts;
+  }
+}
+
+function weightedRandomWord(words) {
+  const weighted = words.map((word) => {
+    const memory = getWordMemory(word.id);
+
+    let weight = memory.weight || 3;
+
+    if (memory.wrong > memory.correct) {
+      weight += 4;
+    }
+
+    if (memory.seen === 0) {
+      weight += 2;
+    }
+
+    if (memory.correct >= 3 && memory.wrong === 0) {
+      weight = Math.max(1, weight - 3);
+    }
+
+    return {
+      word,
+      weight: Math.max(1, weight)
+    };
+  });
 
   const totalWeight = weighted.reduce((sum, item) => sum + item.weight, 0);
   let random = Math.random() * totalWeight;
@@ -463,208 +261,386 @@ function shuffleArray(array) {
   return [...array].sort(() => Math.random() - 0.5);
 }
 
-function createOptions(correctWord, allWords, mode) {
-  const correctAnswer = mode === "ca-en"
-    ? correctWord.translationEn
-    : correctWord.word;
+function buildQuizOptions(correctWord, mode) {
+  const allWords = getAllWords();
+  const otherWords = allWords.filter((item) => item.id !== correctWord.id);
 
-  const pool = allWords
-    .filter((item) => item.id !== correctWord.id)
-    .map((item) => mode === "ca-en" ? item.translationEn : item.word)
-    .filter((value) => value && value !== correctAnswer);
+  const randomWrong = shuffleArray(otherWords).slice(0, 3);
 
-  const uniquePool = [...new Set(pool)];
-  const wrongOptions = shuffleArray(uniquePool).slice(0, 3);
+  const options = [correctWord, ...randomWrong];
 
-  return shuffleArray([correctAnswer, ...wrongOptions]);
+  return shuffleArray(options).map((item) => {
+    if (mode === "ca-en") {
+      return {
+        label: item.translationEn,
+        value: item.translationEn
+      };
+    }
+
+    if (mode === "en-ca") {
+      return {
+        label: item.word,
+        value: item.word
+      };
+    }
+
+    return {
+      label: item.translationRu,
+      value: item.translationRu
+    };
+  });
 }
 
-function createQuizQuestion() {
-  const allWords = getAvailableWordsForQuiz();
-
-  if (allWords.length < 4) {
-    return null;
-  }
-
-  const selectedWord = pickWeightedWord(allWords);
-
-  const modes = ["ca-en", "en-ca", "ru-ca"];
-  const mode = modes[Math.floor(Math.random() * modes.length)];
-
-  let questionText = "";
-  let hintText = "";
-  let correctAnswer = "";
-
+function getQuestionText(word, mode) {
   if (mode === "ca-en") {
-    questionText = selectedWord.word;
-    hintText = "What does this Catalan word mean in English?";
-    correctAnswer = selectedWord.translationEn;
+    return word.word;
   }
 
   if (mode === "en-ca") {
-    questionText = selectedWord.translationEn;
-    hintText = "Choose the correct Catalan word.";
-    correctAnswer = selectedWord.word;
+    return word.translationEn;
   }
 
-  if (mode === "ru-ca") {
-    questionText = selectedWord.translationRu;
-    hintText = "Choose the correct Catalan word.";
-    correctAnswer = selectedWord.word;
-  }
-
-  return {
-    word: selectedWord,
-    mode,
-    questionText,
-    hintText,
-    correctAnswer,
-    options: createOptions(selectedWord, allWords, mode)
-  };
+  return word.word;
 }
 
-function renderQuizQuestion() {
-  const quizQuestion = document.getElementById("quizQuestion");
-  const quizHint = document.getElementById("quizHint");
-  const quizOptions = document.getElementById("quizOptions");
-  const quizResult = document.getElementById("quizResult");
-  const quizMode = document.getElementById("quizMode");
+function getModeLabel(mode) {
+  if (mode === "ca-en") {
+    return "Catalan → English";
+  }
 
-  if (!quizQuestion || !quizHint || !quizOptions || !quizResult || !quizMode) {
+  if (mode === "en-ca") {
+    return "English → Catalan";
+  }
+
+  return "Catalan → Russian";
+}
+
+function getHintText(mode) {
+  if (mode === "ca-en") {
+    return "What does this Catalan word mean in English?";
+  }
+
+  if (mode === "en-ca") {
+    return "Choose the correct Catalan word.";
+  }
+
+  return "What does this Catalan word mean in Russian?";
+}
+
+function getCorrectAnswer(word, mode) {
+  if (mode === "ca-en") {
+    return word.translationEn;
+  }
+
+  if (mode === "en-ca") {
+    return word.word;
+  }
+
+  return word.translationRu;
+}
+
+function nextQuiz() {
+  const words = getAllWords();
+
+  if (!words.length) {
+    if (quizQuestion) {
+      quizQuestion.textContent = "Quiz is not loaded";
+    }
+
     return;
   }
 
-  currentQuizQuestion = createQuizQuestion();
-  quizLocked = false;
+  currentQuizWord = weightedRandomWord(words);
 
-  if (!currentQuizQuestion) {
-    quizMode.textContent = "QUIZ";
-    quizQuestion.textContent = "Not enough words yet";
-    quizHint.textContent = "You need at least 4 words in your Catalan list.";
-    quizOptions.innerHTML = "";
+  const modes = ["ca-en", "en-ca", "ca-ru"];
+  currentQuizMode = modes[Math.floor(Math.random() * modes.length)];
+  currentQuizAnswer = getCorrectAnswer(currentQuizWord, currentQuizMode);
+  currentQuizAnswered = false;
+
+  if (quizMode) {
+    quizMode.textContent = getModeLabel(currentQuizMode);
+  }
+
+  if (quizQuestion) {
+    quizQuestion.textContent = getQuestionText(currentQuizWord, currentQuizMode);
+  }
+
+  if (quizHint) {
+    quizHint.textContent = getHintText(currentQuizMode);
+  }
+
+  if (quizResult) {
     quizResult.innerHTML = "";
-    return;
   }
 
-  if (currentQuizQuestion.mode === "ca-en") {
-    quizMode.textContent = "CATALAN → ENGLISH";
-  }
+  const options = buildQuizOptions(currentQuizWord, currentQuizMode);
 
-  if (currentQuizQuestion.mode === "en-ca") {
-    quizMode.textContent = "ENGLISH → CATALAN";
-  }
+  if (quizOptions) {
+    quizOptions.innerHTML = options
+      .map((option) => {
+        return `
+          <button class="quiz-option-button" type="button" data-answer="${escapeHtml(option.value)}">
+            ${escapeHtml(option.label)}
+          </button>
+        `;
+      })
+      .join("");
 
-  if (currentQuizQuestion.mode === "ru-ca") {
-    quizMode.textContent = "RUSSIAN → CATALAN";
-  }
-
-  quizQuestion.textContent = currentQuizQuestion.questionText;
-  quizHint.textContent = currentQuizQuestion.hintText;
-  quizResult.innerHTML = "";
-
-  quizOptions.innerHTML = currentQuizQuestion.options
-    .map((option) => {
-      return `<button class="quiz-option-button" data-answer="${option}">${option}</button>`;
-    })
-    .join("");
-
-  document.querySelectorAll(".quiz-option-button").forEach((button) => {
-    button.addEventListener("click", () => {
-      checkQuizAnswer(button);
+    document.querySelectorAll(".quiz-option-button").forEach((button) => {
+      button.addEventListener("click", () => {
+        handleQuizAnswer(button.dataset.answer);
+      });
     });
+  }
+}
+
+function markButtons(selectedAnswer, isCorrect) {
+  document.querySelectorAll(".quiz-option-button").forEach((button) => {
+    const value = button.dataset.answer;
+
+    button.disabled = true;
+
+    if (value === currentQuizAnswer) {
+      button.classList.add("correct");
+    }
+
+    if (value === selectedAnswer && !isCorrect) {
+      button.classList.add("wrong");
+    }
   });
 }
 
-function checkQuizAnswer(button) {
-  if (quizLocked || !currentQuizQuestion) {
+function handleQuizAnswer(selectedAnswer) {
+  if (!currentQuizWord || currentQuizAnswered) {
     return;
   }
 
-  quizLocked = true;
+  currentQuizAnswered = true;
 
-  const selectedAnswer = button.dataset.answer;
-  const isCorrect = selectedAnswer === currentQuizQuestion.correctAnswer;
+  const userDoesNotKnow = selectedAnswer === "__dont_know__";
+  const isCorrect = selectedAnswer === currentQuizAnswer && !userDoesNotKnow;
 
-  document.querySelectorAll(".quiz-option-button").forEach((item) => {
-    item.disabled = true;
+  const memory = getWordMemory(currentQuizWord.id);
 
-    if (item.dataset.answer === currentQuizQuestion.correctAnswer) {
-      item.classList.add("correct");
-    }
-
-    if (item === button && !isCorrect) {
-      item.classList.add("wrong");
-    }
-  });
-
-  updateWordMemory(currentQuizQuestion.word.id, isCorrect);
-  updateGlobalStats(isCorrect);
-
-  const quizResult = document.getElementById("quizResult");
-
-  if (!quizResult) {
-    return;
-  }
+  memory.seen += 1;
+  memory.lastSeenAt = new Date().toISOString();
 
   if (isCorrect) {
-    quizResult.innerHTML = `
-      <div class="quiz-result-box good">
-        <strong>Correct.</strong>
-        <p>${currentQuizQuestion.word.word} — ${currentQuizQuestion.word.translationEn} / ${currentQuizQuestion.word.translationRu}</p>
-        <p>${currentQuizQuestion.word.example}</p>
-        <p>${currentQuizQuestion.word.exampleRu}</p>
-      </div>
-    `;
+    memory.correct += 1;
+    memory.weight = Math.max(1, (memory.weight || 3) - 1);
+
+    quizStats.correct += 1;
+    quizStats.streak += 1;
+
+    if (quizResult) {
+      quizResult.innerHTML = `
+        <div class="quiz-result-box good">
+          <strong>Correct.</strong>
+          <p>${escapeHtml(currentQuizWord.word)} = ${escapeHtml(currentQuizWord.translationEn)} / ${escapeHtml(currentQuizWord.translationRu)}</p>
+          <p>${escapeHtml(currentQuizWord.example)}</p>
+        </div>
+      `;
+    }
   } else {
-    quizResult.innerHTML = `
-      <div class="quiz-result-box bad">
-        <strong>Wrong. This word will appear again soon.</strong>
-        <p>Correct answer: <b>${currentQuizQuestion.correctAnswer}</b></p>
-        <p>${currentQuizQuestion.word.word} — ${currentQuizQuestion.word.translationEn} / ${currentQuizQuestion.word.translationRu}</p>
-        <p>${currentQuizQuestion.word.example}</p>
-        <p>${currentQuizQuestion.word.exampleRu}</p>
-      </div>
-    `;
+    memory.wrong += 1;
+    memory.weight = Math.min(10, (memory.weight || 3) + 3);
+
+    quizStats.wrong += 1;
+    quizStats.streak = 0;
+
+    if (quizResult) {
+      quizResult.innerHTML = `
+        <div class="quiz-result-box bad">
+          <strong>${userDoesNotKnow ? "No problem. Remember this one." : "Wrong."}</strong>
+          <p>Correct answer: ${escapeHtml(currentQuizAnswer)}</p>
+          <p>Catalan word: ${escapeHtml(currentQuizWord.word)}</p>
+          <p>English: ${escapeHtml(currentQuizWord.translationEn)}</p>
+          <p>Russian: ${escapeHtml(currentQuizWord.translationRu)}</p>
+          <p>${escapeHtml(currentQuizWord.example)}</p>
+        </div>
+      `;
+    }
   }
+
+  markButtons(selectedAnswer, isCorrect);
+  saveQuizMemory();
+  updateQuizStats();
+  renderQuizProgress();
 }
 
-async function resetQuizMemory() {
-  const confirmReset = confirm("Reset all Catalan quiz memory on this device and cloud profile?");
+function resetQuizMemory() {
+  const confirmed = window.confirm(
+    "Are you sure? This will delete your quiz memory."
+  );
 
-  if (!confirmReset) {
+  if (!confirmed) {
     return;
   }
 
   localStorage.removeItem(QUIZ_STORAGE_KEY);
-  localStorage.removeItem(QUIZ_STATS_KEY);
 
-  renderQuizStats();
-  renderMemoryProgress();
+  quizMemory = {};
+  quizStats = {
+    correct: 0,
+    wrong: 0,
+    streak: 0
+  };
 
-  if (supabaseClient && cloudSecretCode) {
-    await saveCloudProgress();
-  }
-
-  renderQuizQuestion();
+  saveQuizMemory();
+  updateQuizStats();
+  renderQuizProgress();
+  nextQuiz();
 }
 
-function setupQuiz() {
-  const nextButton = document.getElementById("nextQuizButton");
-  const resetButton = document.getElementById("resetQuizButton");
+function initSupabase() {
+  if (!window.supabase || !window.SUPABASE_URL || !window.SUPABASE_ANON_KEY) {
+    if (cloudStatus) {
+      cloudStatus.textContent = "Cloud save is not configured yet.";
+    }
 
-  if (nextButton) {
-    nextButton.addEventListener("click", renderQuizQuestion);
+    return;
   }
 
-  if (resetButton) {
-    resetButton.addEventListener("click", resetQuizMemory);
-  }
-
-  renderQuizStats();
-  renderMemoryProgress();
-  renderQuizQuestion();
+  supabaseClient = window.supabase.createClient(
+    window.SUPABASE_URL,
+    window.SUPABASE_ANON_KEY
+  );
 }
 
-renderCatalanWords();
-setupQuiz();
+async function loadCloudProgress() {
+  if (!supabaseClient || !cloudSecret) {
+    return;
+  }
+
+  try {
+    if (cloudStatus) {
+      cloudStatus.textContent = "Loading cloud progress...";
+    }
+
+    const { data, error } = await supabaseClient
+      .from(SUPABASE_TABLE)
+      .select("*")
+      .eq("secret_code", cloudSecret)
+      .single();
+
+    if (error && error.code !== "PGRST116") {
+      throw error;
+    }
+
+    if (data && data.progress) {
+      quizMemory = data.progress.quizMemory || {};
+      quizStats = data.progress.quizStats || quizStats;
+
+      localStorage.setItem(QUIZ_STORAGE_KEY, JSON.stringify(data.progress));
+
+      updateQuizStats();
+      renderQuizProgress();
+
+      if (cloudStatus) {
+        cloudStatus.textContent = "Cloud progress loaded.";
+      }
+    } else {
+      if (cloudStatus) {
+        cloudStatus.textContent = "Cloud connected. New progress will be saved.";
+      }
+
+      await saveCloudProgress();
+    }
+  } catch (error) {
+    if (cloudStatus) {
+      cloudStatus.textContent = "Cloud load failed. Local save still works.";
+    }
+  }
+}
+
+async function saveCloudProgress() {
+  if (!supabaseClient || !cloudSecret) {
+    return;
+  }
+
+  const progress = {
+    quizMemory,
+    quizStats,
+    updatedAt: new Date().toISOString()
+  };
+
+  try {
+    const { error } = await supabaseClient
+      .from(SUPABASE_TABLE)
+      .upsert(
+        {
+          secret_code: cloudSecret,
+          progress,
+          updated_at: new Date().toISOString()
+        },
+        {
+          onConflict: "secret_code"
+        }
+      );
+
+    if (error) {
+      throw error;
+    }
+
+    if (cloudStatus) {
+      cloudStatus.textContent = "Cloud progress saved.";
+    }
+  } catch (error) {
+    if (cloudStatus) {
+      cloudStatus.textContent = "Cloud save failed. Local save still works.";
+    }
+  }
+}
+
+function setupCloudSave() {
+  if (secretCodeInput && cloudSecret) {
+    secretCodeInput.value = cloudSecret;
+  }
+
+  if (connectCloudButton) {
+    connectCloudButton.addEventListener("click", async () => {
+      const code = secretCodeInput ? secretCodeInput.value.trim() : "";
+
+      if (!code) {
+        if (cloudStatus) {
+          cloudStatus.textContent = "Enter a secret code first.";
+        }
+
+        return;
+      }
+
+      cloudSecret = code;
+      localStorage.setItem(CLOUD_SECRET_KEY, cloudSecret);
+
+      await loadCloudProgress();
+      await saveCloudProgress();
+    });
+  }
+}
+
+if (nextQuizButton) {
+  nextQuizButton.addEventListener("click", nextQuiz);
+}
+
+if (dontKnowButton) {
+  dontKnowButton.addEventListener("click", () => {
+    handleQuizAnswer("__dont_know__");
+  });
+}
+
+if (resetQuizButton) {
+  resetQuizButton.addEventListener("click", resetQuizMemory);
+}
+
+loadQuizMemory();
+renderDailyWords();
+updateQuizStats();
+renderQuizProgress();
+initSupabase();
 setupCloudSave();
+
+if (cloudSecret) {
+  loadCloudProgress();
+}
+
+nextQuiz();
