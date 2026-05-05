@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Catalan — Mogamed Office</title>
-  <link rel="stylesheet" href="../styles/main.css?v=70">
+  <link rel="stylesheet" href="../styles/main.css?v=72">
 </head>
 
 <body>
@@ -125,16 +125,20 @@
         <div class="quiz-result" id="quizResult"></div>
 
         <div class="quiz-actions">
-          <button id="nextQuizButton" class="quiz-next-button">Next question</button>
-          <button id="resetQuizButton" class="quiz-reset-button">Reset quiz memory</button>
+          <div class="quiz-main-actions">
+            <button id="dontKnowButton" class="quiz-dont-know-button">I don’t know</button>
+            <button id="nextQuizButton" class="quiz-next-button">Next question</button>
+          </div>
+
+          <button id="resetQuizButton" class="quiz-reset-button quiz-reset-danger">Reset quiz memory</button>
         </div>
       </article>
     </section>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="../data/supabase-config.js?v=70"></script>
-  <script src="../data/catalan-365.js?v=70"></script>
-  <script src="../scripts/catalan.js?v=70"></script>
+  <script src="../data/supabase-config.js?v=72"></script>
+  <script src="../data/catalan-365.js?v=72"></script>
+  <script src="../scripts/catalan.js?v=72"></script>
 </body>
 </html>
