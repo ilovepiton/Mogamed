@@ -215,7 +215,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-04-23",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/JpIyC1fS6euaWiIj9-ChHP116hLDMKYk9ogZ2EogkjiGEs4FWxRH9ABL9H9kuW4oERVRXKtOQ9h6dUnsSmRkntl0lJDvxYTLrH0AvlCcjR8y5d-1T6HaXsC0o6Fk00wwGprTmIOKTkHLDS1rtvyMEt_Z6S8WQ2uQIRAgaVmSnDmsNS10YUbA8AmdN71LvW02vR0SNIFjHYBAb5du5HGX8PQOhUHkaBrQceloEJU_u3oiKW-gdRVZ0_DOJxz9bKmgfbC-ndVy2_GZwfqX36SvNPZXl4sw77sfygrRLITR5OsWqEaBUpeXyQXCcDABmODvYGlkoYXTeEk9SdQIv_mqXw.jpg",
+    "image": "https://cdn4.telesco.pe/file/A_GYh9-dPIXG6YjCtXdnWKWEmaipuM9KFFv8BA2p0ownsWJz2-IsGskVdMFr_uvGZi8ntw6rzXr7r16QcAxknh_CcaCCOucSRHU5Bbyb48KdZc1RQjQBPIU1E3TGrQ7l8SpVrYywm7MawFLFEch0euX2i-XygdakwF69XwpmgxVqWozBHXfzJTB3rOUoVb7jjsWqNv3mpsTr8WPOjSwV-0ZS4c0G7gp7KGe08CDsReLe2IL-DgUGtAkZahQ3qXllrPLxnbY7tYt50h7u2E38-IC-drBzhRbLNs_8Z1S1OmqMzEaH4h8oBB8hUoQm0WPPnvhxSyQA_t2VOCBzIm2I7A.jpg",
     "summary": "➡️Новый ChatGPT 5.5\n\nКрасивое число версии, красивые данные бенчмарков (тестов).\n\nКак обычно — быстрее, выше сильнее. Пока что по тестам — убила всех, даже Опуса 4.7.\n\nДоступна будет платным подписчикам. И по API (дороже опуса) — &#036;5/&#036;30 за млн токенов\n\nДолжна стать доступна уже сегодня.\n\nПоэтому у кого появилась в интерфейсе — пишите своё мнение в комментах\n\nccылка на релиз (там более подробная инфа и красивые визуализации всяких симуляций)",
     "link": "https://t.me/serge_ai/1453"
   }
