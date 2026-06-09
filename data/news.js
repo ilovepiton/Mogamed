@@ -1,5 +1,16 @@
 window.aiNews = [
   {
+    "title": "Что у нас вышло в YP за прошлый месяц:",
+    "category": "AI / Projects",
+    "source": "Your Pet Project",
+    "channel": "your_pet_project",
+    "date": "2026-06-09",
+    "importance": 4,
+    "image": "",
+    "summary": "Что у нас вышло в YP за прошлый месяц:\n\n– Гайд по изучению спроса через Wordstat\n– Разбор зарабатывающих ИИ агентов из разных ниш\n– Разведка рынка ADHD приложений\n– Разведка TCG сканеры (писал на прошлой неделе пост)\n– Гайд по запуску рекламы в Яндексе\n\nПодписаться на рассылку можно тут",
+    "link": "https://t.me/your_pet_project/648"
+  },
+  {
     "title": "Вот вы красавчики конечно: из тех кто запустился 50% с продажами&#33;",
     "category": "AI / Projects",
     "source": "Your Pet Project",
@@ -138,7 +149,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-05-28",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/oUUdNAJgfsP9YWevlZhDm1Q4efz5M5PZwmbFpMpsTfQnLx7Q4TWjIJB7LTAFHmJAYgQgc9j9mT0YUEp6gbw51lKGmLcVGyB8mXZjl8kIzEddoHGuGwtWCz9botF8lOpKG4unhCUu6Y8fdI-qYPAXpg3xLkbdJIQE1mhWhlQzcSV4JAUiW_osf2VssL01_5UR8F8kAY02JvQavLrswnvXL9kvSV0CqY17xalhlOJ9zIeYaP2pwwSeuL0Cudvu9_7F4C2LfIzhyZ4NisrRBpUVVp8bO5gvN7zHxRFfFPC0NuE0NcvKiQClsTt1K3Cwnf0vz9BoXvVJf9KjsY_g0uSpsA.jpg",
+    "image": "https://cdn4.telesco.pe/file/m1-UaqGjh-b7AfaZaeI1tAx_zFVoP7e7mlV4okp_NZ4VuaMMx7YMbNxQ0dVs-_BgF1W-vd-wtY7HqVeiluW5IE012CZyGglX1atlHbs_BEdwdZB9NdmDZHahF9z5Nlok74_jgt0BLb0fIFrBAjfjHaYMsi1q6i1MARZrS_ndxZ7R219_OHFX7IBXJNObntkxn6VYng_YrQzwgy1mHSU5koGiwyepwz4pqC9BcwIvKAvis4y1N82_rmMwa_-u95giz8fRa-ZqVCzycDIaLoQDcd1K9gVAD6SEbtSiAkNXeVeFqwtWzZLnaLwZrm8lUmHubp0Vbl5ME2Iwfl3y05FK-g.jpg",
     "summary": "➡️Вайбкожаные, у нас праздник&#33; Вышел Opus 4.8\n\np.s. если с официальным доступом у вас проблемы. Ребята в syntx уже тоже добавили",
     "link": "https://t.me/serge_ai/1472"
   },
@@ -207,16 +218,5 @@ window.aiNews = [
     "image": "",
     "summary": "Serge_AI 1.0 pinned a photo",
     "link": "https://t.me/serge_ai/1468"
-  },
-  {
-    "title": "Вот тебе 4 идеи на пет проект",
-    "category": "AI / Projects",
-    "source": "Your Pet Project",
-    "channel": "your_pet_project",
-    "date": "2026-05-21",
-    "importance": 5,
-    "image": "",
-    "summary": "Вот тебе 4 идеи на пет проект\n\nПару недель назад известный стартап-акселератор Y Combinator выкатил свой регулярный Summer 2026 Request for Startups.\n\nВ нем 15 идей, в которые они готовы инвестировать. В основном про новую волну ИИ-стартапов.\n\nЯ просеял этот список на предмет годноты для bootstrapped бизнеса и соло-фаундеров.\n\nНашел четыре идеи.\n\nМетодика отбора простая как автомат Калашникова: берем только то, на что есть спрос прямо сейчас, и что не требует капитальных вложени.\n\nYC инвестирует на десять лет вперед, они могут вложиться во что-то, что залетит в 2030.\n\nА нам-то нужно что-то, где платят уже сегодня.\n\nЧто не прошло фильтр:\n\n– AI for Low-Pesticide Agriculture – фермеры не сидят на твоем лендинге с карточкой Visa\n– AI Personalized Medicine – FDA, регуляторика, годы согласований, хотя в некоторых гео можно и без этого лечить людей и на это зарабатывать\n– Electronics in Space и Industrial Capabilities in Space – космос это не для пет проекта\n– AI-Native Discovery Engines – аватар на 1000 PhD в мире\n– Counter-Swarm Defense – ты будешь пилить антидроновую защиту вечерами после работы?\n– Inference Chips for Agent Workflows – нужен NVIDIA в бэкграунде\n– Supply Chain 2.0 for Semiconductors – TSMC ждет твоего звонка\n– Hardware Supply Chain – физическое производство и склады\n– Startups That Sell to Huge Companies – F100-клиент это полтора года переговоров\n– SaaS Challengers, атакующие ERP и чип-софт – игра на годы и с командой\n– Dynamic Software Interfaces – кастомизировать чужие SAAS под аватар через AI-агентов. Идея красивая, но платить за это будут через пару лет, когда коддинг-агенты у юзеров станут нормой\n\nА вот что осталось:\n\n– AI-Native Service Companies. Продавай не софт, а услугу. Например, маркетинговое агентство из одного человека, где сотрудник – ты с подпиской на Claude.\n– Software for Agents. План минимум: MCP-обертки и инструменты для разработчиков, которые строят агентов. План максимум: аналитика, мониторинг, безопасность, API для реального мира, итд. OpenClaw, например, 1млн+ поисковых запросов в месяц, и инфраструктура вся кривая косая.\n– Company Brain.\n– The AI Operating System for Companies. Склеим в один пункт: очевидно, что с приходом ИИ все внутренние базы знаний и тудушницы будут переделаны под AI-first подход. Влезать в сложные платформы не стоит, но аналог Notion навайбкодить сейчас может любой.\n\nПока стартаперы будут пилить свои сложные платформы по два года и питчить инвесторам убыточный проект с нулем клиентов, ты можешь за пару выходных навайбкодить простой инструмент в одной из этих ниш.\n\nИ начать получать оплаты уже через пару месяцев.\n\nYC играет вдолгую.\n\nТебе вдолгую играть некогда – у тебя работа, ипотека и желание не просидеть еще пять лет на одной и той же позиции.\n\nТак что не жди 2030 года.\n\nБери пункт из списка выше, ищи свой сегмент и делай.",
-    "link": "https://t.me/your_pet_project/635"
   }
 ];
