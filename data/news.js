@@ -182,7 +182,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-05-28",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/RK5KeBcvQKvdsjibk1sFgeKQqjcRpDT6MNQmf7YnWrpkSWO86IO6HY6WfPszwnsWbg8YRpUqP5u5MbyQ2ZunGNYZRARpfrkB8V4bHQE-62p17LF7s34NlljmDgnSbcePVv2CSa_IK38OOPtE3QYigpLypETy6f5Wkg78I3HU7Byc0ZE0H4RND_98grmjBXiCh14u07BIyYP5wo5JpCEA-EEBn2OxCCafqiTlofewzRgVh5UG_sjA78VYhFG0Lk4H88QKvnEaiLmbd5RM5z6pN4-bUKCOyhPmmKAwp8FYvzDqK6pfZFLo_5w_26U7aIuMmmTUpLmiLY6gtGhPBu0TEQ.jpg",
+    "image": "https://cdn4.telesco.pe/file/bXSl0Mh2CEEMY__wFLCTOJ52KC829R_t2wMCBd9PMydcQyMPdkUt6BJWgeZEbjN3mZ6S5K5oGIxYVQuO7JMHKfEGscEpFvIowEPjSJcpVHygktmru_49yLJnMHAgZuFKx9b_7kAz8ds0EL9znD3bWfvWyNIlDToeOa6Zv8njbm16_KAmp2mo0PHyUWOQUaqH6ZH34Xis-8obN35gxuWhUYCexZnLZocTTgLz-6bqINIbkCVSZoy8_Qjc_Jvyvgoz77Nx7g0FwstkYjQuGTn0deaBKurE4CHqoTBYeWBpG7jFSpKFs1B8Fn32JEFlDzHk1p3Y8CYKPmKv3JdrWcUv1g.jpg",
     "summary": "➡️Вайбкожаные, у нас праздник&#33; Вышел Opus 4.8\n\np.s. если с официальным доступом у вас проблемы. Ребята в syntx уже тоже добавили",
     "link": "https://t.me/serge_ai/1472"
   },
