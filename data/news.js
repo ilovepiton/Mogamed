@@ -29,7 +29,7 @@ window.aiNews = [
     "date": "2026-06-24",
     "importance": 4,
     "image": "",
-    "summary": "🔥Больше не будет #ERROR&#33; в Google Sheets (если захотите)\n\nGemini теперь за пару кликов фиксит плохие формулы в гугл-таблицах. Очень удобная штука — давно пора. А то сверятся с этими символами в формулах — то ещё удовольствие...\n\nДоступна на всех платных тарифах для частных лиц и для бизнесов\n\nЕсли не активированы AI фичи — не работает.\n\nЗдесь подробнее — ссылка",
+    "summary": "🔥Больше не будет #ERROR&#33; в Google Sheets (если захотите)\n\nGemini теперь за пару кликов фиксит плохие формулы в гугл-таблицах. Очень удобная штука — давно пора. А то сверяться с этими символами в формулах — то ещё удовольствие...\n\nДоступна на всех платных тарифах для частных лиц и для бизнесов\n\nЕсли не активированы AI фичи — не работает.\n\nЗдесь подробнее — ссылка",
     "link": "https://t.me/serge_ai/1486"
   },
   {
@@ -50,7 +50,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-06-23",
     "importance": 5,
-    "image": "https://cdn4.telesco.pe/file/Pd31UWpo7FuR4OjxDCrucz3SCFtd_jInSNiDgiAEQ9xZq9dHdNgmguTl5SQj88yJ3nUtRn2JxcnI-4N5j2PEMNhE3PfqU_hp4YYsOIi6qqyZ9kvbzHSnVZolC62HjVIBAWgZzFM_Rop1acsjzMiO_tQUfrTQMVpBL4THBf-BKB4-wfCbLxRX6TDvMhSv3SsQ_yckAkejMcHpwCVHR76i8yOwkZ2RxCtiwWQnAseOK3MShcnwunbje51R52RjPSXkyAvuKsz77zznOHnKhEvMvq6US9Z2J-01I2b9z06Hn1sWsbx4QGzvPsQPiQNtQQpQUQx0Y6hiswZ0afl91_aGbg.jpg",
+    "image": "https://cdn4.telesco.pe/file/Z1lU8PABdJ74MZqYfJ7iTNgWxRDJupyhoKQ_9KTyXoQi5ulpXq-I_u1-MrarUVbG3kcrMYDi4PhaE0zEU26Ke8SnD4I8dnDMrO2DgATFaQVvhXcwGmRq0C7zsclTNWt4nmwmuHQ7zR9oxNcw8sQ6Q7Tspp1EjQ0rWgdumYpmh4rQlmEkFLYdJ9jktAiPD72YdDv7ToYqgox9eMr1sdK1P-CDreezJwHJ4rmGTxOjsJn7Be4VfoOEpD8Iah00D9y-kUNuT8iuWshstOD4aACWYos2PZopZNwD7fZxkk3Jdqh6_yeVrWQp_SkI2kcDfmlNNltquhvQyAIW3yKI2BjMlg.jpg",
     "summary": "➡️Mythos уже не первый. А мы его даже не пощупали…\n\nВчера OpenAI сказали, что свою новую модель выводят из закромов для некоторых компаний. GPT-5.5-Cyber — название. И её используют как базу для Daybreak (это попытка сделать систему исправлений всяких кибернебезопасных мест).\n\nПрикольно, что мы наблюдаем за тем, как корпорации выпускают суперумные модели (на данный момент), но не дают доступ обычным смертным, как мы.\n\nТеперь модели сами лазят по огромным кодовым базам, строят цепочки атак и находят дыры, которые раньше годами оставались незамеченными. И вроде бы как исправляют их.\n\nOpenAI тесно работают с госрегуляторами и правительством США. И имеют ряд всяких партнёрских соглашений с другими странами (подробнее можете глянуть по ссылке ниже. там вообще сильно больше инфы, чем в посте). Задача всего этого — нужно успеть заделать дыры в важных системах с помощью ИИ быстрее, чем хакеры используют тот же ИИ для взлома. В целом и саммит G7 тоже показал некоторые векторы озабоченности кибербезопасностью и прочим на фоне развивающегося ИИ.\n\nвот здесь сам релиз от OpenAI\n\nКогда нам дадут поиграться большими игрушками? Или по другому — расчехляйте свои теории заговоров △⃝...",
     "link": "https://t.me/serge_ai/1484"
   },
