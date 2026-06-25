@@ -1,5 +1,16 @@
 window.aiNews = [
   {
+    "title": "Как растить iOS приложение – плейбук до первых &#036;10K MRR",
+    "category": "AI / Projects",
+    "source": "Your Pet Project",
+    "channel": "your_pet_project",
+    "date": "2026-06-25",
+    "importance": 4,
+    "image": "",
+    "summary": "Как растить iOS приложение – плейбук до первых &#036;10K MRR\n\n10K MRR – при средней цене подписки &#036;10 в месяц – это тысяча платящих юзеров.\n\nТысяча платящих юзеров – это где-то 50к установок.\n\n50к установок – это где-то 10 млн охватов (10 млн людей, которые увидят твою рекламу и узнают, что существуюет такое приложение).\n\nЭто непросто, но это точно возможно, ведь в интернете каждый день миллиарды охватов.\n\nКак бы я действовал:\n\n1. Очень хорошо изучить рекламу конкурентов на рынке\n2. Выделить один ключевой смысл, фичу и визуал. Паттерн, который сейчас работает. Скопировать к себе.\n3. Открываем тикток (инста тоже подойдет), регаем свежий аккаунт, настраиваем ленту по тематике приложения – лайкаем все, что подходит\n4. Делаем табличку блогеров, которые теоретически могли бы нас прорекламить\n5. Выбираем всех до 10к подписчиков, пишем в личку и предлагаем рекламу в формате &#036;20 за пост, и &#036;20 за каждые дополнительные 10K показов\n6. Так делаем каждый день по часу, пока не наберется хотя бы 10 первых инфлюенсеров, готовых поработать\n7. Отдаем им ТЗ с ключевыми материалами, наработанными в пункте 2\n8. В течение трех месяцев выходит реклама. Что-то набираени, что-то не набирает. Это нормально.\n9. То, что завиралилось и дало хорошую окупаемость – забираем в трафик и крутим там\n\nПовторяем до первой стабильной воронки.\n\nВ этом году встретил три приложения, у всех трех GTM похож на этот (завтра, кстати, выйдет классный кейс про это).\n\nЧто важно понимать:\n\n1. Если идея изначально мертва – оно не поможет\n2. Если продукт слабый – пользователи поставят и выйдут, смысла не будет\n3. Если в нише не платят, или платят мало – тоже ничего не выйдет\n\nТрафик – это всегда множитель. Если на входе ноль – получишь тоже ноль.\n\nНаписать сотне инфлюенсеров можно, сложно – не ошибиться до того, как ты их написал.\n\nТак что если хочешь найти валидную идею, которой точно стоит заниматься, и научиться базе маркетинга – приходи на практикум.\n\nБонус: мастер-класс по выбору идеи и получению первых юзеров.",
+    "link": "https://t.me/your_pet_project/663"
+  },
+  {
     "title": "Из пет проекта в бизнес",
     "category": "AI / Projects",
     "source": "Your Pet Project",
@@ -17,7 +28,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-06-24",
     "importance": 5,
-    "image": "https://cdn4.telesco.pe/file/KZ1A8SZWuqqa-r31hBACcsFoLfhE74S_qLwPb4FvbERYiNEPRIynQcsn3BK43gQEHgREEP2IArvHXfl0xolRlMfE0HhdzIRQlXg53kqLkpLF80AL-vCibZEGII1ZYHmEAuXMEQzI62JzGT_OR4L7fUT8uaoORb70QUB9ntOqM_ASbrkRF7wqVFk7MAtGka6AMRjTwdEXzjZelB1rImxXWv1li4zYMwWhVFjeTE0O3pVeOeDXaTAJjSPdkOk9ptowDk7qKWWVFt-DhByG2B2O5obWQlt5H-7dLzcyVfJ87z2NSh3HM0_kuVDMOsM13FyDWiRvNOjyDUHnkPjmSXeJog.jpg",
+    "image": "https://cdn4.telesco.pe/file/pmEvP_3i6FbNJDxFSsxJu4ciy5MkehX5Ml5T4yC9xx78M03HxBWcy9UzoWj1dg6Bdqm4J40IcBKBnut52Q7K5vLTR88WM6Lwuo_sCEO01FUN3R6aUy7J_IMD0LnHoDCy88wy7taclnZtyohsWym7wHxHINulhXA6kr4cgJL-5_OEJbiAh1iZgmKJ0cg4naihsdfGknne4CfPKfUb6Nt-06rzP5c1WO9ZM8W0OgnpmNMdLKg_k_Yadmkvwvop3M4A5U29EUj4YcSX08-WLkDDHt1-AlMnbVQ_Nb4y0z_OS2w2BZVOeFPtuRrkVXaW9EzfbXdgJ7A7hwlhaG6lXBhimg.jpg",
     "summary": "➡️Claude Tag — ещё один значимый шаг\n\nAnthropic презентовали Claude Tag. Это когда вы добавляете Claude в свои чатики и нарезаете ему задачи через собакена @. Агент идёт делать соответственно. Пока что это работает только в Slack… Но вангую, что в этом году будут и OpenAI, и Claude такие же интеграции простые с другими мессенджерами. В итоге — почти в каждом рабочем чате будет сидеть условный ИИ, готовый впрячься в ваши задачи.\n\nСейчас это и так работает, только у тех, кто знает, как руками настроить своего бота.\n\nКак подключить в Slack — читаем здесь.\n\nSlack в основном используют в IT, поэтому сейчас они там всё протестируют, найдут недочёты и для народа в массовых мессенджерах тоже прикрутят, т.к. это ещё одна полезная нативная функция — юзать ИИ даже для тех людей, кто его не использует.\n\nОчень простой и классный ход от Anthropic.",
     "link": "https://t.me/serge_ai/1485"
   },
@@ -39,7 +50,7 @@ window.aiNews = [
     "channel": "your_pet_project",
     "date": "2026-06-23",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/vkxI8EIhKYs3AwJzjliZGpyB5aUmxTIthix7pCbyx_5RAkCeT62J3vVl5FY3ShgDJKrYrt7NoDEk6K4FDTTmy4fBsWbvF1InhyevR8JTKeoIaKZdA_ZGJLOfaeRO-3F6nT1qJQK7SzGdA9PS9yv6_5y1XIvfjn5Vm2VLxxB3Rsg6d2ECp0GjHZYgDIyn5eJZm4BiAiosby2tCTH2C79yQv8jbXphOvQMC9VE60MWGHV_1RhZ3rTwzwD4r_vQTGkT-IY9L2lbVDeS_kJ2OGBhkwqGPACL_SBDzDDoN1UeH7pqWfXGToOWXSz_MlRa5GXcpKubnXsc1X9cihUBtFBzng.jpg",
+    "image": "https://cdn4.telesco.pe/file/qY0oGpdZezrBVICj0hkIOshQCo1hFDkrGsmkoPhR7FnvnEsx-tu_dnXGH9L8fHCb7pxuJe4yKZfs4cSGuF9Mb_Xg5XO2HQeF1zJ25tp4uYjiO614wqaBO9TuNB5fSkZxfjBVxNs2cFL8n4vuzqU0GTUm-WuaOLc9VBXMWzI4yPNXbEmN_-UJfE-t6uvA2DD0Y5N2tt4GvX0UMEjsBgU6V0v8pCbwsBmZq-d_igvj6mXjfETNvUDdh_qa2uKcIOYkvMNeGHGTBPmtc62tBaIi_Rxeb_luLE7_Wm3DUSkvB2kSQO4Z4h7GVNY8shu-mmn9S1y3_C9DFMURuVr-vA71_A.jpg",
     "summary": "Просто доза мотивации\n\nНа прошлой неделе Маск анонсировал покупку Cursor за 60 миллиардов.\n\nВ Тви завирусился скрин: старое неотвеченное сообщение двухгодичной давности от основателя Cursor, оно на скрине.\n\nЧеловек, который потом продаст компанию за 60 миллиардов, на старте руками пишет незнакомым людям.\n\nЕму не отвечают.\n\nРовно как и мне, ровно как и тебе.\n\nКак видим, его это не остановило, и в результате все получилось.\n\nЯ недавно делал статус-опрос среди подписчиков, как дела с проектом.\n\nВыяснилось, что среди тех, кто запустил хоть что-то, продажи есть у половины.\n\nНа 10K&#036; MRR вышел почти каждый четвертый.\n\nСреди тех, кто так и не запустился – продаж ни у кого нет.\n\nЭто ваши ответы, не какая-то мутная статистика хер пойми кого.\n\nВдумайся.\n\nГлавный фактор успеха – не то, сколько ты размышляешь.\n\nГлавный фактор – ты вообще начал или нет.\n\nТе, кто не запустился, даже не вышли на поле.\n\nУ них не было шанса попасть в ту половину с продажами, потому что они всё ещё думают, оценивают и взвешивают.\n\nЛюди читают контент, оценивают, анализируют, спрашивают, но какой смысл в этом, если опыта-то у тебя нет.\n\nВсё, что ты сейчас нарешаешь в теории, скорее всего окажется неверным. Нужна практика.\n\nСадись и делай.\n\nА если нужен волшебный пинок – ждем на практикуме, где есть четкие дедлайны, групповой темп и эффект пелотона.\n\nКогда кто-то рядом прошел шаг, который тебя пугает, ты делаешь его сильно быстрее.",
     "link": "https://t.me/your_pet_project/661"
   },
@@ -72,7 +83,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-06-22",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/nDDoTHj9bbKQo7Jr6xIXT0vbojMwvxkdr3x-w6ivgy4Gp6HdQrBWsaQ14loh4oSv2VKaSZp5uFiFTtIC9CDmxqUrA2tVuXQhYb8k4BIKZoYiXMrBHFvztsxDYHf0GRCvIVhSPFNw7IzRYjPNBOrDHAmV3zXIz6aLOGNMKeVsl4oB20cVgmlHBb2ATUNLB1atmBmobd30kNogD5qFSMEIQ8Lv69O1rNvemxKAA-UnTwKRTOh7lStVI9tVzhC9lXjbSEOMAOzIK5jRi3PZ9iZorCJWhLhfpdeOcFfoCbsoRQ4g0I8wIDqKj8S2QMO4mU1F9r8eEVa7_9vkDsXhOvjZow.jpg",
+    "image": "https://cdn4.telesco.pe/file/g1mRM0y0d3AholQdRS8G9GUUnz0tBetcqot2wQQT4ij0G57iMeF1jUiOFxfMWpb3t9UPV1opMMhBUJOI7JLkRY6_YRUBtZgiRgmIlLl0hz5J4NDr-j1ELY8bZZFE6pSe-85xWLvKBeQ4SNnIohSrV7cl1WA4ht92j0giZHOp3lA8gL8e8zuLiGKZ4kUY504spbstLZT8G2wg5I1jvau5krsempzCCFG32sC7UuTKiZp-FK_wMQEJGZuPDO-DPj1_nHBSuHQCYzMSLKNArIffcQa26q3vp_cSn2iOPXvk4TEJ-nothpPiG6unadAnYgD7aEEXBjbIX6MbD74Hq4EMKQ.jpg",
     "summary": "➡️Команда из дешёвых моделей работает как топовая Fable\n\nНа OpenRouter недавно появилась beta-функция под названием Fusion. Суть в том, что с её помощью можно объединить в стопку любые модели, и суммарно они якобы показывают очень крутые результаты. По крайней мере, если верить тестам разработчиков.\n\nOpenRouter — это агрегатор API от разных моделей, если вы не в курсе. Подключаем по одному API-ключу и используем разные модели, предварительно настроив то, что нам нужно, так как по умолчанию там набор моделей, который всё-таки не сильно экономный.\n\nВ эту команду можно поставить и топовые модели, конечно, траты будут другими. Но я поставил 3 дешёвых, как на скрине: Gemini 3 Flash, Kimi K2.6 и DeepSeek V4 Pro. По заверениям разработчиков, получил почти антропиковский Fable.\n\nВ целом пока ничего плохого сказать не могу: они сделали мне ревью одного проекта, всё по делу. Сделал копию и отправил исправлять. Шуршат 2 часа. Траты пока в пределах доллара.\n\nДокументация вот здесь\n\nСам OpenRouter здесь\n\nЗдесь можете потестить без подключения себе\n\np.s. если что-то не понятно — копируйте пост и ссылки в любую относительно сообразительную нейронку и она пояснит.\n\nКто-то тестил? Поделитесь тоже впечатлениями, пожалуйста",
     "link": "https://t.me/serge_ai/1483"
   },
@@ -83,7 +94,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-06-21",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/HqnQvoI-aMe35QHmVhGcsmlkRjrr0vPy_7R98DqhER-LGI5HNwLp1Q7GG1s3IOIveG47DvUzpruiDCb601Nyx0qgsbHwUmzUyZzadBjh6eh5uPr-tndivyMPvfQS7BmyUOMHQYIqbghoKhqxB5GZ86ZBz5trDBPmTjZ4JJg4fCw7vlyrZrLdsTGtd8Dg3wSjQeHGSivM-3i4_Vt-8mZZQfnwe6m4DuBroqHo5yLejS7umrTZ0JF9ZW7iIuAyXvYfJ5sCoxauYD1D3xV-wOJfH18zCB5PcnvtWXDSO0-35Unv1TRwPFDDvLemPMgYFemq7643vsvH_6wPgn_glPX9EA.jpg",
+    "image": "https://cdn4.telesco.pe/file/Kn8vVrjwFvWQzGdbaJo4CwURZ1tuDDXXHufGX3UOndXfwiJNDEUsJ26U4nb5KqBcLG3Zyd6ZTDZFdjUs-oBrdRnR7nE9-f_kD9okghlWHugEzmcJ2JshyVlDYWjWcgExmJKHHLyJL5ydO05hEhCytz_8QnsUr2Xv6r9J3R6jqJBhjfr1vnAlwBBoEbbcfevOmu_cfC9767rvJIDT_5eISvUzzWzt-H2dVNTPiSEOAhp7wEKkEfbmQYto6-T0pNela7ur8UZfqqCfbuGY-hoR_7OSRwsz0MxhSq3KQQJHxfanANTGw-zrdIwuYUed3G3aV3OBzwXbRQtktcEWktVBig.jpg",
     "summary": "➡️DeepSeek-V4-Flash бесплатно до 28 июня на неделю\n\nНа OpenModel сейчас можно бесплатно юзать DeepSeek V4 Flash и GLM 5.2. Этот не бесплатно, но по скидке 50% сейчас. Не без труда повесил на своего HERMES, и всё реально работает: запросы щёлкают, деньги — нет…\n\nКто не знает, что такое OpenModel — можно сказать, что агрегатор разных API ИИ-моделей. Они дают один API-ключ, а дальше через него уже подключаем любые модели, которые нам нужны. Как OpenRouter.\n\nАкция для любителей бесплатных сыров — самое то. Мне ещё доллар на баланс дали при регистрации 🤨\n\nссылка на openmodel\n\nВсем хорошего воскресенья\n\np.s. немного в тему. Вчера видел новость как один парень в игре world of warcraft подключил 1000 ботов с ИИ-моделями Deepseek (возможно даже flash) и они там ведут себя как обычные игроки: ходят, бродят, хороводят... тоже можете попробовать.",
     "link": "https://t.me/serge_ai/1482"
   },
@@ -171,7 +182,7 @@ window.aiNews = [
     "channel": "your_pet_project",
     "date": "2026-06-12",
     "importance": 5,
-    "image": "https://cdn4.telesco.pe/file/WtCICFsNk06ziFaHsQL9eIC2UGZ95UkR1XWMZCf5acis5s6rzCKrZo1PDp45cE8GW4_6eI6lNtykzxA1Qh8LM22jTyG8GJ-kjJ5jKjgNDo9M6SahY6doFhqpTNTaMPd4OczAjcn8BMjK9OeCBcSc_HeXMVyZx1_Z412o1gBsf7iqNWknm-WZnh50_5YbQwcGf0zw60D2i0-G39WiLs1qSJr1dF-cUQrhxs0E2DTb4I9LgPBsLQQqEW7dwwLzrTPN3-5YWYHT_uY4KfUyemh4yGnE6UY3B-_il7nL8985HhwNAcwUBXruA1SGMmbsbp_BfEeg9x5F3jzr-G64vXcShQ.jpg",
+    "image": "https://cdn4.telesco.pe/file/BoA-JjjDcxm1LjEMhRWP2PtoUg0Y0rvF0tqPUMQwYiW7qxPDcAOckZVyViHALhtXJzVMh7cvcwS140-IyiEVH6gRg2Qaa9ivBKV6E7FfLiIt4lhMhASCK9WfItaTcXyzplx6y0Lt4nakAaauCIXa0tDJjMUEy9PUgJso-tg0V3iKQNEvu8QWWcO8JWVIHd1lLX6OeTU62wIlX7wCFFrSzGduUtJayHeo-lkthc0uC0zwS_3B8K3BM7iTZWzAaDCpFtkhxHUoT_poNbOkEuuks_f41FILtyfM_Ynvg-Yn9Z2w1mo0IC4t3W9WD8vQLWSnwJoT0x4Ms8JQFSu-Qy_TYw.jpg",
     "summary": "&#036;200K MRR меньше чем за год на приложении для вязания крючком\n\nAI-агенты?\n\nФинтех?\n\nB2B SaaS для распределенных команд?\n\nВ жопу это все.\n\nСегодняшний герой – YarnPal, приложение для вязания крючком.\n\nИ делает оно &#036;200K в месяц.\n\nДа, то самое вязание, которым занимаются бабушки по вечерам.\n\nВ приложении в основном контент по вязанию:\n\n– 500+ видео-туториалов для тех, кто крючок в руках не держал\n– Простые пошаговые планы для вкатунов в вязание\n– Можно сфоткать понравившийся паттерн, и приложение расскажет как его вязать\n– AI помощник в трудной ситуации\n\nПо духу – обычное приложение-помощний для хобби-ниши.\n\nДелает сингапурский паблишер PIXELCELL.\n\nВ рекламе все стандартно: медийный трафик из меты, 260 креативов на разных языках, траф льется давно.\n\nВ поиске в этой нише десятки тысяч запросов на английском, что немного, но все целевые.\n\nБолее 5млн установок Lifetime, более 2млн баксов лайфтайм выручки.\n\nВот такой вот прикол: нишевое приложение для хобби, релиз в августе прошлого года, GTM через обычную медийную рекламу.\n\nЗа год заработали больше, чем некоторые венчурные стартапы за пять лет.\n\nА если хочешь найти проект себе – на следующей неделе проведем актуальный на июнь 2026 мастер-класс по запуску продукта с нуля.\n\nЗаходи в предзапись.",
     "link": "https://t.me/your_pet_project/651"
   },
@@ -207,16 +218,5 @@ window.aiNews = [
     "image": "",
     "summary": "Что у нас вышло в YP за прошлый месяц:\n\n– Гайд по изучению спроса через Wordstat\n– Разбор зарабатывающих ИИ агентов из разных ниш\n– Разведка рынка ADHD приложений\n– Разведка TCG сканеры (писал на прошлой неделе пост)\n– Гайд по запуску рекламы в Яндексе\n\nПодписаться на рассылку можно тут",
     "link": "https://t.me/your_pet_project/648"
-  },
-  {
-    "title": "Вот вы красавчики конечно: из тех кто запустился 50% с продажами&#33;",
-    "category": "AI / Projects",
-    "source": "Your Pet Project",
-    "channel": "your_pet_project",
-    "date": "2026-06-08",
-    "importance": 3,
-    "image": "",
-    "summary": "Вот вы красавчики конечно: из тех кто запустился 50% с продажами&#33;\n\nЧто подтверждает, что главное – это делать и не бросать, остальное придет.",
-    "link": "https://t.me/your_pet_project/647"
   }
 ];
