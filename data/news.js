@@ -22,6 +22,17 @@ window.aiNews = [
     "link": "https://t.me/serge_ai/1491"
   },
   {
+    "title": "Через 20 минут вот тут будет презентация новой модели:",
+    "category": "AI News",
+    "source": "Serge AI",
+    "channel": "serge_ai",
+    "date": "2026-07-09",
+    "importance": 3,
+    "image": "",
+    "summary": "Через 20 минут вот тут будет презентация новой модели:\n\nhttps://www.youtube.com/watch?v=Wq45rvPGNHs",
+    "link": "https://t.me/serge_ai/1492"
+  },
+  {
     "title": "Семь дней до старта",
     "category": "AI / Projects",
     "source": "Your Pet Project",
@@ -207,16 +218,5 @@ window.aiNews = [
     "image": "https://cdn4.telesco.pe/file/i9VZTWiZXy1MXILdfawT1PnOejsJ7iw9CwdDoi3uzKHFgFdpRgyk6Vi80qfYpOma28RF1j8m5KA0s03gm_W1Dk5FKSzQ06wVkzIi7yoxXsew_gVhQUi_YmNbtRAePXav82hZu44jfi2Z8YKIH8FU3CARSYvBkIBI8G1XngqtDr19X1F6VIBaS2ocL1K4EG-mtEQpLJZWrKOb3Huq4ZpZE2gkPqHJRZ1JDMX2AUiYnqJ79Lx6ChJICbrBL4VpQdiIO08LhjZ5YrAO_7TE9Dx_4j15ivohjEezrBHOW88ezlTq-bakiCGPsRTrozJRNK9OJYV-kx7nuyrZozKLgNZSdg.jpg",
     "summary": "➡️Claude Tag — ещё один значимый шаг\n\nAnthropic презентовали Claude Tag. Это когда вы добавляете Claude в свои чатики и нарезаете ему задачи через собакена @. Агент идёт делать соответственно. Пока что это работает только в Slack… Но вангую, что в этом году будут и OpenAI, и Claude такие же интеграции простые с другими мессенджерами. В итоге — почти в каждом рабочем чате будет сидеть условный ИИ, готовый впрячься в ваши задачи.\n\nСейчас это и так работает, только у тех, кто знает, как руками настроить своего бота.\n\nКак подключить в Slack — читаем здесь.\n\nSlack в основном используют в IT, поэтому сейчас они там всё протестируют, найдут недочёты и для народа в массовых мессенджерах тоже прикрутят, т.к. это ещё одна полезная нативная функция — юзать ИИ даже для тех людей, кто его не использует.\n\nОчень простой и классный ход от Anthropic.",
     "link": "https://t.me/serge_ai/1485"
-  },
-  {
-    "title": "🔥Больше не будет #ERROR&#33; в Google Sheets (если захотите)",
-    "category": "AI News",
-    "source": "Serge AI",
-    "channel": "serge_ai",
-    "date": "2026-06-24",
-    "importance": 4,
-    "image": "",
-    "summary": "🔥Больше не будет #ERROR&#33; в Google Sheets (если захотите)\n\nGemini теперь за пару кликов фиксит плохие формулы в гугл-таблицах. Очень удобная штука — давно пора. А то сверяться с этими символами в формулах — то ещё удовольствие...\n\nДоступна на всех платных тарифах для частных лиц и для бизнесов\n\nЕсли не активированы AI фичи — не работает.\n\nЗдесь подробнее — ссылка",
-    "link": "https://t.me/serge_ai/1486"
   }
 ];
