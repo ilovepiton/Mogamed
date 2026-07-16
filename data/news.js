@@ -22,6 +22,17 @@ window.aiNews = [
     "link": "https://t.me/serge_ai/1496"
   },
   {
+    "title": "➡️🇨🇳Самая большая опенсоурс модель. Kimi 3",
+    "category": "AI News",
+    "source": "Serge AI",
+    "channel": "serge_ai",
+    "date": "2026-07-16",
+    "importance": 3,
+    "image": "https://cdn4.telesco.pe/file/SBSDFI3PoK0izb5C6DaJthVUDRn2P55oU38BQv5566uOYSO6XT6r38ZJ08ylj7xpSq6VUBWHuRI4hc1dmGCEmjGVaIi1BpXOjGAjDiaCdByDY-ZiN30UcXuWVDV3AfiQVXBi2Lh8hE6If18OWrJaQYGYd1RUAQ5_F9ZWR2Ac-DK5c6ruRksP6Nyb8lE-8EIlAkIpyzot3aAhsOqqbrlRcxvZItZc9jrnodGOrxvduE14fCyYsEN8doSePQ5vK4mW_zSLaB233AIoN8DthBGwhBysDzrQHb5oG0D3yiE49d8WJH-vttO1z6PaA3t8Z3s_VJCgZKRMpAnNCdAtrq2xmA.jpg",
+    "summary": "➡️🇨🇳Самая большая опенсоурс модель. Kimi 3\n\nБыстрее, выше, сильнее и бла бла бла.\n\nВ общем — идём играться сюда👇\n\nссылка\n\nцены на API: &#036;3/&#036;15 (не прям халява, но дешевле чем fable, а судя по слухам близко к ней и 5.6 sol. если не лучше даже)\n\np.s. в Kimi Code CLI тоже добавили",
+    "link": "https://t.me/serge_ai/1497"
+  },
+  {
     "title": "Деньги делаются в первой сессии",
     "category": "AI / Projects",
     "source": "Your Pet Project",
@@ -207,16 +218,5 @@ window.aiNews = [
     "image": "https://cdn4.telesco.pe/file/UBo9MPyjiXWSfGi_7mrw4YZYzQvUiFhDlqz0N2cMy_sWHGyRJpi8WfUxmzE6sO9wBwFMSs6D7N4iRPheA_cDm7tOgGlJsehaDSXQCGvW60wk5uSIErWUEOKz-bFvTyFTovYkitaHtTIZZViBzDjHUNWFu0SXHJziLASji6CqV9y73Nv_Ta_z8vQ5qnrsgdLWhLxJQL1O4uPPMNgelxa4KjpfeQF085O6B9OWHXUFhhg7s5h9cOJN-t0A-daX9nEok1iRiiwhhh-O1uaRkfISrMVmwE9ksRumaYxE2cmz7MVUdBP_8oGPpoL4RWLQoa9x96aS3gdBo371-GAgvYwr1g.jpg",
     "summary": "Врут или не врут? Проверяем онлайн-видосы на YouTube с помощью ИИ\n\nВ сети завирусился кейс, где парень создал факт-чекер. Т.е. смотрим, например, выступление какого-то политика или просто чей-то сомнительный видос, и у нас сразу выскакивают всплывающие подсказки возле видео\n\nПопалось расширение для Google Chrome. Есть бесплатная версия, есть платная. Тестил бесплатную на известном подкасте Рогана и Лазара — расширение работает. На скрине видно справа вверху выводы от ИИ. Минус этой истории — нужно понимать английский. И второй минус — нужно смотреть видео с включёнными субтитрами (лично для меня это пытка, т.к. они кривые). Кто попрошареннее — такое можно для себя лично навайбкодить\n\nСсылка на расширение (по идее должно работать не только в Google Chrome, но и в других браузерах на его базе, т.е. в Яндекс Браузере, Atlas и прочих)\n\nP.S. На самом деле подобные помощники (с большой вероятностью) в будущем будут только развиваться. Количество создаваемого контента летит по экспоненте, шума много, лжи тоже, и не всегда есть время разбираться. В одной игре про далёкое будущее (созданной ещё до бума ИИ) была женщина-супердупермиллиардер, компания которой занималась распознаванием ИИ-подделок картин от оригиналов. Тогда это казалось интересной фантазией, потом вышел Midjourney, и фантазия стала реальностью...",
     "link": "https://t.me/serge_ai/1489"
-  },
-  {
-    "title": "✅KEISOSUBBOTA",
-    "category": "AI News",
-    "source": "Serge AI",
-    "channel": "serge_ai",
-    "date": "2026-07-04",
-    "importance": 5,
-    "image": "https://cdn4.telesco.pe/file/iHVZ9ZqvYXDb56UEz5gHfBLbhRloUzvnwSnYy8_rXHZ0SVV7jJE9qrsJPPkenaYGmtNYa8GlYnkgXKYoY_9mcXj0qAUKENr1QHueDqpDlqAW9budTzSgAAWmUy5xqOTec7_xNnQlqnzavof-OMvn52t47quICo00nTnCyTbB_QIS8sGq9gQ59qT5cL2iZFU0nFuCqdMhF1uNWZnS9cnVM143R6EebudD3rJIIuJsRQc6NfngmkDnFvlPV7_epo4JEZNNwQ6UI1YLy3jMmRjNYQGaRAzKwXn8tqf8A1eRZ4wWoMMmYjX2WBEa2EgoV61m0T7rKizFCY1wK7Au9fWCAw.jpg",
-    "summary": "✅KEISOSUBBOTA\n\nЗнаю, что пропал. Прошу простить... Обстоятельства так сложились. С новой недели вернусь\n\nКейсосуббота — это рубрика, где мы делимся своими работами и взаимодействиями с ИИ. Это может быть что угодно:\n\n-картинки\n-анимации\n-текст\n-код\n-боты\n-песни\n-видео и т.д.\n\n❤️ Не забывайте оставлять обратную связь на работы других людей. Это очень ценно\n\nДавайте попробуем меньше разводить флуд в комментариях.\nДля разных вопросов у нас есть чат — там такое. А здесь давайте по делу. Читайте ниже пояснение\n\n👇А также читать пояснения и правила по ссылке ниже.\n\n❗️ВАЖНО&#33; Прочитайте по ссылке ниже пояснения:\n\nСсылка на пояснение для тех, кто не участвовал ни разу в этой рубрике. Или для тех кто не помнит, какие есть правила.\n\n+ ПУБЛИКАЦИИ ОТ ИМЕНИ КАНАЛОВ И ЕСЛИ У ВАС НЕТ НИКА В ТЕЛЕГРАМ— НЕ ПРОХОДЯТ СЕЙЧАС МОДЕРАЦИЮ\n\nТАКЖЕ - ЕСЛИ НЕ ПОЛУЧАЕТСЯ ОСТАВИТЬ КОММЕНТАРИЙ (БОТ БЛОЧИТ ВАС) -- читайте здесь\n\n〰️Пояснения нужны для того, чтобы потом не удивлялись почему удалён тот или иной материал.\n\nСтавим реакцию🔥 этому посту и далее скидываем кейс (с использованием нейронок/ИИ/AI/whatever) в комменты ниже👇\n\nУ кого есть то, чем хочется похвастаться?🥳🥳🥳\n\nтри...\nдва...\nраз..\n🚀Поехали\n\n#keisosubbota@serge_ai",
-    "link": "https://t.me/serge_ai/1488"
   }
 ];
