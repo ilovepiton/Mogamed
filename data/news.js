@@ -116,7 +116,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-07-16",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/E57mWw3CHK4lBxt9UnPaIGb-PaLRU3-jHyHvM6R-Y-h702EQMkDXcP3JKMDoopTJfN7OEJx6wqdgBk1TzrvwyBnzfoapdtswhCNTsXsY2i1Bu2Wph1jgnEX0ME1vxTBSpoxyrU5cT5DheVh4rI_yFkrsrh5bhyM4Nasv4YBtKYeZsuEEni9L9WWbACpEC3Atn_B1hlsRPyjZzbUtMdvh8klqEoiFYQYXHrOqj13uCuR--EkhQUw_rCleWJQmMAMRQbojwQuy02HWV9dtjuXkVJjLCH7c5Teqa-WkZIiHSjwWMB8gk4GmMK8tWlUoonEa_dDBieMUCyfNLp7Be9BR5Q.jpg",
+    "image": "https://cdn4.telesco.pe/file/J8AlE77yHGw3aUnlYCjiE8d_bCp237FbYaR-kFBYqQHoF2616pSYtbF7JvAc2ksHSzgSjWrrWrUAA1PdlmPRDcOxNysSGENtxOSaOJU-aymWY5L5f09tXPFO9BLTJoFOUmOa0FWot4jDC05qDv1bs0r7KsJVDApo2EezMq2FV23KW5VUQ7Lfqxv8W-BqCln0NI4BDnpe1XuED4ljFwaXo0DWBW8XMizgpX7tBz2a5iRSgzIb130gZA0topmBHegcKWZSSjO6DceveHidCyS97IefLYgkmW31mzjtLf1SR3Mw_5sMjYfQ4pRN7XMBqVnUDjp8jkgfNWVkvVhi3jhHmQ.jpg",
     "summary": "➡️🇨🇳Самая большая опенсоурс модель. Kimi 3\n\nБыстрее, выше, сильнее и бла бла бла.\n\nВ общем — идём играться сюда👇\n\nссылка\n\nцены на API: &#036;3/&#036;15 (не прям халява, но дешевле чем fable, а судя по слухам близко к ней и 5.6 sol. если не лучше даже)\n\np.s. в Kimi Code CLI тоже добавили. вот тут кое-какие сравнения",
     "link": "https://t.me/serge_ai/1497"
   },
