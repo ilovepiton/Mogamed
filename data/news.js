@@ -1,5 +1,16 @@
 window.aiNews = [
   {
+    "title": "Ребята, ищу контентщика помогать мне с нашими ТГ каналами.",
+    "category": "AI / Projects",
+    "source": "Your Pet Project",
+    "channel": "your_pet_project",
+    "date": "2026-07-28",
+    "importance": 4,
+    "image": "",
+    "summary": "Ребята, ищу контентщика помогать мне с нашими ТГ каналами.\n\nНадо быть в теме всей нашей движухи с Пет Проектами и SAAS, иметь хороший английский на уровне читать и слушать, отличать Тех Кранч от Y Combinator, и DeepSeek от ChatGPT.\n\nЧто надо делать:\n\n– Помогать с планированием контента\n– Управлять всем контентом который у нас есть\n– Аналитика и отчеты\n– Уметь в копирайтинг – огромный жирный плюс\n\nЕсли узнал себя – жду твое короткое эссе в @tm_assistance",
+    "link": "https://t.me/your_pet_project/691"
+  },
+  {
     "title": "➡️Anthropic не предлагает запрещать открытые модели. Но ...",
     "category": "AI News",
     "source": "Serge AI",
@@ -72,7 +83,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-07-21",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/h5GfJJW38Y7juWm2BGPnI27zJg8fUL_If9YHWAeCYNGefHwZgPgjqp29HSvj2Mcy3oTC12RG2pOhTZ2oLotasFzTB5m1kgA59NU9ziX5SkhaZMc-RGIRjhBRbLT3Wy7UnrU_T4uLUO3iR6HVbrys-RkqDB6kuGjZqMoUwK5mQaLp-MIyHJxrcIwh3ZeUhpJ0WRMSdsuihirvOzvBB9cjNWUYzSFaXK-8fui25yDrmZWj25QWr56q5JruqLfNxM1OJswwUTiL5jBGFESZIFvIPn8zfaXZvdt8UTImYvDPlFTn0fyfjl1sl0ybm8Iza8kbS-HgM5QFlcVux4Djjgg8Ag.jpg",
+    "image": "https://cdn4.telesco.pe/file/szA6fFUVJOdTMQGVzrvvfD3NBvlHKLjX7SyF0lHGT4b4bJkvYz_KABj_gsNLrxJhT2-QEbnNiCCF-2HA8opVsCl24TMXWOSI5QE7mkhQ1Usw--BECR51wNovwUauba_1uGAhjaCR9IsaNiUXejRRqhSpUiKBGnU5bXGghBprsik85cZ5hJzgscigqjtF0wNybVY6Sxmsuy9lK1dUKqAIqnuwsGW6AFBswBD_bKzzD6NOJ2liet74SztAOVzhdAgjSPy7-jwgHm340mTkz5VWGoQQpnilcWzb50bVL8KADbMdqgIfSoFhKF4Z40AlXVzrKNTD-UWc_d1e8XjIH7PMXw.jpg",
     "summary": "➡️Google релизят сразу 3 модели. Но кое-что уже даже не смешно...\n\nGemini 3.6 Flash (самая рабочая лошадь), 3.5 Flash-Lite (самая быстрая и не суперумная лошадь) и 3.5 Flash Cyber (самая недоступная лошадь. *доступна только для правительств и доверенных партнеров через CodeMender в рамках ограниченной пилотной программы) — это новая тройка моделей. Все быстрые, экономние и умнее. Действительно вроде бы как хорошие, но&#33;\n\nНо вот, что не смешно уже вообще ни капельки и из-за этого \"несмешно\" я походу начну развивать свой масонский тайный орден, который топит за то, что PROшку нам не просто так не показывают... Как Гуглы могли упустить такое преимущество (сколько уже ультрамощных моделей выпустили конкуренты?) со времен 3.1 pro? Думаю никак — если учитывать их \"лабараторию\"... В общем. вентилятор теорий заговоров включён.\n\nИграемся — здесь\n\nВсякие графики, примеры и текст от гугла — здесь\n\nЦена на API:\n\n3.6 Flash &#036;1.5/&#036;7.5",
     "link": "https://t.me/serge_ai/1501"
   },
@@ -207,16 +218,5 @@ window.aiNews = [
     "image": "https://cdn4.telesco.pe/file/T-AFOI8hUAytogXJpuiFE93sVjJB_VZOiv1BKG-SegGymgfqUsq4mNuJGvHYpQstcr4X6VlRygTlzO3r4nNzZVBwgUWOgazjxVQla8fWsIxTSKxRnIelyHSPBLzZOtnx0ZjvvCB6eKWVI4t7UAiVDyy9T1tim6b0uXVkUvse6jabfmHPd66OZiA619K5Ismw_nbnINOOeEQfYWFzNPIBrr6u2gT-S_VZuOesKEscg__vt9tW0JWxyfiWhWxbqo3aP1IjXzzVKURcnIYsMf-5qdb6TwjSqIKdDze_w55iFgxv0JJ1YOUWYbaeG82k4YSjWLRuEi9fljn9_exYooxLhw.jpg",
     "summary": "Я сделал ИИ девушку – итоги теста\n\nРешил поделиться итогами моего прошлогоднего пет проекта – ИИ Насти.\n\nВ 7ми минутном видео рассказываю про то:\n\n– Сколько принес бот\n– Сколько вложили в трафик\n– Сколько стоил платящий пользователь\n– Что с проектом сейчас\n– По какой схеме мы все это запускаем\n\nСмотреть тут",
     "link": "https://t.me/your_pet_project/679"
-  },
-  {
-    "title": "12 пунктов: все что, нужно знать перед запуском своего проекта",
-    "category": "AI / Projects",
-    "source": "Your Pet Project",
-    "channel": "your_pet_project",
-    "date": "2026-07-13",
-    "importance": 4,
-    "image": "",
-    "summary": "12 пунктов: все что, нужно знать перед запуском своего проекта\n\n1. Какую проблему ты решаешь и для кого\n2. Как быстро ты сможешь юзеру дать решение этой проблемы, и сможешь ли\n3. Сколько конкурентов решают ту же проблему\n4. Какое качество этих конкурентов: корпы, солопренеры, комерсы с кипра или венчурная шарага из США\n5. Общий объем установок (лидов) и кто какой процент приблизительно занимает\n6. Что у кого сделано в продукте: основная и вспомогательные фичи. Есть ли паттерны\n7. Какие паттерны все используют в маркетинге\n8. Сколько людей ищут это в поиске и в каких странах\n9. Сколько стоит клик в поиске\n10. Динамика ниши в целом – растет или падает\n11. Как часто нужен продукт юзеру\n12. Какой самый частый тариф все юзают\n\nНу и самое главное, что нужно знать – если нужна система , живое комьюнити, помощь с поиском партнеров и групповой темп – для тебя наш практикум по маркетингу.\n\nСтарт послезавтра, места пока есть.",
-    "link": "https://t.me/your_pet_project/680"
   }
 ];
