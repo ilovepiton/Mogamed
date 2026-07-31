@@ -18,7 +18,7 @@ window.aiNews = [
     "date": "2026-07-31",
     "importance": 3,
     "image": "",
-    "summary": "Эпичный вышел пост, 200+ проектов, вы мощь&#33;",
+    "summary": "Эпичный вышел пост, 200+ проектов, вы мощь&#33;\n\nP.S. Вся история в чате",
     "link": "https://t.me/your_pet_project/695"
   },
   {
@@ -215,7 +215,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-07-16",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/egwerMGUHt6Rm8V85e1qKMA8uO041FUuR_RcYbp9jGBFk1XFJJr3hb174DVPf-MJlUMjRU7zCsQgIODTa1pH2Y30OVNjBnA1do6j3Dyz9H9A6Nrpri09tLbXcaXuEu0-WHXnE_bKRs0ms0idEGYPNsmTwfsIKBSlPvf2S-zZEGU28PgQpvipHGDzjghVzdcweMCsNeem3DvU1Gzab9Qq-EZQX-vm3dN0LKwUuCGc1FV46Nc4svsurPUlKoxtKzO77e4x_1DwDD9S5-9hESJ2ycwycyl9TL7qhjPW2UzGSQF-zJkv08_epxLAZHkCVaGlQ3jyaWNxYUKxaV5jdSAk5w.jpg",
+    "image": "https://cdn4.telesco.pe/file/eklpfdqgXqqrw0FAhjSYGPQvcBbztYYUNQRbFLnKcS61iuSdxd96zCmdu2TA7Y0275t4qzG3UwwVIxqHklR0mD6tGRM6SK7EKL_yP09W2woazZbUPgbgDqLgyRIW8V8MRqpVkh5dQoeZKbK9OeHj_AXeYQBh1Mvd-3kb-useC5P9Pi1ltmbIFb6LX77sZbumTp7pAvn-Vw3_nKxenQAO2Ze7FLOsDwuYJ_MnStGMJy8NtCPCt6x1iXdE9hT_Qm6n95Z8aBksiKvgYBdokm02RDwW4DPMdUx-fcjkUFsalAn2FwFjkH-bvHiOFxlBkJIVNu8kZeRawhJtOFYTC3pVRQ.jpg",
     "summary": "➡️🇨🇳Самая большая опенсоурс модель. Kimi 3\n\nБыстрее, выше, сильнее и бла бла бла.\n\nВ общем — идём играться сюда👇\n\nссылка\n\nцены на API: &#036;3/&#036;15 (не прям халява, но дешевле чем fable, а судя по слухам близко к ней и 5.6 sol. если не лучше даже)\n\np.s. в Kimi Code CLI тоже добавили. вот тут кое-какие сравнения",
     "link": "https://t.me/serge_ai/1497"
   }
