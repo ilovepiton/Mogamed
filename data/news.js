@@ -11,6 +11,17 @@ window.aiNews = [
     "link": "https://t.me/your_pet_project/694"
   },
   {
+    "title": "Эпичный вышел пост, 200+ проектов, вы мощь&#33;",
+    "category": "AI / Projects",
+    "source": "Your Pet Project",
+    "channel": "your_pet_project",
+    "date": "2026-07-31",
+    "importance": 3,
+    "image": "",
+    "summary": "Эпичный вышел пост, 200+ проектов, вы мощь&#33;",
+    "link": "https://t.me/your_pet_project/695"
+  },
+  {
     "title": "Про Google как канал трафика",
     "category": "AI / Projects",
     "source": "Your Pet Project",
@@ -83,7 +94,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-07-24",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/kGGctX7upxhlFR61xkEwQYvakO9CPjSLkXzwFFfXxSz6V90pPuemNTNc5Rv15ANLSrwtXlviUxlqxGIDplBeQAtdnoKLHeK4Q71GmdczEatk3bgGpgGvw8QJ1fL864ySa0VVBUMV9azGkRfUL2w0g1A_7E8PE-KSf_jMrzA1dK-P3R38Gzf4bTGxjBl0HGOeuILaT1hIBQFTlE_yoPjv387bWqW5ngqx_6-4t-cUdqN4lEM9y-w56Uu6O767JhCNyf_EsRxcILGu2fXAKHUmxq1bZLrIzRJuFh39JjA6mcAhET2wlP8eKdWE8_cg8WvsBdEp4pu0ajLOJsr700bihg.jpg",
+    "image": "https://cdn4.telesco.pe/file/o_sgo9sW6qQ0Td5zjyF9yIGnMKslfFdvqX_uYEQ92aqPUucW5f8NngjltLJbjtB5Wl2b8Nm6UO5uYDLZqjjRs2ZJTKQ5piHmxYp0PiEfevmwuL4IxFd35CQcbZpY5EKpmA45t50HAxwa-knUtTXhUSowrCyl4ueQ7LH-j9mDSQszHCO7wm8HdqcjCCN9zaY8smricdVwrXdkZTWdVUKIhGPfKLPn8mhUjmQiV3SWo509mmjYBrWSyQfj5iV_PbTCXq1Z672gnzn_WMlVprjlrzFj5cpR27szRJiUIdqeabv7xqGk6hjv_33Dmf1GP98UIdtOsMWwCb6sTjOS2JxpZg.jpg",
     "summary": "Opus 5. Готовим кошельки…\n\nДаже не буду расписывать, что он хорош… Цены те же, что и ранее были на эту модель\n\nПодробности здесь",
     "link": "https://t.me/serge_ai/1506"
   },
@@ -116,7 +127,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-07-21",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/XY8yNsgHcIPE1Tc1pzNFOuColdPMcJuimDn5bV-pTHg8m2pWoU8nzmIbmu8x-w7g7CfA_bzfg0LeqVcUTtAAcUlMRx4gOfUqhDvjgOtpKE6ohfDNF9ao2mvXhEsGQd9aggEVEdUWXEq1EyKsGlj3ZexNiGFTKOmql3Cs7Baae6nxe1eoC_yEZarhmnqDvsNFne202aMrKKyTttx8aBh8xid2n01aFHlSZuz3Pe3x9-Fulxkkm-cu8CkxTnR2zrjoKmG9qWENt98tV3POITwLCHrTBMpidGeCjgB5Djz9NbnHeW7xxHll33xm4QzplqVd1180sz2m1t0FnHPYR_GHgw.jpg",
+    "image": "https://cdn4.telesco.pe/file/i49Tn_El752xDkOURMofba4Ye6mzpcIVNkJG3oPaO1ZjGiaxrHzSGUfV7TeC9uMFQpI_n6OMEAf_kehubaI0FEDM1WM9dR4YtZ0ipJF7jfs2CmBV2Gi2RY5AXqi7HQ075Ks6xrt4q3EHdAC5neYLbfZHhPM3xjjJIm1_vzVdcTPLZZ3j6M7UrdWKDw5NGsRS4mB2IAIDB7sLGilpWPHkdt9o4vRywdACIobqcgHPSKnii5YqwtQVwC3n2miaz7qVz_GWsr6oXXHSzVWRlyi-5wN235d0iYiiFKGOpsIbi8QSP4lGwxytGW9HbcVMyojB6W6ayagG0CNAy9QJ087-RA.jpg",
     "summary": "➡️Google релизят сразу 3 модели. Но кое-что уже даже не смешно...\n\nGemini 3.6 Flash (самая рабочая лошадь), 3.5 Flash-Lite (самая быстрая и не суперумная лошадь) и 3.5 Flash Cyber (самая недоступная лошадь. *доступна только для правительств и доверенных партнеров через CodeMender в рамках ограниченной пилотной программы) — это новая тройка моделей. Все быстрые, экономние и умнее. Действительно вроде бы как хорошие, но&#33;\n\nНо вот, что не смешно уже вообще ни капельки и из-за этого \"несмешно\" я походу начну развивать свой масонский тайный орден, который топит за то, что PROшку нам не просто так не показывают... Как Гуглы могли упустить такое преимущество (сколько уже ультрамощных моделей выпустили конкуренты?) со времен 3.1 pro? Думаю никак — если учитывать их \"лабараторию\"... В общем. вентилятор теорий заговоров включён.\n\nИграемся — здесь\n\nВсякие графики, примеры и текст от гугла — здесь\n\nЦена на API:\n\n3.6 Flash &#036;1.5/&#036;7.5",
     "link": "https://t.me/serge_ai/1501"
   },
@@ -207,16 +218,5 @@ window.aiNews = [
     "image": "https://cdn4.telesco.pe/file/egwerMGUHt6Rm8V85e1qKMA8uO041FUuR_RcYbp9jGBFk1XFJJr3hb174DVPf-MJlUMjRU7zCsQgIODTa1pH2Y30OVNjBnA1do6j3Dyz9H9A6Nrpri09tLbXcaXuEu0-WHXnE_bKRs0ms0idEGYPNsmTwfsIKBSlPvf2S-zZEGU28PgQpvipHGDzjghVzdcweMCsNeem3DvU1Gzab9Qq-EZQX-vm3dN0LKwUuCGc1FV46Nc4svsurPUlKoxtKzO77e4x_1DwDD9S5-9hESJ2ycwycyl9TL7qhjPW2UzGSQF-zJkv08_epxLAZHkCVaGlQ3jyaWNxYUKxaV5jdSAk5w.jpg",
     "summary": "➡️🇨🇳Самая большая опенсоурс модель. Kimi 3\n\nБыстрее, выше, сильнее и бла бла бла.\n\nВ общем — идём играться сюда👇\n\nссылка\n\nцены на API: &#036;3/&#036;15 (не прям халява, но дешевле чем fable, а судя по слухам близко к ней и 5.6 sol. если не лучше даже)\n\np.s. в Kimi Code CLI тоже добавили. вот тут кое-какие сравнения",
     "link": "https://t.me/serge_ai/1497"
-  },
-  {
-    "title": "Деньги делаются в первой сессии",
-    "category": "AI / Projects",
-    "source": "Your Pet Project",
-    "channel": "your_pet_project",
-    "date": "2026-07-15",
-    "importance": 4,
-    "image": "",
-    "summary": "Деньги делаются в первой сессии\n\nМне очень нравится читать разборы онбордингов и пейволлов, потому что я прекрасно понимаю, что все новые фишки обычно там.\n\nСмотри как это работает с точки зрения юзера:\n\n– Ты лежишь на диване и скроллишь ленту\n– Тебе попадается интересная реклама и ты кликаешь\n– Ставишь приложение, заходишь в бота, регаешься или оставляешь свои контакты на посадочной, не суть важно\n\nИ дальше два варианта:\n\n1. На тебя вываливается страшненький интерфейс чьего-то пет проекта, в котором все разбросано, какие-то стрелочки, и надо в этом всем разбираться (минуту назад ты не планировал это делать)\n2. Тебя ведут по красивому коридору с примерами как работает продукт, дают попользоваться и показывают отзывы тех, кто уже был до тебя\n\nВ первом варианте ты закрываешь и уходишь.\n\nВо втором варианте ты с каждой минутой вовлекаешься все больше.\n\nТак вот.\n\nКакие там вообще бывают фишки:\n\n– Кто-то вставил личную историю автора\n– Кто-то юзает картинки было-стало\n– Кто-то дает скидку 50% сразу после закрытия пейволла\n– Кто-то вставил видео-отзывы\n– Какие-то ребята тестят 99% скидки и тарифы за неделю\n\nВсе это не просто так, все это надо забирать и внедрять к себе.\n\nТрафик стоит для всех одинаково, а вот конверсия в оплату и в продление платежей у всех очень разная.\n\nИ кто-то пишет что “платная реклама не окупается”, а кто-то работает над продуктом, тестирует, и окупает трафик х3-х4.\n\nВсе, что нужно делать до первых 10ти платящих - полировать первую сессию, и все.\n\nТолько полировать её можно вслепую год.\n\nА можно взять из запуститься с нами – каждому даем индивидуальный фидбек на его продукт, посадочную, онбординг и пейволл, исходя из best practices и выбранной ниши.\n\nЗаписывайся, сегодня старт.",
-    "link": "https://t.me/your_pet_project/683"
   }
 ];
