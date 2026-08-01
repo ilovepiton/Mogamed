@@ -1,5 +1,16 @@
 window.aiNews = [
   {
+    "title": "Сходил на подкаст к подписчику Мише @leadgenvalley, поговорили про стартапы, бизнес и продакт-менеджмент.",
+    "category": "AI / Projects",
+    "source": "Your Pet Project",
+    "channel": "your_pet_project",
+    "date": "2026-08-01",
+    "importance": 3,
+    "image": "",
+    "summary": "Сходил на подкаст к подписчику Мише @leadgenvalley, поговорили про стартапы, бизнес и продакт-менеджмент.\n\nКто давно меня не видел – приятного просмотра\n\nhttps://www.youtube.com/watch?v=_z1XIoIV9fg",
+    "link": "https://t.me/your_pet_project/696"
+  },
+  {
     "title": "Пост бесплатный траф: скидывай в коменты ссылку на свой проект и короткое описание – какую проблему решаешь и для кого.",
     "category": "AI / Projects",
     "source": "Your Pet Project",
@@ -18,7 +29,7 @@ window.aiNews = [
     "date": "2026-07-31",
     "importance": 3,
     "image": "",
-    "summary": "Эпичный вышел пост, 200+ проектов, вы мощь&#33;\n\nP.S. Вся история в чате",
+    "summary": "Эпичный вышел пост, 200+ проектов, вы мощь&#33;\n\nP.S. Вся история в чате\nP.P.S. https://proekty-idei.vercel.app",
     "link": "https://t.me/your_pet_project/695"
   },
   {
@@ -182,7 +193,7 @@ window.aiNews = [
     "channel": "your_pet_project",
     "date": "2026-07-17",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/GR1fuBeZ6-ntZntK1MiBQRiX7ePbB8JJJFzS2HkVou9x5nDuxioVY50RuxWv6EWm9C-duE4OsCIe0_UVRzPzTeeL39zqp24lerc3aNIEOTAmshkn3d-gxHtn8I4nwBb_CEYNfQ8VMhKgZyAvifft9BiIldWaWHOFRYmTsswVv8Qkj2_baTP6P8fhUkAxBhwYzeK3CSaxMvZLM3HP-L1VNcDtIzUf4p4JA7LfUaEzbxrIP-6ef5ed5nssu3yRctUpvZt9ajf-y8yajRtzjmMBCMG_R5YD39t-AA6JkriCp5Qp7oaWR97ImgXyAuY9SDBoBQPy-WPpshnrUPef3Ad7VQ.jpg",
+    "image": "https://cdn4.telesco.pe/file/LwaEMaYOB0nTUF-lRaCeHSfMIe_Mh45AQsd--YpO6uEZQBiFY_0mM_geLk8M_Wc4KxpEKjuWBY_S_AP_tNoyHEldYMTYMUr9SWsEVh4YBj-OcdoGO5baMvDGrt9Mpi3FRdA9UBqhiUYageCkmcqbdz8AwxNWcctTWl0xktb3aWjx5fdhNhHL5FFR-97OHiupGHpoWjuxDPm1T_qh0xF7B2tgX4cpa8aeJK__tdks_6mFKM_5anaka71Pv1zNENDGk8AmZPWKhFICvyQMaXceeloF1EPC2CJ9rkVWBDD3ubvHVTWXx8CBwGbtVx1_q8HCv8BrUEIXF4sk9u5NaYLaTQ.jpg",
     "summary": "&#036;50K в месяц на клоне Lovable\n\nИли как сделать копию продукта-единорога и заработать на этом.\n\nЗнакомься, Дэвид.\n\nЛетом 2025 они с братом Дэниелом смотрели, как взрывается рынок AI-билдеров приложений. Например:\n\n– Base44 – &#036;3.5M ARR за полгода и продажа Wix за &#036;80 миллионов кэшем.\n– Lovable – миллион ARR за первую неделю после запуска. Сегодня это &#036;6.6 миллиарда оценки, &#036;330M венчура и полмиллиарда ARR.\n\nНормальный человек смотрит на такое и делает вывод: поезд ушёл, всё занято, куда я против ребят с такими деньгами.\n\nДэвид посчитал иначе.\n\nДаже один процент такого рынка меняет жизнь.\n\nИ они с братом собрали свою маленькую версию – Shipper.\n\nОба нетехнические, кодить не любили никогда, с 2019 года учили не разработку, а маркетинг.\n\nТак что да – два человека без кода сделали инструмент для тех, кто хочет без кода.\n\nКак они нашли, чем отличаться: Открыли Trustpilot конкурентов и прочитали, на что жалуются, залезли в их публичные роадмапы и посмотрели, чего люди просят годами, вступили в их Discord-сервера и читали чужие чаты, читали собственный саппорт, где юзер прямым текстом написал: хочу превратить этот сайт в мобильное приложение\n\nТак родилась киллер-фича.\n\nУ конкурентов – сайты и веб-приложения.\n\nУ Shipper – ещё мобилки, хром-расширения и боты для телеги и дискорда.\n\nОдна общая боль, фокус на неё.\n\nВот и весь план.\n\nПервая версия была кривая и постоянно ломалась, но ее выкатили всё равно.\n\nК третьему месяцу был продукт, за который не стыдно, к четвёртому догнали конкурентов, к шестому пилили фичи, которых у конкурентов нет.\n\n– Трафик – ноль рекламы, только бесплатное:\n– Product Hunt в первую неделю. Первые &#036;50 MRR.\n– Reddit. Регулярно по 400 апвоутов – подняло с &#036;50 до &#036;1K MRR.\n– SEO по ключам с именами конкурентов: альтернатива Х, сколько стоит Х.\n– X. Где-то на 50-й день build in public выстрелило, и за пару недель прилетело около &#036;20K MRR.\n\nЧто имеем сейчас:\n\n– &#036;25.6K MRR подписками\n– &#036;71K gross volume в месяц вместе с разовыми доплатами\n– 690 платящих\n– 0 бесплатных.\n\nFree-плана нет вообще\n\nРядом стоит компания с оценкой в &#036;6.6 миллиарда, которая раздает токены почти бесплатно, а два брата спокойно живут на свои &#036;50K в месяц и никому не мешают.\n\nВопрос только один: чем твоя версия будет отличаться.\n\nИ ответ на него уже написан.\n\nВ отзывах, роадмапах и чатах поддержки твоего будущего конкурента.\n\nБесплатно и открытым текстом.\n\nПросто почти никто не идёт читать, все ноют что рынок занят и ловить там нечего.\n\nТот, кто хочет работать, всегда возможности найдет.\n\nА если хочешь рассказать свою историю в канале - присылай @to_baza_education",
     "link": "https://t.me/your_pet_project/685"
   },
@@ -207,16 +218,5 @@ window.aiNews = [
     "image": "https://cdn4.telesco.pe/file/QIiOvGyP3Tb1rUw89XVsZEkeXaYbCLt5iZR58Kf9CBZ7pkyNsg_QkBqe8t-QtbeKgiE19wZragg8K5tRX0Avtp1eURBieERVRnR3ZKx5MwykysxyVPZAN0l2FzvL6U8AI2EfHa6t6bSPqtu6ET5r0Yjw-K3i-JzIZBXcbbZhQjsJOLpDTVlda9ZKwkoBSogTXRSMXmi2PXQoqLtLb-ROqc2yiZVxmlWr5gimI9aH6YMHexHUz6r-XfJs0dxgelic3Fv5aZ4aAMF__eimXFeQ8LivCcys1njzEhHUtvMSOeJP3hYioFgwmUCMINfrOaAg5pVHTSRC236K8tIvGAuGqQ.jpg",
     "summary": "➡️Open AI выпустили клавиатуру для вайбкожаных\n\nДа уж... Нет слов, если честно. Ну ладно — чуть найдётся.\n\nКакую проблему решает данный девайс? Как будто бы создаёт дополнительные — как по мне...\n\nДавайте сразу глянем, что пишут создатели:\n\n1. Мгновенно активируйте навыки\n\nСдвиньте джойстик, чтобы запустить общие рабочие процессы Codex, такие как просмотр PR, отладка ошибки или рефакторинг кода.\n\n2. Держите основные действия под рукой\n\nКлавиши команд предоставляют вашим наиболее часто используемым действиям специальный ярлык: принять, отклонить, нажать для разговора, начать новый чат и многое другое. Меньше переключений. Больше результатов.\n\n3. Настройте Умственные Способности\n\nПоверните ручку, чтобы отрегулировать уровень рассуждений в данный момент. Оставайтесь быстрыми для простых задач или увеличьте уровень, когда работа требует более глубокого мышления.\n\nТ.е. в мире, где ИИ херачит 100к строк кода за десятки минут. Мы ускоряем человека, который вместо 2х кликов мышкой, будет нажимать теперь на 1ну кнопку? Вот это я понимаю отладка бизнес-процесса. Как же им удалось найти настолько узкое место в этой цепочке... Эффективность работы — уровень (сами придумайте, какой уровень)\n\nМои слова закончились.\n\nДа, кстати, ценник — 230 баксов\n\nссылка на лендинг",
     "link": "https://t.me/serge_ai/1496"
-  },
-  {
-    "title": "➡️🇨🇳Самая большая опенсоурс модель. Kimi 3",
-    "category": "AI News",
-    "source": "Serge AI",
-    "channel": "serge_ai",
-    "date": "2026-07-16",
-    "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/eklpfdqgXqqrw0FAhjSYGPQvcBbztYYUNQRbFLnKcS61iuSdxd96zCmdu2TA7Y0275t4qzG3UwwVIxqHklR0mD6tGRM6SK7EKL_yP09W2woazZbUPgbgDqLgyRIW8V8MRqpVkh5dQoeZKbK9OeHj_AXeYQBh1Mvd-3kb-useC5P9Pi1ltmbIFb6LX77sZbumTp7pAvn-Vw3_nKxenQAO2Ze7FLOsDwuYJ_MnStGMJy8NtCPCt6x1iXdE9hT_Qm6n95Z8aBksiKvgYBdokm02RDwW4DPMdUx-fcjkUFsalAn2FwFjkH-bvHiOFxlBkJIVNu8kZeRawhJtOFYTC3pVRQ.jpg",
-    "summary": "➡️🇨🇳Самая большая опенсоурс модель. Kimi 3\n\nБыстрее, выше, сильнее и бла бла бла.\n\nВ общем — идём играться сюда👇\n\nссылка\n\nцены на API: &#036;3/&#036;15 (не прям халява, но дешевле чем fable, а судя по слухам близко к ней и 5.6 sol. если не лучше даже)\n\np.s. в Kimi Code CLI тоже добавили. вот тут кое-какие сравнения",
-    "link": "https://t.me/serge_ai/1497"
   }
 ];
