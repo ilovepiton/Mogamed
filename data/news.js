@@ -116,7 +116,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-07-24",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/p5lnqEmzegNRxWJzlSVGObyvzY8oFerbvbFMEkxUu325pB2sxEJcimvF0yY1FUUCwNTC-bu8Y3BoFHMlnN-fhBbmcOwfEmkP_4VpzWJcA-R1NimwP5wbD0B6PURBZH9uVulQarq9xQt_URCSHQ91DluFOm0dDPbV8CdojAI5MS6vqyoa9vukvg2N3bFebawYhc93WwLda9QkDoxSAT5Nl0hhrOwGQ6YQrCmZairYjZDVivMAc68IDkgnzEHFngkQ6WqYrp2cOyd2-FT8XY820Fx-8Ud9QSPld9-cAPfULLXH8vlUxOp6qY10L4-Q0baPz3uan39rx8ei01iny6VdTQ.jpg",
+    "image": "https://cdn4.telesco.pe/file/D_7VoUts1l7CkaiUIPr3bfi2wVqhJekb1uhxkGeq8F-UOxyjeXwIejTpMkutoZE5M6IINpTHwlgDRrWQnXIG5Xu9CiYWM9yz9ryRT3l6YjSfk4FtZ3bt0pu_Xvhgbk63xcdsOFJlcMdKKYaY_YO79Jmi22egqYIs1n_BQBJmOSJX2h7ygMq-kzTmlKA1HrMuYO9dY9UcPxJnAsHuyvVf4K844JY_P-h_yb2HhYRPuZtziSkaco6OIaRmWiUUg729WIQSRA0wAMzlN510COe8mHHJOId1XkeD7Az5TmMb5yKgmlVMPJ7lTvycgIBZ5CPLYY48FYIQftMAcPDbatCYGg.jpg",
     "summary": "Opus 5. Готовим кошельки…\n\nДаже не буду расписывать, что он хорош… Цены те же, что и ранее были на эту модель\n\nПодробности здесь",
     "link": "https://t.me/serge_ai/1506"
   },
@@ -149,7 +149,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-07-21",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/kpDLMRk6weobx7PdRFudIVZXf_agJrQcEvdKIPlZsZ-c7j8To90VHgTsZxhJtQjvcwY_iI5TCZQb55eYMACE1RsZE57H_7riVxP4XS6CJ0YISo_xqKkE5_ePFcBtFs4hO55LHhi-l0bwq4jOnisy6oy5iR_7wd1Qe-hIOiIPf0OINZev0H963OZOAHCbJjTQl_BGr71lH7vqPESqYaNa8jDcrtA77cMU2MxQ6b-obT_DbrAUA0bthXJpuwugwzSJ6C4SUiYo42ycvn_jFiH0ip2I1o4tsA-vMxv-2d5GRdJzla60X5GzZ3dUrAbIfPfjWvDKASa85wCoe4-4CXBhcg.jpg",
+    "image": "https://cdn4.telesco.pe/file/lUvn3S_UK2SPTqACIJem5iM9hJdxDZgxOEvyklxw4aLKYEATbNJwUEWfpUPHTHlDUm0Ch9vyRWTRpIMuRAjnVfkXi948qwAQ2wsO7c4A5Sgg6qSwgyg7Z6DuAN_eLEz6-DiYd2VJLoXmebOyWBdx1E_sXQ0LIKK-fSzbMZ9zaBOFj7AO5IsxKKH3ZcSGV5DPeima99rN7zikLyMr4fUUV5G7AB49zug7_Xy2MjZHVos0jsh6u0TXny_Xwu3pJMkqnupGsia79jOVV9I1obRcnpBOBc_FX0SYq0781PLtNLVEA6GH5rTws8fmGoxw2EtJTBZXhy3qoe7Vl4kOPrGWzg.jpg",
     "summary": "➡️Google релизят сразу 3 модели. Но кое-что уже даже не смешно...\n\nGemini 3.6 Flash (самая рабочая лошадь), 3.5 Flash-Lite (самая быстрая и не суперумная лошадь) и 3.5 Flash Cyber (самая недоступная лошадь. *доступна только для правительств и доверенных партнеров через CodeMender в рамках ограниченной пилотной программы) — это новая тройка моделей. Все быстрые, экономние и умнее. Действительно вроде бы как хорошие, но&#33;\n\nНо вот, что не смешно уже вообще ни капельки и из-за этого \"несмешно\" я походу начну развивать свой масонский тайный орден, который топит за то, что PROшку нам не просто так не показывают... Как Гуглы могли упустить такое преимущество (сколько уже ультрамощных моделей выпустили конкуренты?) со времен 3.1 pro? Думаю никак — если учитывать их \"лабараторию\"... В общем. вентилятор теорий заговоров включён.\n\nИграемся — здесь\n\nВсякие графики, примеры и текст от гугла — здесь\n\nЦена на API:\n\n3.6 Flash &#036;1.5/&#036;7.5",
     "link": "https://t.me/serge_ai/1501"
   },
