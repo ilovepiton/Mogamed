@@ -11,6 +11,17 @@ window.aiNews = [
     "link": "https://t.me/your_pet_project/698"
   },
   {
+    "title": "Сходил в гости к Антону Назарову. Антон прикинулся глубинным разработчиком, поговорили про то как запустить свой SAAS...",
+    "category": "AI / Projects",
+    "source": "Your Pet Project",
+    "channel": "your_pet_project",
+    "date": "2026-08-04",
+    "importance": 3,
+    "image": "",
+    "summary": "Сходил в гости к Антону Назарову. Антон прикинулся глубинным разработчиком, поговорили про то как запустить свой SAAS продукт и можно ли на этом заработать.\n\nВидос уже на ютубе https://youtu.be/2YNuCl1Zzpc",
+    "link": "https://t.me/your_pet_project/699"
+  },
+  {
     "title": "Он слил шесть приложений подряд. Седьмое сделало &#036;1M ARR за 10 месяцев",
     "category": "AI / Projects",
     "source": "Your Pet Project",
@@ -127,7 +138,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-07-24",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/D_7VoUts1l7CkaiUIPr3bfi2wVqhJekb1uhxkGeq8F-UOxyjeXwIejTpMkutoZE5M6IINpTHwlgDRrWQnXIG5Xu9CiYWM9yz9ryRT3l6YjSfk4FtZ3bt0pu_Xvhgbk63xcdsOFJlcMdKKYaY_YO79Jmi22egqYIs1n_BQBJmOSJX2h7ygMq-kzTmlKA1HrMuYO9dY9UcPxJnAsHuyvVf4K844JY_P-h_yb2HhYRPuZtziSkaco6OIaRmWiUUg729WIQSRA0wAMzlN510COe8mHHJOId1XkeD7Az5TmMb5yKgmlVMPJ7lTvycgIBZ5CPLYY48FYIQftMAcPDbatCYGg.jpg",
+    "image": "https://cdn4.telesco.pe/file/SEz7brDbHZxYGdJb9Q3A7XZioG8hzwj9-8Pu62yy8vgHc55HCHl1snjoRkdTOrx92XyHo9__UWfVt-7aZq2DxGgWjdw3dw6wDW9TCY4gD9H1vSkoadqehO5vci280mL16z2zsGxL7rGdrW1-8XwIsAbpYd7VqRZ3JWiPqSnfHjoDSp501VHTH7jIvVlb7SnErjNgcyrBUbUIXENTc13YHDAA5IB_O7q5C4fJ7BnWGs2mNmEWQYCHa3p1lxsDTvjB8kPk4V7L4WpI8lzvGkp8wLpiVn7U7rvwlVaeuFOUG9g4Z2k-tZ5R7H-w5Dgc-KARuiYP3J-5txgXtUQRWK5cJg.jpg",
     "summary": "Opus 5. Готовим кошельки…\n\nДаже не буду расписывать, что он хорош… Цены те же, что и ранее были на эту модель\n\nПодробности здесь",
     "link": "https://t.me/serge_ai/1506"
   },
@@ -160,7 +171,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-07-21",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/lUvn3S_UK2SPTqACIJem5iM9hJdxDZgxOEvyklxw4aLKYEATbNJwUEWfpUPHTHlDUm0Ch9vyRWTRpIMuRAjnVfkXi948qwAQ2wsO7c4A5Sgg6qSwgyg7Z6DuAN_eLEz6-DiYd2VJLoXmebOyWBdx1E_sXQ0LIKK-fSzbMZ9zaBOFj7AO5IsxKKH3ZcSGV5DPeima99rN7zikLyMr4fUUV5G7AB49zug7_Xy2MjZHVos0jsh6u0TXny_Xwu3pJMkqnupGsia79jOVV9I1obRcnpBOBc_FX0SYq0781PLtNLVEA6GH5rTws8fmGoxw2EtJTBZXhy3qoe7Vl4kOPrGWzg.jpg",
+    "image": "https://cdn4.telesco.pe/file/qIn1NkP4LPGzsiEZd-SwfFI1w7LZ-AIBZxdKqy32tHxqxKxwKnbqF67kgsExkqTYfyjUZgqbNmhRddLUriBv0lDTElmEzyuf4R5asIdnpICf27tWcZyOt9mvxAHYPqSwEmEglBz6qS8uV4EqvttSjU53nLyzt7BdBVdFucsPwpZjoIBwblpZRABn4umPj6KPfgP3RMB-hVSSj5v4vrM8ImsmKbbLJysNi4Za0g-VZm3BaEIsUdX7jnpSRPIrO6C-ONEV5m0JZjRIK57_aPyhOiHYJfhmgCQEy4WbDYBNRWG43d9mbGTLJSYYgDH5VtrkCXfPpHmIe5zuSbjP2EqksA.jpg",
     "summary": "➡️Google релизят сразу 3 модели. Но кое-что уже даже не смешно...\n\nGemini 3.6 Flash (самая рабочая лошадь), 3.5 Flash-Lite (самая быстрая и не суперумная лошадь) и 3.5 Flash Cyber (самая недоступная лошадь. *доступна только для правительств и доверенных партнеров через CodeMender в рамках ограниченной пилотной программы) — это новая тройка моделей. Все быстрые, экономние и умнее. Действительно вроде бы как хорошие, но&#33;\n\nНо вот, что не смешно уже вообще ни капельки и из-за этого \"несмешно\" я походу начну развивать свой масонский тайный орден, который топит за то, что PROшку нам не просто так не показывают... Как Гуглы могли упустить такое преимущество (сколько уже ультрамощных моделей выпустили конкуренты?) со времен 3.1 pro? Думаю никак — если учитывать их \"лабараторию\"... В общем. вентилятор теорий заговоров включён.\n\nИграемся — здесь\n\nВсякие графики, примеры и текст от гугла — здесь\n\nЦена на API:\n\n3.6 Flash &#036;1.5/&#036;7.5",
     "link": "https://t.me/serge_ai/1501"
   },
@@ -207,16 +218,5 @@ window.aiNews = [
     "image": "https://cdn4.telesco.pe/file/KKmndmyFLdc8Tjhp26scp0u6rqCNwbFtznl00gtcmf-yYPrQzRZ1btlTFQXyfmS-gJm6rqO4fehMj9OL_d_k-ofRav4TCb5v93Sq8pqTE7tTxzZafzWIJ7Jo5c3IUoMi-AdgdR4nP4PzBmVSUrFWfM-jzSvbZMF0oKPdhGIhL4prOvAv0HBE6d6PE9QFUecTD4nGcG7gXycqOcs9pW73IyB3OVg0jNH6PPmRqvlIpUuKsrJBgyaEyrXxgQuPIVANUAVlExe4JebTv2KwfGIr1o9aD7dEt6HgBrkMZ4OL9mnT1EkwqixZM16djy_RKF8pMnK49ponKuPJaSGw030MNg.jpg",
     "summary": "✅KEISOSUBBOTA\n\nКейсосуббота — это рубрика, где мы делимся своими работами и взаимодействиями с ИИ. Это может быть что угодно:\n\n-картинки\n-анимации\n-текст\n-код\n-боты\n-песни\n-видео и т.д.\n\n❤️ Не забывайте оставлять обратную связь на работы других людей. Это очень ценно\n\nДавайте попробуем меньше разводить флуд в комментариях.\nДля разных вопросов у нас есть чат — там такое. А здесь давайте по делу. Читайте ниже пояснение\n\n👇А также читать пояснения и правила по ссылке ниже.\n\n❗️ВАЖНО&#33; Прочитайте по ссылке ниже пояснения:\n\nСсылка на пояснение для тех, кто не участвовал ни разу в этой рубрике. Или для тех кто не помнит, какие есть правила.\n\n+ ПУБЛИКАЦИИ ОТ ИМЕНИ КАНАЛОВ И ЕСЛИ У ВАС НЕТ НИКА В ТЕЛЕГРАМ— НЕ ПРОХОДЯТ СЕЙЧАС МОДЕРАЦИЮ\n\nТАКЖЕ - ЕСЛИ НЕ ПОЛУЧАЕТСЯ ОСТАВИТЬ КОММЕНТАРИЙ (БОТ БЛОЧИТ ВАС) -- читайте здесь\n\n〰️Пояснения нужны для того, чтобы потом не удивлялись почему удалён тот или иной материал.\n\nСтавим реакцию🔥 этому посту и далее скидываем кейс (с использованием нейронок/ИИ/AI/whatever) в комменты ниже👇\n\nУ кого есть то, чем хочется похвастаться?🥳🥳🥳\n\nтри...\nдва...\nраз..\n🚀Поехали\n\n#keisosubbota@serge_ai",
     "link": "https://t.me/serge_ai/1498"
-  },
-  {
-    "title": "&#036;50K в месяц на клоне Lovable",
-    "category": "AI / Projects",
-    "source": "Your Pet Project",
-    "channel": "your_pet_project",
-    "date": "2026-07-17",
-    "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/FmJofLG-6-Yuih7tbUIjDp4grv4TbvBEcK1IWxf4FjnKrGRtS-dTn7QGLOSZjMSMhjBv3xchffcow66rQNeALhBd7IfSGjTK_AB2b04uOmtqb1uMc_i_a0A9qci94Ew9fa1Qa9080dcz6M4vu3VxSxLi7qYgxPqkvZpnZG1g4wS_mFBUAkrKlcKTrvKrDKub3cVOaehsd4JXSTw6EXL6hugmrkesinHYUqN8BmS3Nz5lsWK13vXiEgiaedk6YEgaOd1YjtNwkIkPgWNNzytAVm7Iigpkjj_rUhyeglT5AmJx834BmXzhcEpp1o-rOOYA-E1ZWHl3q-wj3qTOK9U4eQ.jpg",
-    "summary": "&#036;50K в месяц на клоне Lovable\n\nИли как сделать копию продукта-единорога и заработать на этом.\n\nЗнакомься, Дэвид.\n\nЛетом 2025 они с братом Дэниелом смотрели, как взрывается рынок AI-билдеров приложений. Например:\n\n– Base44 – &#036;3.5M ARR за полгода и продажа Wix за &#036;80 миллионов кэшем.\n– Lovable – миллион ARR за первую неделю после запуска. Сегодня это &#036;6.6 миллиарда оценки, &#036;330M венчура и полмиллиарда ARR.\n\nНормальный человек смотрит на такое и делает вывод: поезд ушёл, всё занято, куда я против ребят с такими деньгами.\n\nДэвид посчитал иначе.\n\nДаже один процент такого рынка меняет жизнь.\n\nИ они с братом собрали свою маленькую версию – Shipper.\n\nОба нетехнические, кодить не любили никогда, с 2019 года учили не разработку, а маркетинг.\n\nТак что да – два человека без кода сделали инструмент для тех, кто хочет без кода.\n\nКак они нашли, чем отличаться: Открыли Trustpilot конкурентов и прочитали, на что жалуются, залезли в их публичные роадмапы и посмотрели, чего люди просят годами, вступили в их Discord-сервера и читали чужие чаты, читали собственный саппорт, где юзер прямым текстом написал: хочу превратить этот сайт в мобильное приложение\n\nТак родилась киллер-фича.\n\nУ конкурентов – сайты и веб-приложения.\n\nУ Shipper – ещё мобилки, хром-расширения и боты для телеги и дискорда.\n\nОдна общая боль, фокус на неё.\n\nВот и весь план.\n\nПервая версия была кривая и постоянно ломалась, но ее выкатили всё равно.\n\nК третьему месяцу был продукт, за который не стыдно, к четвёртому догнали конкурентов, к шестому пилили фичи, которых у конкурентов нет.\n\n– Трафик – ноль рекламы, только бесплатное:\n– Product Hunt в первую неделю. Первые &#036;50 MRR.\n– Reddit. Регулярно по 400 апвоутов – подняло с &#036;50 до &#036;1K MRR.\n– SEO по ключам с именами конкурентов: альтернатива Х, сколько стоит Х.\n– X. Где-то на 50-й день build in public выстрелило, и за пару недель прилетело около &#036;20K MRR.\n\nЧто имеем сейчас:\n\n– &#036;25.6K MRR подписками\n– &#036;71K gross volume в месяц вместе с разовыми доплатами\n– 690 платящих\n– 0 бесплатных.\n\nFree-плана нет вообще\n\nРядом стоит компания с оценкой в &#036;6.6 миллиарда, которая раздает токены почти бесплатно, а два брата спокойно живут на свои &#036;50K в месяц и никому не мешают.\n\nВопрос только один: чем твоя версия будет отличаться.\n\nИ ответ на него уже написан.\n\nВ отзывах, роадмапах и чатах поддержки твоего будущего конкурента.\n\nБесплатно и открытым текстом.\n\nПросто почти никто не идёт читать, все ноют что рынок занят и ловить там нечего.\n\nТот, кто хочет работать, всегда возможности найдет.\n\nА если хочешь рассказать свою историю в канале - присылай @to_baza_education",
-    "link": "https://t.me/your_pet_project/685"
   }
 ];
