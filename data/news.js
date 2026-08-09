@@ -160,7 +160,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-07-24",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/VrswN1-PHCAi_niPpr0JtBY2P5yPYZD90Hz222zL8w6GcMqNDPNYkmsqOcDmd-jFhDBBKHR_T9WRKVx6U44RRP8TU4_zfKmp_lxTU8VsQ6cn0s5TFSdCaDj6I63vn80A5hSUYORSDlZV0fxroddoSn5fKgWpXy1TaIb_HNcSXaTi6BDeyQWWNEm4yM7yxUU2u1q_Fkvay6972MPkd5fr2sNZ3Ccmuq8cHs6RNXQzDb6cOBi9Z3o1KGKq3YwNFwDj-Y9cRoiW-oH1PWMvA8lnN8hq-udjzZ85kNW-J8frzz0prZQu5uwBapA_x678wMjA4c979s8GUgnSlhVBrKS3Fw.jpg",
+    "image": "https://cdn4.telesco.pe/file/os3mspxDUkSFJcaC4h0Yu5gOfXJt3Rm_p80qyu5oib7a38BlcB1PoNkG-9iWhVz_zbjVH6oiT0wH9ObQq5Cg93Yuq-Mwe6SCT5StrdgY4xi32LyhHVrXYUZbN5UC17fDYvYMqYZwiYC8UGapuESIeOXPgHOt9wkkdkyatt0SopUQtW2VvN8blc_ou0CxHt-w4PNnSyt1DECkt4dWR6u4YgRsZ3Fqh0QIHDREs_qa6Ieseg736XZy5lEmmQCMNFiOrnPbwP8-cuGjbDom4KYuXBB5vbNiRosW2q9l_hb0-otRFLXq_zS4tmlDd8uPCH5r9H9lQdU5FSS4O0p5rVJo_A.jpg",
     "summary": "Opus 5. Готовим кошельки…\n\nДаже не буду расписывать, что он хорош… Цены те же, что и ранее были на эту модель\n\nПодробности здесь",
     "link": "https://t.me/serge_ai/1506"
   },
