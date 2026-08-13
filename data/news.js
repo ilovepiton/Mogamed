@@ -22,6 +22,17 @@ window.aiNews = [
     "link": "https://t.me/serge_ai/1516"
   },
   {
+    "title": "➡️Manus бесплатно до 25 августа. Налетай торопись. Забирай живопИсь",
+    "category": "AI News",
+    "source": "Serge AI",
+    "channel": "serge_ai",
+    "date": "2026-08-13",
+    "importance": 3,
+    "image": "https://cdn4.telesco.pe/file/DhTqQFDHCySpDQRg174Zs3Omzuuiq5gn1NyANe2E9OMXdQt5sD17z6BuO4jIFJ-XdwUITgTrHNUChU9wu0IhOpfyn87N0MhhxtvNoZXnKIV6Ze-Q_K9OqtOElPhIQCLDoeXhsHYswQwqYk4fWQIMmTDmRaNpvNxwFOqg041CE4LvUfcXXTTvwI7MQ7VemjpiwbBW9iUy8LxUWqNrkTfkeAdPunuRngtrjcwqRKebk-WABSAevGiWc7alGrZ2luuyq-pFwb7bsr45yqgqrf_JxJUKSy2ig_7TTrR-kxcdXQZ15krIrIYtPZw59GIWYl6mINmnZnGsnLygOcYEF0ycjw.jpg",
+    "summary": "➡️Manus бесплатно до 25 августа. Налетай торопись. Забирай живопИсь\n\nЯ, честно, не фанат этого агента, но многие даже не имели возможности его попользовать, т.к. он жрал деньги, как не в себя.\n\nОн многое умеет и по своему хорош. Но лично у меня не прижился.\n\nКто не тестил по разным причинам — сейчас самое время.\n\nПо идее, по этой ссылке вы должны получить +500 кредитов (которые потом, после атракциона щедрости, можно будет тоже потратить)\n\np.s. внимательно прочитайте про удаление данных в 20х числах августа.",
+    "link": "https://t.me/serge_ai/1517"
+  },
+  {
     "title": "Торгуйся до конца",
     "category": "AI / Projects",
     "source": "Your Pet Project",
@@ -207,16 +218,5 @@ window.aiNews = [
     "image": "https://cdn4.telesco.pe/file/UC_JcC4eFhE4rmXkGEqE8q9mLGSmDoAZNdxFThM8Ba8edHoPMvFtYYNlJNImjz9I3gxpyGmCKrLPw8lvT_Eqfv9dHJMkz6-bDSYRiVznDyEA03A7W09xfXC7KJm2_EMVdYeI3-fKFdcz1Z7CZZQBuCNwOOwyg4--0F7sghCBup3FaxdV4crazKQ7D8-mjSjwBpADNH27aKkcsUpAFrZtq3dBCGGqtwVuAcIiXSFJUwdSpkCqLz470wY5p6vTpG--52zss0bOr63pG8mSpq9GDISYwMwnoWDz7vrrUIMf8Ympnig2-lO4xYZDnzCAqtJMusMYsZpoYGuU_A-uY74heQ.jpg",
     "summary": "Они стали юникорном за год. Их юзеры – логисты и прорабы\n\nЗнакомься, братья Джха, близнецы из Индии.\n\nМукунд успел поработать в Google, а потом был сооснователем Dunzo – индийского сервиса доставки, который в итоге закрылся.\n\nМадхав – PhD по теоретической информатике, также входил в команду, которая строила Amazon SageMaker.\n\nВ июне 2024-го они сели делать Emergent. Публичный запуск – лето 2025го, это год назад.\n\nПродукт это билдер веб-приложений, работает так:\n\n1. Описываешь приложение текстом\n2. ИИ-агенты сами проектируют, пишут код, тестируют, и выкатывают в прод.\n\nМукунд называет это командой разработки в коробке.\n\nИнтересно, что к моменту запуска продукта такое уже было, и было не раз.\n\nУ Lovable уже было 2.3 млн юзеров и &#036;100M ARR. У Replit сопоставимо.\n\nБратьев индусов это не остановило, они просто решили работать на другой сегмент.\n\nЕсли у Lovable и Replit фокус был на офисных клерков с презами и эксельками, Emergent пошёл к транспортным компаниям, заводам, стройке и управляющим недвижимостью.\n\nЛюди делают себе трекинг грузов, внутреннюю CRM, простенькую ERP. Софт, который иначе просто не появился бы: нанимать под него команду разработки нерентабельно.\n\nТреть клиентов – Северная Америка, треть – Европа, Индия всего восемь-девять процентов.\n\nКак росли:\n\n1. Криэйторы, инфлюенсеры, хакатоны и офлайн. В маркетинге двадцать пять человек.\n2. SEO и соцсети. Базовый органический поток.\n3. Шаринг: готовым приложением можно поделиться, и его можно склонировать. За год на платформе собрали больше двенадцати миллионов приложений – это двенадцать миллионов бесплатных витрин.\n4. Управление через агента, который живёт прямо в WhatsApp, Telegram и iMessage. Человеку не надо ничего ставить и настраивать: он собирает приложение в том же чате, где переписывается с женой.\n5. Фокус на автоматический QA - агент сам тестирует полученный результат и сам вносит правки\n\nЧто в итоге:\n\n– &#036;15M ARR за первые 90 дней\n– &#036;100M ARR через восемь месяцев после запуска\n– 200 000+ платящих клиентов\n– &#036;230M инвестиций от фондов\n– Оценка &#036;1.5 млрд, за полгода выросла в пять раз\n\nВо-первых, меня удивила скорость: от запуска до единорога за год это очень сильно.\n\nВо-вторых, это очень хороший пример, что можно побеждать и в очень перегретой, залитой деньгами нише, запускаясь позже чем конкуренты, с продуктом и фандингом хуже чем у них.\n\nВ-третьих, это не очередной клон. Если вчитаться, то продукт реально сильно отличается фичами, все исполнено в своем стиле и на свою аудиторию.\n\nВывод будет очень простой: не бывает занятых ниш. Бывают фаундеры, которые не умеют в конкуренцию.",
     "link": "https://t.me/your_pet_project/690"
-  },
-  {
-    "title": "Opus 5. Готовим кошельки…",
-    "category": "AI News",
-    "source": "Serge AI",
-    "channel": "serge_ai",
-    "date": "2026-07-24",
-    "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/CoiUsitwHJJGNJUcbqdSBWq6RfM879gWv8HOJ2gEm1ffdNWFdiW8WT7gCV_b13AfbOsXl1Sml14dMtEKESUmF1Chxrekd0oUV9tWeXfVrHpvoMxzWddfgWBIYzqnZnIgbSoB98wAO5rn9Zoq92B5Je_KuPaDZ5hDytFGIh5aXIBH4A_tTAM2ETS3-7sYac6YfVvBfo_tg02rr871ifP_31J4PjlbYfOplhFDrajFR9AIKhP6d46OG7xf5dq-tRmZ41mTEkUY2_gNkf5CjRn4gYOl_IVDDX8yD97mRd8RoMbLiO-CUaN7zOaaS4gAKH-4AkuI3XPgVwE3QVeviI8QBw.jpg",
-    "summary": "Opus 5. Готовим кошельки…\n\nДаже не буду расписывать, что он хорош… Цены те же, что и ранее были на эту модель\n\nПодробности здесь",
-    "link": "https://t.me/serge_ai/1506"
   }
 ];
