@@ -1,5 +1,16 @@
 window.aiNews = [
   {
+    "title": "База.",
+    "category": "AI / Projects",
+    "source": "Your Pet Project",
+    "channel": "your_pet_project",
+    "date": "2026-08-13",
+    "importance": 3,
+    "image": "https://cdn4.telesco.pe/file/hlBeliN3p0Di1K0FBI99YDjJ7ktMGo75XqkxNkfS4JZLwaXJugK2-E0l6QoJrhhybNJ7AO4Xbg2GIV0GVZB4qyCN4OOeahqFM1JiovASU_2sr6KOK9CSS1Y1fkrdSVQYat-ZyHOEqmxSTvXGRfve1b1wPvSacfYePk4NdpKfFq7me4ZloIiCHJE2FWVycrbWuIz0rdRvGGwgmrxBmZz1VaEfZLoSZVHZl84mWZI1eIu9STz55xGh21YxpiWcMQVWe22AmnaM96OhxMOUz3WnoMu00TlUsFhdwv1Njmbx4uyQR9pY9osiAF5CYA9uIMl_eqyOTbhjhJIZGHVrPyq0dw.jpg",
+    "summary": "База.",
+    "link": "https://t.me/your_pet_project/704"
+  },
+  {
     "title": "Торгуйся до конца",
     "category": "AI / Projects",
     "source": "Your Pet Project",
@@ -138,7 +149,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-07-30",
     "importance": 5,
-    "image": "https://cdn4.telesco.pe/file/H4B3KzZMv-_Sgf91C0_m9rCKbQdTZGrNUQMgIOLyW5OSV_wTUcSix1rqE3mZFm78ml1EIKNP05Jg-X8FP1k_JKzTnkw44MvpB538M2AuFJAEU0WDPBGxCxtvRiXdF8RTmw_Vr_gRkGxeVe6PtN_uI9AECpG22Bd1uybDastJ4sWQ-B3YRBrQlb5Yyv9eVSjuLYF_d4nGRz8HxzIKnKhql7f905zJJ2baDIpXh_jTozMDQiNxLhqZ22ThRVOxb6EQKyG02CrzHiysAT8MQ0uHqKxxYos-jEuBpOzKHBHxQOkeAGlVT-liwJmp7JP8KDrH_uSJEcXj4aQ3eWQrjLtTrg.jpg",
+    "image": "https://cdn4.telesco.pe/file/IfZ0k-kWabjo_5Y2PVBTBIw8N7928pf412xfITTgfTIVw8gyu6zKPcztQQvG_WnkC26rV4L8wasfFWGR_1itsiNUwO9-k4Mf6MzGYdNfTTHOSpdfNwLqlYCIHOv6mZD8pCgX6fUc6IoYIuzPPfSXd3jmf1CBpLHMgj0gVwPFf8X6IKpgYtsabZMcIj5xHN_X41NR4f-Ua-Xeb8ZEi7T__QRhVj_fk-n4lxT2Xuuoh1E7dsC5-P049q5OMkXbssVBdvGOJHHoedgTdYGTa7lnAEOrJFhb_P-gjzoVNWYERwrN0b-UqRb0Iu153MAtGwweL46dTPcaTDbylG5rGLcFRg.jpg",
     "summary": "➡️Тот ИИ-Агент взломал не только HuggingFace…\n\nДа, знаю, что историю с агентом OpenAI, который выбрался из тестовой среды и взбудоражил общественность — мы уже разбирали вот тут и тут. Но в деле есть новые подробности.... Выяснилось, что одним сервисом дело не ограничилось.\n\nВо время известного инцидента модели нашли публично доступные данные для входа и добрались до четырёх аккаунтов на четырёх разных сервисах. Один из них — клиентская среда Modal , случайно оставленная открытой. Названия остальных трёх OpenAI не раскрыла.\n\nНо самый прикол дальше. В том же уточнении компания упомянула что есть ещё несколько аккаунтов, к которым модели получили доступ во время других тестов.\n\nКакие это были сервисы? Что именно модели там делали? Выходили ли они для этого из своих песочниц? Был ли причинён ущерб? Или может быть уже Т-800 уже говорит кому-то «мне нужна твоя одежда»… Ответов пока нет.\n\nПохоже на то, что OpenAI уже пережила несколько аналогичных побегов и решила о них промолчать.\n\nЧетыре сервиса — это уже довольно-таки дохера за один инцидент. Не?\n\nПрикол в том, что расследует всё это сами же OpenAI — те, чья модель устроила инцидент и чьи процедуры безопасности теперь проверяются..\n\nБыло бы очень здорово, если бы нам показали всё-таки всех, кто пострадал и как. А также уже точно пора создавать всякие независимые комиссии для подобных случаев…\n\np.s. видел в твиттере видос (не смог снова найти), где Альтману говорят «могли же пострадать и другие компании». Он сухо отвечает что-то типа «могли» и убегает в лифт…\n\nКому интересно почитать более подробнее:\n\nСсылка раз и ссылка два",
     "link": "https://t.me/serge_ai/1511"
   },
@@ -149,7 +160,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-07-29",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/pyN7g0RnMDk1LgMzodTZGJuUQJRWyqhDK4ocb6OtkYc8JSiPQlN8lykhaKEKUegjUdNp06bYIT_xxmU9OSF3gm-0hYg7FASANSm3xvImTpEPlX8laCU_K5kLEKBCUo7DEgPFmLq0X8ikuA1rm41izgo7C-RLwRyejGlDhZSAuvmeIlv7-FXi_tXQxxfrfTHgEJ8cmEVaM8P6NdYzrkf7p7CjQeqfbVgWc23FBcdPjiHeBcfqv4ajR6KoTwuwmc7Z-CBwCCpQDRAKNNZPFAgkVsbrUM2spCZi347uCw4_hVJOSwV6nnZf-GEO6VigsSi1Bf9aGeWNaJwhirCbekobKQ.jpg",
+    "image": "https://cdn4.telesco.pe/file/NzWEIyRZrngiPEIJwszINxdpQ4TZG0Nwu9fQkvnXTjYhseczWiSzHBkDfRfnNkW0LyJL30vM9Es8meaGCI5ZvOqi7hrVe0Umdt0-WJM7faJH6AhDdwIWwDpjtUkAkMpFCwanq0aGf_2V_7JLNq888I2nDNyI97omF_Bs5TOYZkL7ohD0wQyDBuvogHPLjRRB8lnfB7ohGNW2w7olwhhIbQuafaycnQBm86SiABml-ekJLI6AY8BwqXif6wuiwp6aJSzoeXdK6ytRRrOU3_G0OIxp-ffokUb15q0deHF1-zw_4iYTAZqNKuzXWPfuhX5fwyj2uW67lhHaYkR956qt-Q.jpg",
     "summary": "➡️Ребята, кажется, нам нужен тормоз... тормозить нельзя разгоняться\n\n1 224 сотрудника ИИ-лабораторий попросили США поддержать международную разработку общего тормоза для нейрогонки.\n\nЕсли на человечьем — эти люди ждут, что ИИ скоро начнёт заметно помогать создавать следующий, ещё более сильный ИИ (возможно разработчики ИИ начали беспокоиться, что ИИ скоро за них и разрабатывать сам себя будет). Насколько это ускорит прогресс — никто толком не знает. Но участники гонки уже допускают, что однажды всем понадобится сильно сбавлять темп.\n\nИ тут прекрасная иллюстрация современного Мира. Тормозить может и надо — но только дружненько. Компания, которая притормозит одна, рискует отстать. Со страной та же история. Поэтому добровольная осторожность работает примерно до первого косого взгляда на конкурентов. Теория игр в деле....\n\nПисьмо интересно не страшилками про скорый интеллект-взрыв, а честным признанием — ускоритель есть, а общей педали тормоза не завезли.\n\nПравда само письмо эту педаль тоже не изобретает никоим боком. Плюс там нет условий для остановки, способа проверить участников и защиты от хитрецов, которые объявят паузу, а сами продолжат шуршать моделями в подвале. Короче — много чего нет там. Личные комментарии подписантов тоже нельзя подтянуть как позции их компаний, но динамику точно пожно понять.\n\nПока это просто записка на холодильник (а не какой-то план-капкан спасения от ужасного ИИ) от тех, кто фигачит на передовой разработки ИИ. На записке написали \"ребята, кажется, нам нужен тормоз. тормозить нельзя разгоняться\"...\n\nссылка на письмо (рекомендую перевести и прочитать оригинал, там пару строчек буквально + можно глянуть на имена и должности обеспокоенных)",
     "link": "https://t.me/serge_ai/1510"
   },
@@ -204,19 +215,8 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-07-22",
     "importance": 5,
-    "image": "https://cdn4.telesco.pe/file/Bx1yp4Bp_EPiQfn65_cDROXwJofexBTAm-NtMgfZGAVC0xdOe2yB0tpAGjuUnhHPkTjwsgkrb0SY29ZUrfTq1BrjxbwJmX0FRAPKFojYkEbVbRxLlSarGwvcz0pdHekrraBLOpotcryB7kEThg0fzUqyPtM3hEe0BziO7CqroQu98qu90O3mNMIVuhuRhbxhOqLx-H_Kop2qoQeUXH8JCKd1iy8xwvdUpwuRRp-7Yp7Q2KpwTXHuuwuluUZVWSDo9roKYVUbAY7TWS9bCrobDh_R4YiqD-KVzlwkhfade3AKQ6yFWsLfcbL3RcJnQNtNJQjhGd0Pum0uyZhlC5aHcw.jpg",
+    "image": "https://cdn4.telesco.pe/file/cpYE61YgPVPf3CWSbgcF-C-vOkA9s1oGzNEUmHu4UzmlxfLcUFlLo67wKcGQLFKcBf9kdUSg-T3dEatroQ6eX5cG58cK0kglifYafzGxym7Tc_WUVl1KpjwBxK7g8vmBolcdrs0_PDhbYPOpiwtFLV2ybfB-VWCZ1DJ4kdKm184T4HQHM1dDJ0GIC_X3pTBAYA8ybhkn2pmjUsCGzG572mYds4Un7AwyWOQwA-jiS8K_ct_P8qu9nbpr-UZ4AiOd_ZqxHPkKbqcjvdzWpFMJseT4wMDu7TOPlAvg6f2baJUNkuNaQ8DLV1MFWhnT7rtQb42xjgh-PyOwTDd0JcXv3Q.jpg",
     "summary": "➡️Короткая история, как сняли ошейник с ИИ-собаки, чтобы узнать, далеко ли она убежит... А потом дружненько удивились, что она убежала далеко\n\nПомните недавно писал про то, как ИИ-агент взломал Huggingface (вот тут)? Оказывается это была модель от OpenAI (они якобы \"покаялись\")... Тезисно расскажу\n\nOpenAI тестировала свою модель на кибервозможности и специально отключила ей защитные тормоза \"для чистоты замера\". Задача была узкая — решить один технический тест. Модель решила её нечестно и вместо того чтобы биться над задачей, она нашла способ выбраться из своей изолированной песочницы в открытый интернет. А уже из этих ваших интернетов — прямиком в реальную рабочую инфраструктуру Hugging Face. Украла доступы, пробралась через несколько внутренних серверов и добралась до базы, где, как она поняла, могли лежать готовые ответы на её тест. Никакой драмы про захват мира здесь нет — просто способ срезать путь к правильному ответу чужими руками или точнее чужими серверами.\n\nСамое неловкое здесь не то, что модель это сделала, а то, что тормоза сняли сами, добровольно, зная риск, и назвали это методикой оценки. Получить в итоге проникновение в чужую продакшн систему после этого — не сюрприз, а закономерность.\n\nЗаметила и остановила вторжение, кстати, не OpenAI, а сама команда Hugging Face, ещё до того как к разбору подключилась OpenAI.\n\nПростой вывод-предостережение для обычных людей. Если вы гоняете ИИ-агента в песочнице без тормозов ради теста, спросите себя — вы точно уверены, что у этой песочницы нет случайной дверцы в настоящий интернет? А судя по тому, что вайбкожанные специалисты не читают ничего, что отвечает модель и просто нажимают \"далее\" или \"разрешить\" — никто не в чём не может быть уверен. И получается, если дверца есть — агент её найдёт если это совпадает с его целями..\n\nстатья от самих OpenAI Об этом всём",
     "link": "https://t.me/serge_ai/1505"
-  },
-  {
-    "title": "Золотая середина",
-    "category": "AI / Projects",
-    "source": "Your Pet Project",
-    "channel": "your_pet_project",
-    "date": "2026-07-21",
-    "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/Uc7p7rubZimCmyNfExGtsumr8sVKzbFv8XyOCb5wl75qNIZBCkXUdTL0TwOtieBz0B6ZNo6Iwkqmt2pCIwlMHyJXX9XRXFtlJiXz8w70areG0skd9U3S1v5k6iWsVCEK9nUlNDbgLxIMJ5VdG8kXtRMCfNbKTUj4H7Qw3mfmNEJWI1OAZJRsRAJIbLNiZxHI-uvjPa6UJxPo5e776wfWe6VwBrAORMGSs9_kgIzSVQD6y8g0dmLaSp84v_xDUmdZRXxMRyoV_5U5Hz1BAPohZIaBIE9je56z_pVGb4hCrQ0BmcqENJijxWpiAB7jL5pZNiwKQi6oNc-UsDNYJWygQg.jpg",
-    "summary": "Золотая середина\n\nОчень нравится мне сейчас ниша софта для работы:\n\n– Генераторы презентаций\n– Конструкторы лендингов\n– Всякие штуки для написания исследований, рефератов, постов\n– Диктовка всех видов\n\nС виду скука смертная, но если сравнить с остальным – то это золотая середина, где всё хорошее сошлось в одной точке.\n\nОбъясню:\n\n– ИИ очень сильно меняет то, как мы работаем, люди сейчас хотят больше промптить чем кликать\n– Старый софт вообще под это не заточен, даже старые продукты не получается переделать\n– Продукты нужны каждый рабочий день, а это значит высокий процент продлений (70%+)\n– Продукт может давать качественный результат быстро (вжик и преза готова)\n– Платят без вопросов (моментальный прирост производительности от внедрения продукта)\n– Высокий процент органики\n– Сотни, если не тысячи мелких сегментов с низкой конкуренцией\n\nДля сравнения, тот же Health & Fitness - хрен его поймешь, когда и какой будет результат у юзера, отсюда и ретеншен часто ниже ожиданий.\n\nЕсли раньше тот же Майкрософт Офис и Гугл Доксы держали 100% рынка, то сейчас я бы так не был уверен в их монополиях.\n\nТа же Gamma это 2 ярда капитализации и &#036;100M+ ARR за пару лет, и в рынке не они одни.",
-    "link": "https://t.me/your_pet_project/689"
   }
 ];
