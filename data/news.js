@@ -50,7 +50,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-08-13",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/Hz2Hiy0PCBIiESTVS__eDOfjyTj_iMaDRmR8uJSvelTDxyi_GTzP88ZhwYeZY_5DgmavjoHUOrW4i4Py-WpJK7S49kjqye2SfJKvBnDxk7x82Y0-Mo0jI_15VRMom83JF88tO_s4xYFrnM9sv5n4CtAvxhayEyFBgm07nj77plHKka1a9hJNVfaCVEWKtIe870vx9k1lTDRK1uHIDmuX7X4W-CTluXlJ-vz0rAVhcGZzooVABaZTEcGOQnil1TTwqLJFQi_KKX98qB53Vit_LzY16HiVUjTGZB2uzTCBlZ-dSM7NOTraIROTMRWHGt8GllG5snbV_4zpFLj_87eTeA.jpg",
+    "image": "https://cdn4.telesco.pe/file/jwiYGWkUDwDgCBpDsKHPD4LOUK7Y3qhXW9Vch9OC4877BeqN63tfy_pt9xGt9MdHkjHEkFyi5zyLuRCHnBmLf70cQrmc8e6LMa7qHysBFaxemdYKtFKS1wczBDtUrGVkBtQxtPfYPpBLrwwmTdvqkEqKYusunG3Cj5ss6_BZ-qoRscYRuEbn8e2xS5noMlu3EvCcxcdHWahlZWZkq0CYuRsluwESh8sk-WCZfVILANz6xD9qKxCVaHI3pWuOtcW070k1tMqR-uTDIHLoZw3SJ5EOCpUa_bq64JkjnsCrelbZanf6nDX3mRCEkITx5OoUwuWjUWZyd0yMh7SJ6RaxZg.jpg",
     "summary": "➡️Manus бесплатно до 25 августа. Налетай, торопись. Забирай живопИсь\n\nЯ, честно, не фанат этого агента, но многие даже не имели возможности его попользовать, т.к. он жрал деньги, как не в себя.\n\nОн многое умеет и по своему хорош. Но лично у меня не прижился.\n\nКто не тестил по разным причинам — сейчас самое время.\n\nПо идее, по этой ссылке вы должны получить +500 кредитов (которые потом, после атракциона щедрости, можно будет тоже потратить)\n\np.s. внимательно прочитайте про удаление данных в 20х числах августа.",
     "link": "https://t.me/serge_ai/1517"
   },
