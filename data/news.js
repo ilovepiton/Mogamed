@@ -39,7 +39,7 @@ window.aiNews = [
     "channel": "your_pet_project",
     "date": "2026-08-13",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/dK-ckatpWfmYGLNfk7KxPyRAofwr04mJiGfNpLYhxrVtlCX8hnyLDcfZ4xAGkLAcwy33pJFQK-oAW0yTXbW9hHRk5u49O83HrtYMELZ5lq5V89uTG1VL5bgubrjUZor1m4wG9eJ5otBINc1i-amM6qHPoOuF6bIaQXEhzMLxSJrv1Fi-Ynf7es6qwvXFk-nz8LRHwLrP2NUpFZFWwgNcgB9xKqnhbwlKRnZyjmEtGc2ca8sGm0oExxc1AUm9gTPpD3HxOMx3o7n4t-HdmpG9wci6oHXi_7a9P6VKtwgvvuU9dU6ngpLLn3SCVgTM_dfTaElxiMOK282LlEEV_oRUIQ.jpg",
+    "image": "https://cdn4.telesco.pe/file/XvKXlnQ6PovTmBWKWzzmSkQIBLo0gFGNUNTup5mjkB4zNRAcl-ec1cor1fsRP5IrJCHJ5ZcO__niQHsdvLpe0RDCQ47BEP505srm-Hg1NMMGhEal177TfKLnV1cgLFrrcxBy4F7TmDJw4ttHRw0gBse3nSdjyG3Q4gd3wTsLC7lcxlnPVocDRU_T0buUBepU4W1ORwjkHF9asmhesOJg1pYDWRmDBiSbT1jL-mPR8TyUFM9kMzkKD3o8joblMCisKcZIb8yKOsbNlpl56Dr9MBdneHKd2nTTEL45c0eqS_eFHiW88csMCU5UTGPyF_-jPtutQsukQMmQ9hsmpMBjag.jpg",
     "summary": "База.",
     "link": "https://t.me/your_pet_project/704"
   },
@@ -204,7 +204,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-07-30",
     "importance": 5,
-    "image": "https://cdn4.telesco.pe/file/KwMjnNZFgEBcXfqmrH0FGrG3mbgPGR2hd7vyBI9DN0e-6Ebv93yaz2qrXIH-OzZZUz1SoU6f2n5v1tn0cx9r8llmq6bxKrah_S2YhoODLjYdSvliU3FwOGr8dFzDPxivxUwGCGnHnW_qHlnqfyxmtAj6rXO-5GcfDNTcgKjuJWuYv2CnMwFrtPADLS8mehLTx83OizQG0cQKFD0E4btzi5xNeVUGjhutbtXi0Wm1kR9Fb7rckO2M0qYaFVbAHzGwhlS4qG3-Rz4SuWlvPOoSC42CUkHZBlFfIqfDtWC5oVoz9OfogGq9bVVC9HBlr4ctdOH5GdVb1sts4WCODztFPg.jpg",
+    "image": "https://cdn4.telesco.pe/file/vX9vVMwvznPvaUyqNPc85H-_xuW_MCtqpEnrbqpp1z8YoDlf80CiJfXsY6JGQ5ORZ31VGLmdZ6g7kE1gmclVqzDALsVkiE5JoNZPuPILUArapLwQM1IaocAMR1eRtaRivXU918i8W2PLp8hN_CXb3lxo96ZrRGNdLUxJySuactwb7qp7Ss1AdhanalWox-zawuJD4xcKMklcCZ_WZiA40wHv8bAPTeZU0eRp1ma523hKb7uYOIau-50CLng8PFnjpQAl1yobBgUTov_DYpwUH-D9InoXF5pVIQoX4hTGFYSHAykeN3-VtuCFKkPWWUDEfJpjZpa1O5ufLYfatfLsEA.jpg",
     "summary": "➡️Тот ИИ-Агент взломал не только HuggingFace…\n\nДа, знаю, что историю с агентом OpenAI, который выбрался из тестовой среды и взбудоражил общественность — мы уже разбирали вот тут и тут. Но в деле есть новые подробности.... Выяснилось, что одним сервисом дело не ограничилось.\n\nВо время известного инцидента модели нашли публично доступные данные для входа и добрались до четырёх аккаунтов на четырёх разных сервисах. Один из них — клиентская среда Modal , случайно оставленная открытой. Названия остальных трёх OpenAI не раскрыла.\n\nНо самый прикол дальше. В том же уточнении компания упомянула что есть ещё несколько аккаунтов, к которым модели получили доступ во время других тестов.\n\nКакие это были сервисы? Что именно модели там делали? Выходили ли они для этого из своих песочниц? Был ли причинён ущерб? Или может быть уже Т-800 уже говорит кому-то «мне нужна твоя одежда»… Ответов пока нет.\n\nПохоже на то, что OpenAI уже пережила несколько аналогичных побегов и решила о них промолчать.\n\nЧетыре сервиса — это уже довольно-таки дохера за один инцидент. Не?\n\nПрикол в том, что расследует всё это сами же OpenAI — те, чья модель устроила инцидент и чьи процедуры безопасности теперь проверяются..\n\nБыло бы очень здорово, если бы нам показали всё-таки всех, кто пострадал и как. А также уже точно пора создавать всякие независимые комиссии для подобных случаев…\n\np.s. видел в твиттере видос (не смог снова найти), где Альтману говорят «могли же пострадать и другие компании». Он сухо отвечает что-то типа «могли» и убегает в лифт…\n\nКому интересно почитать более подробнее:\n\nСсылка раз и ссылка два",
     "link": "https://t.me/serge_ai/1511"
   },
