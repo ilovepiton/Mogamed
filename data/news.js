@@ -94,7 +94,7 @@ window.aiNews = [
     "channel": "your_pet_project",
     "date": "2026-08-13",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/J9rSmEb-nUls50Kuc__jU-wzXdELZlWCNGesPogLW01FcCHotyecBN0UzqdChzp9PTGZUeOUcelI3Yr8pRmLJVVlR1jApK3yXtDyO39stYcIDaLgRbH9N9amdNWbgZohygQWcVjGXKO24LPa_TXyBcvGnkznwopzbFDs6iDK5iZhLXu_ynuFVu6pyEmadJAwBRM5jzIfFjsq32PypkMPb8Z-2NJmoK8fCm9tJHfw56s-XXjkQ5ZFrppGi_i3YmfIjt9hPCUH4hLuR5P5Lk-9nHeN7t_1ggxqSefcMVJarwtvsG0N1SDbdh17DiXRRthK5MRPj-g-b4_X1GDY_fkOBw.jpg",
+    "image": "https://cdn4.telesco.pe/file/gaMHTDTnK0N2tAOQ_-h6B5NZfU-WSqbirpsCJNX1Uz1mkEuf4yhVuGaX5tpNDU3CIcX88YIOtZgZOlkrvzgJig6xExP3kefF34kDJG3r3HHx6Bd-MM7OS4VA-axlKyuPcc99O78t12OSzRynMWux0k951nCYZWBIxKuPTMI5GcJXZ2Dxl0ojNjx8gJQ2EIPvZ6ONirzDJpP6Yw7jme6H3LJ8FcaiNIHPcxmrD6UuaFMAneVqW5JOGq-HjRZLj09_LqhJeXizrhziNL4v4uI5AvBfv05gnAw9bl0nl9nV_n6cc-2w46373fN7pgb7fl9FQ4361qso6bvA-418f_4inw.jpg",
     "summary": "База.",
     "link": "https://t.me/your_pet_project/704"
   },
