@@ -182,7 +182,7 @@ window.aiNews = [
     "channel": "your_pet_project",
     "date": "2026-08-13",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/V9mH0DQKGKA3j03rSQ3IPFjF37aadKXCtwznwGoTq1gZJOHl4KOHZF4R7jlATNjPOglTALla59e2AzfY1W6rZGyZJNVJ0fZZr7kU-syzSjWe8cIZ3DXvz8Tz2EgMA9eDgQBs9GdVCGMVn51wOShheriGwRfwgwaHOVlx2Om8dkBLbaudqP_S3XSGBfPZXeNV7mjY7N2qdEWYBCsIATWNdqH0w5m76l48nEAEZeRE03uIkNYMs6NunEKRRhHIKtcyMpk0KEKy5LaenMrpTe4RnphNTIo2_ve4WwZ40aYQBiIqDoC8530GCqGlyZZc4WD6ioRay61OvTEWEmH3MvEipw.jpg",
+    "image": "https://cdn4.telesco.pe/file/ksjbNncq4diPPgzMsVRgDAB-GOVZSW0k1qR-97feC7W3msLlpDtYKT-DcHVdDFqXPPy-BfDbLz8LG8ivgO-w7MoAEE63_fZ-IBxPTY0vMkE1UP4Ae_yqDzvUnmKvdJ4VXseb3GnVAFnNr7Ry1xUvZ9t49NpDNuuPKFMuOvrWEuxdWt4KoaJbbSr3oAIy0E8wtTUob8imS9A8lVEEzLET3Z634OECTuTKZoP_-FwtKDkopiU-MPBFF-kbq0JO0WjCE9cv1NW3NItTKlIq8Clca9DmjML0Ub4_yrc94CCMocEn9_pTwgCcUrn--6XteErr8zx7ZAIF82DfmrrQNZMHng.jpg",
     "summary": "База.",
     "link": "https://t.me/your_pet_project/704"
   },
