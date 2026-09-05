@@ -72,7 +72,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-09-02",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/hJl3QzvwIHiXs9bCoVDC8Q5yoG4tVwrhoE2ZTZf94swqSFMwfDGh2ebJyMyVWhbhQzqZgJ5tXPkmgQTylioYLJJaRSwFQo0wSUONWT1fWHKAqMdODiHHsBLXmSfpjg5Qis_GQWS8NIX5K7loj9ddMqu3Jsaz-2ifGyN_EWCiAfePBo4zFteeg3Ym1HFQQQD737UuF-tCD1-DoAgwUDqZVBcaWiVbG_MAYWVzrFrrgHtyFeqsOXru2GCcau5vjRxGWXvDraHnzjdpeBZjnR6_EJSBUGk0WsKDWxCnM_Oo3FKIUeJnGKcB0csOBJ0ozlffrA3tEe13Be4Sm0alpCBBGQ.jpg",
+    "image": "https://cdn4.telesco.pe/file/I-48wncYVPQ_kwQ2C73hmIrLVkYaN5rnY6T85s45Jhz0zUIhoBCyZcP4I6HZWDNm-VO7VdFgH6njqv6MeGZ7w4dXn4nQBmiiuM1KegJHIIROzkJCvSlZ8nqbqCTuDD59WGVCAjXex8wQ8xtER9Tx-2GXPtEc8r-862KUndDuWiYZFbXXkYaszAh0rsmLJGCFSFgMpRZI2zYHYHCFwbuy0OJKqMLRayNovrqXLT09_vtoPVoOK4ZXOq7lmZBabwYoXjgnuQqsWes1rw23cbj-Ik17BSK6AlpAlzfiXNAOtiY7U6bQXo99q6oAdWQMoiLe_GqE9nw0BO7vyZFDyJPmgA.jpg",
     "summary": "🔥Gemini 3.8 flash и Fable 5.1\n\nВышли обе эти модели и если с Fable и так все понятно. Ну то, что хорошо и бла бла бла.\n\nТо Gemini реально всех удивила. Она дешевле опуса практически в 6 раз, а по тестам не уступает особо ничем. А где-то и выигрывает.\n\nТакже китайцы выпустили новый Qwen 3.8 Max который сразу же на арене занял топ место.\n\nНеделя богатая на новое. Но я все еще жду Прошку от гуглов. Когда-то это должно случиться\n\nТестим флеш модель и квен тоже. Ну а Fable и есть Fable - тут все понятно",
     "link": "https://t.me/serge_ai/1527"
   },
