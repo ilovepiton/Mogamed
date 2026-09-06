@@ -11,6 +11,28 @@ window.aiNews = [
     "link": "https://t.me/your_pet_project/724"
   },
   {
+    "title": "Это точно какой-то прикол. Хорошо, 7й раз",
+    "category": "AI / Projects",
+    "source": "Your Pet Project",
+    "channel": "your_pet_project",
+    "date": "2026-09-06",
+    "importance": 3,
+    "image": "https://cdn4.telesco.pe/file/jkN-BQmLsUYa60zSX3ek4KRtwUn9vMkUqmwet7GOAN3B9czMJddysOhv80wMxHhbkJEwD-aOrlPMI_RpjFOmvuKFVIhY1puzHO7oDwsZNc3KhyAeHtpQJM7QvxKebLQMo2Kn4HvZfIk4lOAIn2k7lPlcDS-CTSKONKvt7Sp6UdFxhaLEApLm8EmhlMCtSeGpjZTyUqTJfwRda3xnP6X4g5Rq_pTEu15qFrD79FzPQsI9h8epj3BJ0rvflngO5PPn-VpeB97Pl3g4CBprlQuTKWQ3TkJ-Pfd72vr9uhOel4WiOq7CMMB0rlJ9OSzHNgu5hWjCHJ4CzI3Jj8alkUB_ug.jpg",
+    "summary": "Это точно какой-то прикол. Хорошо, 7й раз",
+    "link": "https://t.me/your_pet_project/725"
+  },
+  {
+    "title": "Ладно, я признаю что мало понимаю в этом мире.",
+    "category": "AI / Projects",
+    "source": "Your Pet Project",
+    "channel": "your_pet_project",
+    "date": "2026-09-06",
+    "importance": 3,
+    "image": "https://cdn4.telesco.pe/file/oEhKVzk24xlSJbk3-3Wi8by8dqsk4HboUiDe4Ec5sCtZ7MpMkJbdr8gEECUYIq0Y07VtsgjGTEJc1JTPyNOcVVXJPpI5UOx3IpYFuQ4onlO2QuRoYKihKImY1dv5Ik8YvrE_J4qpJaJ3RKj7uSFGIgkZqmHf5osFCvUybF4UuaHalOAnHEi501BfxR6lv34mGUb9aR4tRW2D51CBaV4rVfwy78T0nf_17hK761fCMMrBXzvoKzgAwW9S3350t-fLezzE1KPIKEBYyd2FYq3uWHaZLtZAz789bBjvyi7F-HXbtIKwZJv_Om3WFAESRjvqtPy6eN1L0zfHAJoAmeiVdg.jpg",
+    "summary": "Ладно, я признаю что мало понимаю в этом мире.",
+    "link": "https://t.me/your_pet_project/726"
+  },
+  {
     "title": "4 из 5ти идей на &#036;10K MRR вышло в предзаписи",
     "category": "AI / Projects",
     "source": "Your Pet Project",
@@ -196,27 +218,5 @@ window.aiNews = [
     "image": "https://cdn4.telesco.pe/file/AOtqIHfdm_GyVA_SgK0tLz5teTxQpZICya5TOXhPFXi3e2vfR34vetmhcA3vT0UHNbAUy1mkQP65OWCBxSufnD9sSI-9UeSdenzs9MW1eNSEuDA9ffRTazjaTgCq04AQqU2RD6nqvW7JsSvVuTra35tjuKIBJsW0BfQENV14ep1y4N0NGfC_nicZ9kO99H53Ua5OhbxjKVGhekB71fHSwXVRAthB-SgU925JT126xFOrMwOspHEBbqYIgigJS6S0lv5_81t5w4gOUgY7jX7IiKPuabQmyyVUSlfu5DM1tVAsHTcvGBTkoN77J_uLBPPf5IGLgiENjGqmppnGtdvn1w.jpg",
     "summary": "🚦 Поймать списывающего или наконец нормально дать задание?\n\nВ частной школе Cheshire Academy придумали простой способ объяснять ученикам, когда в домашней работе можно использовать ИИ. Каждое задание получает цвет светофора.\n\n🟢 Зелёный. Тут ИИ разрешён\n\n🟡 Жёлтый. Разрешены только конкретные действия. Например, проверить орфографию можно, а попросить чат-бота написать ответ — уже нельзя\n\n🔴 Красный. Всю работу нужно выполнить самостоятельно, без ИИ.\n\nИ вот жёлтый здесь важнее остальных цветов. Он заставляет учителя заранее определить, какую часть мышления нельзя отдавать модели. Не абстрактное «пользуйтесь ответственно», а понятная граница для конкретного задания.\n\nНа уроках французского пошли ещё интереснее — ученики дают модели отредактировать свою работу, а затем разбирают каждую правку. Где ИИ действительно исправил ошибку? Где предложил спорный вариант? Где вместе с шероховатостью аккуратно стёр голос автора? И т.д. и т.п.\n\nТак ученик не прячет использование ИИ, а показывает, способен ли он оценить его работу. Это выглядит полезнее бесконечной игры киберполицию: «Признавайся, чьи тут тире?», \"А почему длиные тире, а почему короткие, а почему кавычки ёлочки, а почему лапки?\"\n\nНо пока это именно практика одной частной школы примерно на 400 старшеклассников. Данных о том, улучшились ли знания, самостоятельность или качество работ я не нашёл.... Делать из этого светофора доказанную универсальную методику рано, но как по мне это хоть что-то и выглядит достаточно логичным и убедительным. Особенно когда ученики сами разбирают правки от ИИ — это в обучении будет ультраполезно.\n\nКороче система интересная, хоть и держится на честном слове ученика пока что...\n\nздесь статья MIT (если интересно подробнее)\n\nЧто вы внедрили бы в образовательные процессы нового времени, чтобы обучение успевало за технологиями?",
     "link": "https://t.me/serge_ai/1522"
-  },
-  {
-    "title": "Vibecoding360: завтра старт",
-    "category": "AI / Projects",
-    "source": "Your Pet Project",
-    "channel": "your_pet_project",
-    "date": "2026-08-24",
-    "importance": 5,
-    "image": "https://cdn4.telesco.pe/file/ihOC0TqloMPLhH5Ha9kB4hSIOtJ2A2Pe_DYfRDDziQwCb0pI7qFBECyQbOc52bPtP-55jQzSWbwlvDfZXkprJYu6WULEgcRgFjouodQzDLaKKk6NmdqiM5uIrZD6Qa7Wosh71uv2hwNNZ59oDoXPlxTO_1tgkVfpWhCmps1-6tQOaKRvHsPcfoNtDjDwmuckCmuBPBOGAdHefp_GphCFFexIA2URpXaYjxysKGnhKfDqJvLd5FpjYP9KeuNmL5WATRRHKck3sjsp1y9fwzYiDvbODtC2KKNHlQcWkEFjkYZPfcOjLyizDpIaRZLTbEJjqPBOyarI4H_4ke9_EGVHoQ.jpg",
-    "summary": "Vibecoding360: завтра старт\n\nЗавтра стартует августовский поток нашей программы по вайбкодингу.\n\nЧто вайбкодили ребята с прошлого потока можно почитать тут и тут, календарь занятий на картинке.\n\nПочему надо идти на программу:\n\n1. Это группа с живыми созвонами и заданиями под присмотром опытного разработчика, а не курс в записи\n2. Есть наш метод: цепочка агентов, которые сами у спросят у тебя все необходимые детали, составят ТЗ, напишут код и сами его протестируют\n3. Решен вопрос с оплатой ИИ из России (у нас есть партнер)\n4. Фокус на реальных бизнес-задачах: автоматизация бизнес-кейсов, написание скриптов для работы, парсеров данных, интеграций между разными системами, итд.\n\nЧто ждёт тебя на программе за 4 недели:\n\n– Личный AI-ассистент под твою рутину и автоматизация задач\n– PRD, дизайн-система и лендинг проекта\n– Полноценный веб-сервис на Claude Code с агентами: логика, интерфейс, база, интеграции, проверка на баги и безопасность\n– Финальная итерация и запуск в прод – опубликованный продукт, доступный другим людям в интернете\n– Стек, на котором работаем: Claude Code, агенты, скиллы, MCP, g-stack.\n\nРазбираться самому – тратить время и набивать свои шишки, а время – это единственный ресурс который не вернуть.\n\nС нами – безопасный рабочий продукт за 4 недели и поддержки от нашей команды по всплывающим трудностям в течение полугода.\n\nЗаписывайся в анкету тут и заходи на поток.",
-    "link": "https://t.me/your_pet_project/711"
-  },
-  {
-    "title": "Самый лютый MVP",
-    "category": "AI / Projects",
-    "source": "Your Pet Project",
-    "channel": "your_pet_project",
-    "date": "2026-08-24",
-    "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/u_-KAjQzi87ugfPXh7AOXrzj7foM7uB5hlZ8W0QQPov0jXoGyoDntjknxTwMwsyNbPo1EZ9ZKdLu5MEgX6t4Om8mnlI0JzDvnPuPgHHf9m2IuEzdx8VVr6L92x7HtWNIu0BTE0TiTlGW0c8EYzXxrvqlIg26c4wJYGfEj1RydkIvpf4B49pUKkc1UmdiautLl0ukktpl0cJcS6lnALjN3sLo1KlkdcG38jmZoApy-BE80iHQn6S4akCNkWa_Ai8We0KGP1kMwO7_qnKRpN1gjYjZaqKPIBHRwjuruQxdViE0xanTXSMcrrzgixRtHEv2MXzpus0HdOiZlL2AYR7oqA.jpg",
-    "summary": "Самый лютый MVP\n\nДело было лет 10 назад, мы были молодые, веселые, и запускали проект ФиксТакси, сервис вызова такси за свою цену.\n\nВ те годы не было фиксированных тарифов: такси стоило N рублей минута, и ты никогда не знал сколько оно будет стоить по итогу, потому что пробки, и все быстро меняется.\n\nМы делали сервис, где ты мог уехать за свою цену.\n\nКак выглядело MVP:\n\n– iOS приложение с тремя экранами\n– Регистрация\n– Форма заказа с полями “откуда” и “куда”\n– Экран статуса заказа\n\nПрикол в том, что у нас не было никаких машин такси с водителями на связи.\n\nМой друг Андрей перебивал заказы вручную в чужую службу такси и проставлял статусы.\n\nТак мы проверяли спрос и экономику проекта минимальными затратами.\n\nТеперь, слава вайбкодингу, ты можешь проверять спрос рабочим продуктом, который может радовать пользователей через часы, а не месяцы.\n\nСамое долгое - это ревью в сторе.\n\nЭто будет не заглушка, не лендинг с кнопкой “Оставить заявку”, не Андрей, который в два часа ночи руками перебивает чужие заказы.\n\nРаньше одна гипотеза стоила месяц и деньги на разработчиков.\n\nПоэтому ты выбирал ОДНУ идею, влюблялся в неё и тащил до конца, даже когда рынок уже сказал нет.\n\nНадо было привлекать инвестора чтобы вообще что-то запустить, ну или искать партнера разработчика.\n\nТеперь разработка стоит один вечер времени, основная сложность – трафик, трафик и еще раз трафик.\n\nТак что учиться вайбкодить надо, и лучший способ сделать это – вайбкодить с нами.\n\nЗавтра старт программы Vibecoding360, записывайся в анкету.",
-    "link": "https://t.me/your_pet_project/712"
   }
 ];
