@@ -105,7 +105,7 @@ window.aiNews = [
     "channel": "your_pet_project",
     "date": "2026-09-07",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/hBUR8yuDRPQ37T9xU4mFYd42ye_KjnVNpy59a949jkV_0_hH-8KZ7ARZJoAgyH-edrAhuyXVJiP9vt-Kz0r_5mKzOzF-3lR4bChWOBsoRHYB-56eTVGQ6cBZXMaYv2t2TDU_5OD-egggiXOA41sQB4u9dvOl6v79zhdmW0fTxbKNjHqniACUzmZ8KV1mHjZJYnzQWISYhQCun93dHTDsdq-PPqtWG8UOYHohlPP8j0UVuFzDekRvPbMavQpKsTFVCd5SZXXFXlBY2vSBdRF4hxphpcx0I9aO9q4bC0sY-aS0IerCPorSgImXcykfphW5SadPbiw2UL4uWc9ZjiVX8A.jpg",
+    "image": "https://cdn4.telesco.pe/file/k3E7_iduYK9RY7vr4iC4Fx6uRy0ngzvYIIBgR7HVJeX0abhXMZKO-mfZGMsJN3LFfTOHsTpp5u1GvaeusngEpcQ0rkKCNM744JwkU8836_DnjVQyuEUi_LcZ2LOOM2n8av0Fbaljl-NhigoovnqVBrFSEigyrImpIbHX_WZIV3tmwi_9O6Tv2HwX-bFtIeRmybbYSCMiztYu_xsFGHJ-F_MdjN-1qIkwzRIZMI-oWKtuuz-b88qzMdxcqezFR9iW8cgcjGivNhJkrkzw752FSMMs3A2XMljXB0Nsug2UXWBv8y0CqngL1-rigEmhdZgkT_5pwpkCLk2JMZw5EMmDZg.jpg",
     "summary": "Ближайший поток пратикума стартанет 23 сентября.\n\nЗаписывайся в анкету пока действуют ранние цены.\n\nКалендарь потока на картинке.\n\nВ предзаписи в ближайшие 2 недели выйдут отзывы и кейсы.",
     "link": "https://t.me/your_pet_project/728"
   },
