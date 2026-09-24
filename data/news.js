@@ -72,7 +72,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-09-22",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/B8PlVLBP10CW_oOq7SG8TvkTaTfBSqCYXSfN6oelJjpkKXygLK-si0KHFdJSYWUz23yGXadug9T1RK60xkrNLsaJe46-Ae27d1BW1Tnuur0nIjcfcECSxcXWpISRJNl1hrjY9ihCWhvcCV56wiSlLcVJOoDh4o4qwN1O7KHxnJcoD93qryArZ1-PSS1MP938Y_c94VC31ecMXefhKmlnrI-wO7IQjl-2XE9-Bt7UctInB1T6-sgKxc_kbVutvzEp-hFExwOqnc9Fk3aTis0YkXnDhlbY-xN-40Ra_VwCnnReDn1ujV_7vlohCqguGNZyzzhPSlu4thFSCDvuHoKRTg.jpg",
+    "image": "https://cdn4.telesco.pe/file/BO_Rr6K7CgAn6T1d7f5A-igcrCTCyq_OdMsilEO7EjuYZgwWIDwgcE3FZy77AN1XZNmksqBGQB1hJuhON8l58_3xtMIbV8hZuuaQITFskTZ7Ef9mqOdICMLHu_1Dz9atwXxEqb_LyVMZX1NafDkfbS7hlIZVoK-rmWOZT2FiCfdqHZVCETvQD9Q9G2AH6Fjkr6BeOAsXaW9tQcTxmdUX6Ulxm7f0KSk8-yNy8f6xa2fgOEN8o1uM6V3sDOaYKF7FgpE4ECHDYK4BLVcjpMRrRmaGfq-PZCMPqRFU0vel5j8eqFdFSMxdYjI0zFpXCmOYNasT7bULGEyc6I1KyrG3tw.jpg",
     "summary": "🔥Ну что, что Claude Opus вышел&#33; И ChatGPT Sol 6 тоже вышла? Да&#33;\n\nИ не только. А ещё и луна тоже.\n\nВ Codex приложении все модельки уже обновились. Без анонса в твиттере — очень странно... но и тут идём тестировать, что поделаешь...\n\nЧто за день? Правильно — вторник\n\nupd: Появились цены и странички отдельные. Позже чем завезли в Codex... Короче цены 2 и 10 долларов соответсвенно на Sol 6. На Luna - 10 и 50 ЦЕНТОВ&#33;&#33;&#33; Это очень дешево...\n\nссылка на сол страничку\n\nссылка на луны страничку\n\nПроверяем. У кого-то появилась, у кого-то — нет. Напишите как у вас?",
     "link": "https://t.me/serge_ai/1546"
   },
