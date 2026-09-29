@@ -94,7 +94,7 @@ window.aiNews = [
     "channel": "your_pet_project",
     "date": "2026-09-23",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/iKm9fjF2lyW8UAywQ1Rt4j1bPFuMyYuY3vgSw78FbgH7JglIdMqYoVz4WQOSOni8qKq5gPHR4z-3P9DEgCpEJQrWjTdcKgDVRmLDPxZkVhvu69w_5qIsBIb1MJ5UnMBpYGzAcfwCAPjFrwxPlvDkz8VGI_Z7-Xre3JCXttMLLWYwiOvYpszNBh6ZJ6AL5sMOO0-zoq_ix4EqeiLL_WkMVkdJmihaq_no8246jleUXym8EmZVdwpnC5apFIa38I4m8_keEYcHTskVMo8huKxDS20HWWxQel_EPiwq1lVvuPnapupAZeIiHoYnktRuyWIGLCfCCkRyg9GzUnJivcsWIg.jpg",
+    "image": "https://cdn4.telesco.pe/file/ErkUnv3PN37xSOMReiJoVXrSfKGSwign1B2JvLk14mC41ZNY9K3lTZaUCXmNTrUlN_head6GJJH--cjyuZYX6NLRthD_PazSKqyoNhw-0MC4YHBRQfTRxiGCYwbhOnA3TljOA-wx9ssstq3smAhR7P6JaeEFF4OrBoEugODEl9bC-36P8AXczKqaSKOI1YXDyAbj7o_IzscwEwTkbGgePK5NILDFTgfCCMX6_WHzuVRropZ24bxE9DXrpDoMYbUdq7o8KoNPlDHzevCHzNYnjljgjYqkQd7q961D28EdKLLCLA8zeZ87rtgBf_sXQLMpkGoOrVMcMPLw7FwPL-1-Kw.jpg",
     "summary": "Стартуем сегодня через 15 минут.\n\nКоллектив собирается, как обычно, очень крутой – тимлиды, хардкорные разработчики из бигтеха, продакты, маркетологи, блогеры и предприниматели.\n\nНапоминаю, что действуют призы – в конце практикума раздадим по &#036;300 на трафик самым быстрым.\n\nЗаписывайся",
     "link": "https://t.me/your_pet_project/752"
   },
@@ -127,7 +127,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-09-22",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/Y38Zhd3RTqRjMQen0g1iy_thWJo8Vl2t2AT9SlyrqEqXLbd2-9jdG228CTlgyoRxrvsybfeINJKqeZ8pzf09rDCWWMPPs-ft81me2d59iokUJKbGlXREiN4iTSOb0GW09JKfCuxOaIBRUp0zDvu1ve7BYrcyUR1NIUotCmU9Eh9NTVgV58cPTuiPiPCdN-6MEHD2TVM3Kt9kHxWhgIKLK_mW8c13mm_olwry-ZORAb30CllVEyWY5oG076Uve588dW3_b4Jkmb3eHkTAm4CEScodc_t1QojLxfpjfEF2qjwqt3TA0SHG2yMaK2Bti3qJsnGONlALj7qT52na95AbYA.jpg",
+    "image": "https://cdn4.telesco.pe/file/dY8ZJ8aQevOs7Oem1LIEFjDTyL5h-sTIzcX8Im2_twkFqJCzXoVjqL7VQdnzX9pBHGWP_Tj6WvHoF7AHDZmE0i2XK1g_GfFWyJnWt8x4CBgej38Rqhrfg3UPMbE3yG-WJRT_aLz1QZg84VUDmqaAZWYjVpZUMSFRys2Hmu0sb5ZRlLb-PzAAEMOwBgSov5q7zEtU57Ynx4fxAumoiKXIetwSrUtjyh2n7aUzmxV2bZEAUSqkOrgr6jdeH-zwNZYGt_M6aL4S7xgHNk3RV_XQNRoIJeo9G9ZBpUZtJowsyZXNo55tpEwbDdYT79qXTx4pb1XftufQQjzogkMq6gNQ7A.jpg",
     "summary": "🔥Дни мощных&#33; Вышли Grok 4.7 и Opus 5.5. Astra подвинься\n\n1. Конечно, Grok (вчера вечером вышел) послабее, но всё равно достаточно хорош, чтобы про него знать. А особенно хорошо, что он держится цен в рамках разумного\n\nЦены на вход и выход 2 и 6 долларов за 1млн токенов соответсвенно. Уровень Sol Max, в некоторых тестах заметно лучше (картинку прикреплю)\n\n2. Ну и событие дня/недели, а может просто часа — новая модель от Anthropic Opus 5.5\nСудя по тестам — сильнее, чем недавно вышедшая Astra. Круто, что Опусу требуется меньше ресурсов, чем немного устаревшему Opus 5 и якобы поэтому его сделали дешевле — впервые кстати&#33;\n\nСейчас 4 и 20 долларов соответсвенно. Но помимо этого увеличили чуть лимит, также увеличили скорость. Ну а всё остальное просто стало лучше.\n\nПоэтому обязтаельно тестим эти две модели. Кто уже успел сравнить на своих задачах — напишите плиз в комментариях ваши впечатления.\n\nВсё раскатывают по официальным сайтам и приложениям. У кого нет доступа или проблемы с оплатами — пользуемся Syntx. Ребята уже добавили Grok и Opus тоже (не забывайте, что у них тоже и все остальные топовые нейронки всех направленностей в одном месте).\n\nссылка",
     "link": "https://t.me/serge_ai/1544"
   },
@@ -138,7 +138,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-09-22",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/USo5smRr0KBlxz_6Z-SXiAWwGbFKV-wyBNFLxn5VFw3Qtc1Uby8LmuhHJjerazel3M0Nxe5Ugh6v87sLwS6WE39nx0Rh4YsWcuJJsQLAqu6wfkpozLiDy3Vctw-UelBSdQqeTK_u-ZmudOSvYSSbdRN2CYZPpyNo5uT3qb1GgTpvSSTJRKs6mwN29EI1ZL7cGQEGsMb6Zy4R8G-aItzyB072Wr4gX74lI0xwJk1DbdSZhtST0_4RX9EvUFwLptAGxKnUVBeh5DL_SHI9JL04nt_Xlxd3l0kl8TMfk7pmDIcTi6veEd7a0lrpszFw8XlR2VtIeRZz1Rzf7oYpuCjZlQ.jpg",
+    "image": "https://cdn4.telesco.pe/file/E7IYKCtWsqKT3XUoqrW_gsYTBQfermbDQ0wX1nHpruJrdrDVUDNydhJNFcyZURHbiV8JiCxPXdzv28AdSKVbAH220WmyXf_fKeG2B4F1YCHj23dLBDLae284fJKsS2Dirac7tV5HW_aIK_Uh7G80wtREOzBo24szjr6r4Xygp_hEwI1IZLisZEP1xICkQnUHgpE8S90lluNtS3aaxAPI50xCJK2kP5RyAUqOtZvcN6Q9MaH5e-W87EJ8j2FJVLM4ID8CLFEQvrW0SakNOl_1r4ijHwHxnA4CSnbAwk6-vrIwF_6dhWak5E5gORRnOWjynuMJAJb5uJyC2bywoPb3kg.jpg",
     "summary": "🔥Ну что, что Claude Opus вышел&#33; И ChatGPT Sol 6 тоже вышла? Да&#33;\n\nИ не только. А ещё и луна тоже.\n\nВ Codex приложении все модельки уже обновились. Без анонса в твиттере — очень странно... но и тут идём тестировать, что поделаешь...\n\nЧто за день? Правильно — вторник\n\nupd: Появились цены и странички отдельные. Позже чем завезли в Codex... Короче цены 2 и 10 долларов соответсвенно на Sol 6. На Luna - 10 и 50 ЦЕНТОВ&#33;&#33;&#33; Это очень дешево...\n\nссылка на сол страничку\n\nссылка на луны страничку\n\nПроверяем. У кого-то появилась, у кого-то — нет. Напишите как у вас?",
     "link": "https://t.me/serge_ai/1546"
   },
