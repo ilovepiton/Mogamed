@@ -39,7 +39,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-10-23",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/Ayl4tqcqeixDxeLlZSH0wo07VgYrv0MhweMQuvKgr0xjsqdVPZgto-2YHTv-ARg-Vs0djmZGVLBjLmYCBojAH6S1Vkhs5OFH_99xQXEVgTDb827A-zuU1EbAeO4hXaoAmgPg514ZLIQwEmihDKXRRA4XHlLKg_x3VQ9kM2eM3EvGKsczitF14_-mXv6aGz4pD24SyLjoFTiD937r1M5AO2eJJ2TFlMn4yJIWUN7i2UUb5CPgnkzl0PGAYY8HRclwIs5c9P3jjuwPYFgqmQC74j3dB0GO_VprIYXgaotbSij390nLJyOTLpq6fruHVcBweaauZddT29_IfKFSj1s8TA.jpg",
+    "image": "https://cdn4.telesco.pe/file/Pd18dIjTFfdZSzcB-tnY_coiPBf45AxustY1swPpZ0khlQH-H2kHoxGCaIQBKWhhfnHFlA0br-mEoFBw8a138OBd9_IASORhpSoXa_YUXarmcKNsDFCcDA5x1FYlQcdnOY0AbTukZX6IY_eDhsvTrR96yylGAMvxlfQbvdyzpThBWd7dD8tMdXNMoFExqylUJCDst1zfrcst3z1hehv2pltLvsY8Q5PVJofm1-QuI8AB087FLnron7RQu0gTxUBHQB12swShtCabgvlJ90Xxburbet_4rwWLQyTMOXzNHNzKdbOMWNNerluRbQdJhv_uLabaU9SuOPV2O09GbRWU6Q.jpg",
     "summary": "➡️Kimi K3.1 Pro вышла. Дешево (относительно других) и сердито\n\nВ видео представлены всякие шоукейсы. На картинке сравнение с топами типа Астры, Опуса, Фейбла и т.д.\n\nПо всем признакам — будет пользоваться спросом. Поэтому точно стоит тестить...\n\nПобаловаться можно тут, но так как большая нагрузка сейчас — врядли бесплатно получится, ну или они дурят таким сообщением)\n\nЦены на API:\n\n2 доллара за 1 млн токенов на вход\n10 — на выход\n20 центов кеш\n\nподробнее тут",
     "link": "https://t.me/serge_ai/1560"
   },
