@@ -1,5 +1,16 @@
 window.aiNews = [
   {
+    "title": "Дайджест недели",
+    "category": "AI / Projects",
+    "source": "Your Pet Project",
+    "channel": "your_pet_project",
+    "date": "2026-10-25",
+    "importance": 5,
+    "image": "",
+    "summary": "Дайджест недели\n\nВот самое главное, что ты мог упустить:\n\n– Рассказал о банкротстве Character AI: что случилось с одним из самых горячих стартапов ИИ-бума\n\n– Попросил Claude и ChatGPT придумать пет-проект (чтобы заработать денег), вот что из этого вышло\n\n– В подписке YP разобрал, стоит ли делать продукт в нише GEO и AEO сервисов. Там про спрос, трафик, конкурентов, монетизацию и прочее\n\n– Собрал способы, как получить 100 первых юзеров бесплатно. Изучи, если бюджет на рекламу – пачка сухариков\n\n– Кейс, как трекер калорий делает &#036;125K в месяц на Android\n\nЕсли хочешь запустить свой пет-проект, но сомневаешься – закидывай нам идею в боте тест-драйва. Наш куратор сделает прожарку: скажет есть ли деньги в твоей нише, подсветит риски и возможности\n\nПроверь свою идею здесь",
+    "link": "https://t.me/your_pet_project/786"
+  },
+  {
     "title": "&#036;125K в месяц на трекере калорий для Android",
     "category": "AI / Projects",
     "source": "Your Pet Project",
@@ -39,7 +50,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-10-23",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/Pd18dIjTFfdZSzcB-tnY_coiPBf45AxustY1swPpZ0khlQH-H2kHoxGCaIQBKWhhfnHFlA0br-mEoFBw8a138OBd9_IASORhpSoXa_YUXarmcKNsDFCcDA5x1FYlQcdnOY0AbTukZX6IY_eDhsvTrR96yylGAMvxlfQbvdyzpThBWd7dD8tMdXNMoFExqylUJCDst1zfrcst3z1hehv2pltLvsY8Q5PVJofm1-QuI8AB087FLnron7RQu0gTxUBHQB12swShtCabgvlJ90Xxburbet_4rwWLQyTMOXzNHNzKdbOMWNNerluRbQdJhv_uLabaU9SuOPV2O09GbRWU6Q.jpg",
+    "image": "https://cdn4.telesco.pe/file/StsOLmvWb7j8olfm7Ti3DsbhLGsevfVko42t9BVERSEQ0sxRPAZiPkBVbYBhQg5H9rP_Ilxtz1q0ScyUKzACY8iUYyXzRfyfJLQecE1syM9vEuc9lEAqejkO2uaBD5D5uQyXoxbUlBwz67YtL7_izTD2rcGW7--1GOPbFagFm8rfwPbx3IUtn4lgdRODD8SMIMW1GqF3JrY17gwjAAvZzsh2TGB0C43RlGVYrxlu-PxfFS_8M-_IYLtzmn8j_CvZCbCMt2purdIENgFD4fDEpSfE1LdCDXKODXFog_7Jji2KtxyCet1WmQni1Jk0XgnIIbfnmyyzlvi13KXgE-G4dg.jpg",
     "summary": "➡️Kimi K3.1 Pro вышла. Дешево (относительно других) и сердито\n\nВ видео представлены всякие шоукейсы. На картинке сравнение с топами типа Астры, Опуса, Фейбла и т.д.\n\nПо всем признакам — будет пользоваться спросом. Поэтому точно стоит тестить...\n\nПобаловаться можно тут, но так как большая нагрузка сейчас — врядли бесплатно получится, ну или они дурят таким сообщением)\n\nЦены на API:\n\n2 доллара за 1 млн токенов на вход\n10 — на выход\n20 центов кеш\n\nподробнее тут",
     "link": "https://t.me/serge_ai/1560"
   },
@@ -207,16 +218,5 @@ window.aiNews = [
     "image": "https://cdn4.telesco.pe/file/ecCLNtKkUbaLY02XEWRT0KTM1UODeYpR_9FXZfqMv652JTyxRZlRSZboaWlQTDby9y4L-2UnJ6JmXVxSXOBxs605Ooium_QwSNKriGgfG6syv5GFhyXk7H1J6uRckQf5aNRf3cbJdnNpnJKONvS9rO9DEusqFgltFAsfe0490vC-ft9TjU4nzByrYz7IyopOZDUU0cCHdHrtXAzJ-l95ZXmXW5P6LF_b3Kl-x0GEC4FJAFW5GGjmbBAkPY8ABwWkeyxJFGui_rSTdq_METBaszUpKS0o1McKL3qZoEiKN7HF39uQMTnjfL8_BhsrIpnSWN2SQPTkZmzn0-fk7w_aDg.jpg",
     "summary": "✅KEISOSUBBOTA\n\nоффтоп: радует, что большинство участников этого канала ИИ не убьет за сквернословие&#33;\n\nКейсосуббота — это рубрика, где мы делимся своими работами и взаимодействиями с ИИ. Это может быть что угодно:\n\n-картинки\n-анимации\n-текст\n-код\n-боты\n-песни\n-видео и т.д.\n\n❤️ Не забывайте оставлять обратную связь на работы других людей. Это очень ценно\n\nДавайте попробуем меньше разводить флуд в комментариях.\nДля разных вопросов у нас есть чат — там такое. А здесь давайте по делу. Читайте ниже пояснение\n\n👇А также читать пояснения и правила по ссылке ниже.\n\n❗️ВАЖНО&#33; Прочитайте по ссылке ниже пояснения:\n\nСсылка на пояснение для тех, кто не участвовал ни разу в этой рубрике. Или для тех кто не помнит, какие есть правила.\n\n+ ПУБЛИКАЦИИ ОТ ИМЕНИ КАНАЛОВ И ЕСЛИ У ВАС НЕТ НИКА В ТЕЛЕГРАМ— НЕ ПРОХОДЯТ СЕЙЧАС МОДЕРАЦИЮ\n\nТАКЖЕ - ЕСЛИ НЕ ПОЛУЧАЕТСЯ ОСТАВИТЬ КОММЕНТАРИЙ (БОТ БЛОЧИТ ВАС) -- читайте здесь\n\n〰️Пояснения нужны для того, чтобы потом не удивлялись почему удалён тот или иной материал.\n\nСтавим реакцию🔥 этому посту и далее скидываем кейс (с использованием нейронок/ИИ/AI/whatever) в комменты ниже👇\n\nУ кого есть то, чем хочется похвастаться?🥳🥳🥳\n\nтри...\nдва...\nраз..\n🚀Поехали\n\n#keisosubbota@serge_ai",
     "link": "https://t.me/serge_ai/1554"
-  },
-  {
-    "title": "&#036;8K в месяц на игре, собранной за 8 часов",
-    "category": "AI / Projects",
-    "source": "Your Pet Project",
-    "channel": "your_pet_project",
-    "date": "2026-10-09",
-    "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/ds-w0HF0TzLpx02_D1CMKBLB4M8NhVYoHSz2Fxc9LLvxUmTYohMk8jrBlRvepilPnPosq3_yc2AI93VHbdpiA4D49rjWQPRkcBye0P_hQVIwjUucYBg-sKOSYnY-4k28pBxUaIhqFEsusggM241tiri61Qg-U7NeLElSGySLTx6eqOfBeQcDIPMJHQ1iHe9G0lNtVXzyVTYRXebUTYMHmVVK8CaFfp5FoM_App0Axv1mlBxBTgRGWWs-RmGqKLOnp6Xc_khtj23K1dOVeqg_Fv-G75vyBeU7WKsutRLmWZ70Lm6UagYffIXZXwIFxio-1S-kXLfy2Odtlm3D4S4fWQ.jpg",
-    "summary": "&#036;8K в месяц на игре, собранной за 8 часов\n\nЗнакомься: Фрэнк Смит, спортивный блогер. Никогда в жизни не кодил.\n\nБрат показал ему MapTap – игру, где надо как можно точнее отметить место на глобусе. Фрэнк подумал: а если то же самое, только про спорт?\n\nЗа одно воскресенье он навайбкодил в Claude GeoSports – браузерную игру с глобусом. Механика такая:\n\n– есть вопросы в духе \"В каком городе прошёл финал ЧМ-2026?\"\n– чтобы ответить, нужно ткнуть в глобус, при этом города и страны на нём не подписаны\n– чем точнее ответ, тем больше очков\n– в день одна бесплатная игра (5 вопросов), хочешь ещё – покупаешь подписку\n\nЧерез пять дней после запуска Фрэнк кинул ссылку в X – даже не отдельным постом, а ответом под своим же твитом про НБА.\n\nОтвет завирусился: 40 тысяч игроков в первый день, 150 тысяч на следующий.\n\nСпустя три месяца:\n– 700K игроков в месяц\n– &#036;1K MRR\n– 75-85% дохода с рекламы, остальное – подписки\n\nСамое интересное: у Фрэнка 4 миллиона подписчиков, но они дают всего 2% трафика. Остальные 98% – органика из Reesl и Shorts.\n\n53% игроков шерят свои результаты в ленты контента, и распространяют игру дальше.\n\nКлассный пример, как сейчас работает виралка:\n\n– 80% трафика в соцсетях - это шортсы и рилсы\n– Чтобы туда попасть, продукт должен быть \"инстаграмабл\" – то есть, заранее должно быть продумано как он будет выглядеть в ленте шорт видео\n– Плюс должна быть продуктовая механика, в которой пользователю понятно, что шерить к себе в ленту и зачем\n\nА дальше этот контент хоть в трафик неси, хоть рекламу у блогеров покупай.\n\nЕсли будет залетать - будешь зарабатывать.",
-    "link": "https://t.me/your_pet_project/771"
   }
 ];
