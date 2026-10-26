@@ -11,6 +11,17 @@ window.aiNews = [
     "link": "https://t.me/serge_ai/1563"
   },
   {
+    "title": "➡️Вышла новая модель GPT 6.1 Terra. Хорошо и дешевле",
+    "category": "AI News",
+    "source": "Serge AI",
+    "channel": "serge_ai",
+    "date": "2026-10-26",
+    "importance": 3,
+    "image": "https://cdn4.telesco.pe/file/Qf-WpYq-Ot9iGg2G52hFivKGDMK0nZ0qX-Km4onBi2zkXiDqNCUn6EISHGLfCZaiNp1wvmnx74EIeL4R82VxAJ8cGUQUReC0_RbOLtaaB6hVTYirGda1pfHuSqfAsFk3MVRY7F0stvyLVlRfC2mf895PREv8ROawjAqac-Wb-qOfY2znIZnD_u93oFV3KBcaJczGZH-PbiZjfgVOUjzn8kE1Bcfn1eADWlg2soczlzxMCPR7keo82GredpKNRuwoUUTeyZeVDKtvOYaQV9McvHZ_4pWIIIZl8LpXj0b49Hh8RDBvx_fCYNgOo1hOcaeWv8XaHqEL1UMqYHhPBH7lpQ.jpg",
+    "summary": "➡️Вышла новая модель GPT 6.1 Terra. Хорошо и дешевле\n\nЭто средняя из линейки. По показателям близка к Sol, но дешевле. И они ещё снизили стоимость\n\nТеперь 1 долляр и 5 долляров за 1 млн токенов на вход и выход соответсвенно. Кэш 50 центов.\n\nУже раскатывают... Должна быть хорошая и рабочая лошадка\n\nздесь больше графиков, сравнений, текста и визуализаций",
+    "link": "https://t.me/serge_ai/1564"
+  },
+  {
     "title": "Дайджест недели",
     "category": "AI / Projects",
     "source": "Your Pet Project",
@@ -207,16 +218,5 @@ window.aiNews = [
     "image": "https://cdn4.telesco.pe/file/fUeF_p2JpTb-BOEpBqvby0h6yesTMbSKszLDJLkdsRimz2rU5GyC_UgOJIK8iaElXfA5_CDPXc9YF7KuRJ68_Xxr0dMzm_F4RUMDZCkz9wLvGUQ15N74pJJ774ujxCA8GBRWGtdnINOIlyeCL9QxgKDTGtvva_pSZZO0owjQNcA1Oa5MjsYMXJc9iAJGKQXcOEGeZmZ7tl0P0syQ0En_dOCE3V43u19JbnrZKPiL-NjHUhwT_PRjd6HPinm4L0BlGLMwfKAJ-h3Q-QEvWAaVgNqtHeXiYy_f9JmaeY4Q6LatTGDs6PHUHw85pBvNpoDFyQn-Ex2OQKaJS423bdRGUg.jpg",
     "summary": "Эпоха демпинга\n\nВышел недавно Claude Opus 5.5, и это чистый неземной кайф.\n\nЕсли дать ему детальную спецификацию, то он выдаст рабочий продукт с первого раза.\n\nOne-shot.\n\nНо киллер-фича даже не в этом.\n\nСейчас ты можешь клонировать чужие продукты где-то за 50–60 минут.\n\nНа прошлых выходных у меня было свободное время, и я накатил себе клон Notion со всеми ништяками, которые давно хотел.\n\nПервая версия заняла где-то час. Потом ещё неделю вайбкодил по 20–30 минут по вечерам, чтобы довести продукт до ума. Теперь в нём работает вся команда.\n\nЕстественно, продавать его сторонним компаниям пока рано: для этого нужно пилить биллинг, интеграции и кучу всего ещё.\n\nНо в целом с такой динамикой почему бы и нет?\n\nИ продавать его можно не по &#036;10 за юзера, а, например, фиксом по &#036;20 в месяц на всю команду.\n\nДемпинг чистой воды.\n\nВ текущих раскладах вот что начнётся дальше:\n\n1. Раньше код был защитной стеной. Чтобы сделать конкурента условной CRM для барбершопов за 50 долларов в месяц, нужны были команда, бюджет на её содержание и полгода времени. Кому оно надо? Все сидели на универсальных CRMках.\n\n2. Теперь нужны пара часов вечером и хорошее ТЗ.\n\n3. Стоимость разработки и поддержки больше не держит цену продукта, и её можно ставить сколь угодно низкой.\n\nЭто и есть эпоха демпинга:\n\n– берёшь сервис, который годами стрижёт абонентку;\n– пишешь спеку по его фичам и жалобам из отзывов;\n– делаешь то же самое, только дешевле и без лишних функций;\n– идёшь к тем же клиентам.\n\nКрупные компании так не могут (офис, инвесторы и тимлиды с хедами): снижать цену им больно.\n\nА вот твои расходы – это подписка на Claude и трафик.",
     "link": "https://t.me/your_pet_project/774"
-  },
-  {
-    "title": "Пет проекты про мониторинг аптайма - у вас начался высокий сезон",
-    "category": "AI / Projects",
-    "source": "Your Pet Project",
-    "channel": "your_pet_project",
-    "date": "2026-10-11",
-    "importance": 3,
-    "image": "",
-    "summary": "Пет проекты про мониторинг аптайма - у вас начался высокий сезон",
-    "link": "https://t.me/your_pet_project/772"
   }
 ];
