@@ -28,7 +28,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-10-26",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/Qf-WpYq-Ot9iGg2G52hFivKGDMK0nZ0qX-Km4onBi2zkXiDqNCUn6EISHGLfCZaiNp1wvmnx74EIeL4R82VxAJ8cGUQUReC0_RbOLtaaB6hVTYirGda1pfHuSqfAsFk3MVRY7F0stvyLVlRfC2mf895PREv8ROawjAqac-Wb-qOfY2znIZnD_u93oFV3KBcaJczGZH-PbiZjfgVOUjzn8kE1Bcfn1eADWlg2soczlzxMCPR7keo82GredpKNRuwoUUTeyZeVDKtvOYaQV9McvHZ_4pWIIIZl8LpXj0b49Hh8RDBvx_fCYNgOo1hOcaeWv8XaHqEL1UMqYHhPBH7lpQ.jpg",
+    "image": "https://cdn4.telesco.pe/file/J2fEqrgA5lkeATSUt2eNm-anLbVWGbQNuICfO7-Df4X3bmVrXBzh_ZVqgpbytezMyoTWD4srDDECu7VltV-krldSbjTZYMfzS47Dlolp8pJH9xANH1qqQrRGcFM_JqfKS-o_oHLum2tBQrXRoK59rz0Q0iMN_KT52XEBgavtrQcPXJwYUTFZTb3Zu1lKAOO5oyskm5KLeH4kv4bnTTSEBEa3KpzswzHHzbY8eWZbFEZke5LdlrU_Ao8hEyED1NKCPMP6CQQUrv6QTYRjPH5XO95BxcQ1QzbCj3atzOGr3w77sWIlDlRIuO4ZGidMhBxc-k-gJ-eucv254Zfbps0r0A.jpg",
     "summary": "➡️Вышла новая модель GPT 6.1 Terra. Хорошо и дешевле\n\nЭто средняя из линейки. По показателям близка к Sol, но дешевле. И они ещё снизили стоимость\n\nТеперь 1 долляр и 5 долляров за 1 млн токенов на вход и выход соответсвенно. Кэш 50 центов.\n\nУже раскатывают... Должна быть хорошая и рабочая лошадка\n\nздесь больше графиков, сравнений, текста и визуализаций",
     "link": "https://t.me/serge_ai/1564"
   },
@@ -83,7 +83,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-10-23",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/sydacw5P4n90TsKPSzvFKZUkdO9ZkUHkAbxRh0nZz-HW612rb_skMqTiRV2K51dCcMvMD_stO73F4r4xXmsa0XnIArEew9pCtbA3PJLDGEmQYbPR9wTq9YaqC9yJq-iL5Y5HgeXxfkPCig7Xau_kzAHZ_FGRzmRvOrCMdE07TbthR8dn4PjVhkuRdneq7Yzzagt1CP0AmSc_J4XgX5K4ljwoYFeRUIOq1pdDnC1mt20yDC98rf9K7tnHAah8wPPwSo4lg7gDQs8sQ_dlUy1vjJgy2661RMqgNZQgHevzwtWmjRBrQOTkcHRV4mLdyQeHB_WKR9NOyoiPfmUEKlF4ng.jpg",
+    "image": "https://cdn4.telesco.pe/file/G-Q2hsNdfTtLdNM5TTrxF_lh1kcCGZbzaUKEqEtldkTJJmjTQZ2rAsng1MaFkRKtjSTBMcTk7xVNPul_cvZwDuG9zvhpJMXTVakJqjC9wedmnqnvt432lcbE3dQez0YgKTh1b4bXzi7-Ph-fo170X9Uo0ihHY4GraG7V2QsSkK5ryYO3pBOLTMEpCJS6ek4uJwhPDsVLOFKMHI6z4UDxi8qKe6WtXdbRHAWx_UsV3GohAfwbu3-vM3K7QmScGTfIoPNQMgclQfembtdbUF_EAld_KVdoCMVdCLd3ERlKy7jb7FiuCHUmhHrI5Iqn7MUjaD6eFkhkQLURP2rtmMzYDA.jpg",
     "summary": "➡️Kimi K3.1 Pro вышла. Дешево (относительно других) и сердито\n\nВ видео представлены всякие шоукейсы. На картинке сравнение с топами типа Астры, Опуса, Фейбла и т.д.\n\nПо всем признакам — будет пользоваться спросом. Поэтому точно стоит тестить...\n\nПобаловаться можно тут, но так как большая нагрузка сейчас — врядли бесплатно получится, ну или они дурят таким сообщением)\n\nЦены на API:\n\n2 доллара за 1 млн токенов на вход\n10 — на выход\n20 центов кеш\n\nподробнее тут",
     "link": "https://t.me/serge_ai/1560"
   },
