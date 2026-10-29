@@ -11,6 +11,17 @@ window.aiNews = [
     "link": "https://t.me/your_pet_project/789"
   },
   {
+    "title": "Миллионы на ИИ-видосах",
+    "category": "AI / Projects",
+    "source": "Your Pet Project",
+    "channel": "your_pet_project",
+    "date": "2026-10-29",
+    "importance": 4,
+    "image": "https://cdn4.telesco.pe/file/iQD5Zcv0AKbH6b-qC7NEmswoPtc__6UBKX4ld--CGu__k69YCn0PlPBKeeza1v3Efx0My9c19_0EF3OEWxpPQIdXEbEuT41A2qpyFL-rlTErkr3Lg6TXfA00AWaVn8NGWKfMt0vm0x-H6gQ4HRdmu7tuJps7EUDywjgm0EMujG602mQbFZnB00LEjZ1TMeBPJJ68HwJCatYbx-1MZ8WSTw7eBUk35idIuZpCciXZ64Vb6MQ1Io7J0oi04jq9DpbffU9PRzBc3k_HG1ycp_2KnEf-yRm_8wE2lbogPKzklVwwUHYGfte4ovHXp_hOAdHyjqBri_BTqLN_IMzMYjtxHw.jpg",
+    "summary": "Миллионы на ИИ-видосах\n\nСоцсети захлестнул ИИ-контент. Каждый пятый шортс, который YouTube показывает новому пользователю, сгенерен нейронкой.\n\nИ такое ощущение, что людям это нравится:\n\n– Jean Phil, француз в клетчатом костюме, который боксирует с воздухом, за месяц набрал 244K подписчиков и 35M+ просмотров\n– ИИ-бабушка Granny Spills за пару недель собрала миллион подписчиков в инстаграме (запрещён)\n– индийский канал с ИИ-обезьяной Bandar Apna Dost набрал на ютубе 2 млрд просмотров и приносит создателям &#036;4M в год.\n\nКак на этом заработать? Я вижу пять вариантов.\n\n1. Выплаты соцсетей\n\nТикток платит &#036;0,4–1 за тысячу просмотров за ролики длиннее минуты. &#036;5000 в месяц – это от 5M охвата. Ютуб платит меньше – до &#036;0,1 за тысячу.\n\nРаньше под такое нужна была медиафабрика, сейчас её может тащить один солопренер: сценарии, ролики и самих персонажей генерит нейронка.\n\nНо есть риск, что монетизацию перекроют: ту же Granny Spills тик-ток выкинул из программы выплат за неоригинальный контент. А YouTube с июля 2026 не монетизирует однотипные ИИ-ролики.\n\n2. Реклама\n\nРекламодатель платит не за подписчиков, а за аудиторию, которой можно что-то продать. На Jean Phil подписаны люди, которые пришли поржать над боксирующим французом – 90% продуктов им не продашь.\n\nОстаются только бренды, которые работают на узнаваемость.\n\n3. Мемкоины\n\nJean Phil оперативно анонсировал токен &#036;JEANPHIL и пиарил его в твиттере. Монета до сих пор активно торгуется, капитализация – около &#036;3,5M, на пике доходила до &#036;12M. А сами ребята заработали около &#036;500K.\n\n4. Партнёрки\n\nТебе дают чужой продукт, ты снимаешь про него ролики и получаешь процент с продаж.\nПлюс – можно быстро протестить кучу продуктов. ИИ-ролик в тиктоке про мужские добавки набрал 5M+ просмотров и, по оценке Kalodata, принёс около &#036;78K за месяц на рефералках.\n\nМинус – 90% продуктов ничего не принесут, смотри пункт 2.\n\n5. Платный контент\n\nВ женском сегменте сработает ИИ-онлифанс, в профессиональном контенте – клуб по подписке, в случае танцующего мужика вариантов нет.\n\nЯ так делал ИИ-девушку в телеграме: &#036;30K выручки, трафик окупался больше чем в два раза. Подробнее – тут и тут.\n\nНо мне интереснее ИИ-персонажи как маркетинг: нейробабушки напродавали БАДов на &#036;75M, а FaceKit заработал &#036;100K за два месяца на 40 ИИ-аккаунтах в тиктоке.\n\nЕсли не хочешь ничего разрабатывать, а просто хочешь попробовать себя в маркетинге – дешевле и проще способа, чем ИИ-контент, нет.\n\nИ анонс.\n\nНа следующей неделе в предзаписи проведем бесплатный трехдневный интенсив README.\n\nТема – всё, что нужно знать, чтобы запустить свой продукт с нуля: где найти идею, за которую уже платят, где взять первых клиентов и как получить первые деньги до кода.\n\nА еще обновили нашу подборку идей: скоро выложим туда 6 идей на &#036;10K MRR.\n\nЗаходи в канал предзаписи",
+    "link": "https://t.me/your_pet_project/790"
+  },
+  {
     "title": "➡️Сунари и сунарыни&#33; Хорошая новость",
     "category": "AI News",
     "source": "Serge AI",
@@ -72,7 +83,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-10-26",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/hfMacay567xvTOZ-Lvse7DEAbhlb2iGlD3sr6jcrgaJxWpg3u54piTFFeDDN4h6nqQlzj2Wyl--_h5cCUk67iOL9Mi131w7dJLO-RC34n7R7bEG8kZUskiLCbCcTggm4Vt8Uk7mgvupGmGPfRj8EJIUCNax6M4zRbhIKnOzkVUREikLSDsevryFooHZ_q7ujbyc_eEJ6jv2drxnv4e-IyuC1Hj0teKM0nH0fg8p5krZ9XFxfK0cye-w9oACbqP-0uqn7EyjQef6vAWE1e--a2xnaY-tOuHztPQbeuxNF0_G9XuuMTXEL1DdOfdkoTQOsbFAGhLTLjDZRSJuqLXHNyA.jpg",
+    "image": "https://cdn4.telesco.pe/file/Y7LJ69E_E0ScVIL0bz3KH-VBFCTnf99a6lSjYJNSdAXEGo1NcPibh-56o4a2qUFuYY-u0EeZL1cQ_kXO4000-yx08e_DgbkPAgU7I7zbxlGo9qwzp8Wav2YqX7aRZE_lmWyHRnlX6nvvlZN8nKDjW7IJauBv5rjDGKsNN9F_aXF9dFNu4-EMNtIh8r8r0xyv90c_t7AoV0eBnegyOuoOkXJczya1rhKtdNOoUApET8tgOF6qKeKO30ZjaYp-7KeV0liH2-Or7YT0igQZyFetdH1STQ94Vk_fJ_OxgIyxhWH6P55BVzMLNvadq30d-9Z9j-HtZ3n5uuiOiajWnZEg0Q.jpg",
     "summary": "➡️Вышла новая модель GPT 6.1 Terra. Хорошо и дешевле\n\nЭто средняя из линейки. По показателям близка к Sol, но дешевле. И они ещё снизили стоимость\n\nТеперь 1 долляр и 5 долляров за 1 млн токенов на вход и выход соответсвенно. Кэш 50 центов.\n\nУже раскатывают... Должна быть хорошая и рабочая лошадка\n\nздесь больше графиков, сравнений, текста и визуализаций",
     "link": "https://t.me/serge_ai/1564"
   },
@@ -127,7 +138,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-10-23",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/HCzOKl8r0uUoD6ElcrfrgdkjL50rzF6v6JqdZgT8aF4GUw1bD_pJnVxipyygO2_8Njvr4JwJ-v_7Vc3s0lrTgxbjzJt9fDMyfcoWBUxC6k2lqNNzGvsJ2fvrcYNc_eI9mCLu3W9AL1Rt18QRs-MMVIZFNmdMpU5O6w-O1-NgTXZLsOjlk_T_IppsvJWDa3_SURkP_9q5_yuJPnc7IZd7jMiAi4b_1j7rU0d_AYQYBWOITVFhmKdFa3Iue0m8Huj_FhSz2nop3IKibEnZxzwJL08tuGZUeMdD8kz4D-YwxgpMTyEzkOdYoiO3l_4AIvE6c_pdRumAX1_UmBDAbCDQdA.jpg",
+    "image": "https://cdn4.telesco.pe/file/aaxfOo1zig4QSEbYuHAJKKHmYyluWqiWUZPZ_Hmb7kqURViCtu42johtTTr988QTXh7Ks-PCtSeeo_A2v5g4Gia-JDXg4xga0TvCLGzucqaOx4qDJo4X0y_-2KMjzI-iYyqRt0n3wYLaPFa8yV0hYpWiLCrdO9cv_v74hdyFENsRo_G79qCncPfYmG_sfieg99g-UyZ-B0J1MXYzZNANxetgbqASRkQsmhBVPEQibHJXcrME-PsuqWad89z5K8GXdiSz767VhKjbFRhIc8RdLJqa1IOrrojO8XutfJT38klo72qPvwLZtpo3-V1i6p3y5lQclQxHORASMn1Wgcw_3g.jpg",
     "summary": "➡️Kimi K3.1 Pro вышла. Дешево (относительно других) и сердито\n\nВ видео представлены всякие шоукейсы. На картинке сравнение с топами типа Астры, Опуса, Фейбла и т.д.\n\nПо всем признакам — будет пользоваться спросом. Поэтому точно стоит тестить...\n\nПобаловаться можно тут, но так как большая нагрузка сейчас — врядли бесплатно получится, ну или они дурят таким сообщением)\n\nЦены на API:\n\n2 доллара за 1 млн токенов на вход\n10 — на выход\n20 центов кеш\n\nподробнее тут",
     "link": "https://t.me/serge_ai/1560"
   },
@@ -207,16 +218,5 @@ window.aiNews = [
     "image": "",
     "summary": "Ответы на вопросы\n\nДорогой подписчик, жду твои вопросы про пет проекты, карьеру, бизнес, ИИ и жизнь вот в этой форме: планирую записать пару видосов на ютуб.",
     "link": "https://t.me/your_pet_project/779"
-  },
-  {
-    "title": "Что интересного вышло за неделю",
-    "category": "AI / Projects",
-    "source": "Your Pet Project",
-    "channel": "your_pet_project",
-    "date": "2026-10-18",
-    "importance": 3,
-    "image": "",
-    "summary": "Что интересного вышло за неделю\n\n– 10 странных способов найти идею, за которую уже платят\n– Как ИИ запустил эпоху демпинга\n– &#036;11K в месяц в 19 лет на очередном нарезчике рилсов\n– В подписке YP разбор ИИ-скайбов и приложений для питания",
-    "link": "https://t.me/your_pet_project/778"
   }
 ];
