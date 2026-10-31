@@ -116,7 +116,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-10-26",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/qeq43kQ-b-MiqAZ90emdOpac9odh7GlVH3-pjAmW2ZgJrD9777ykurN4wCsZJQSicsG6Sj-lSoBZ3Hd-UgTVavplsQVo3SmyNDwuedobObTQytf7oQpVphpUzLCoBgeaKNIhZoPNok1ESrN4gyNOi9phHfFjtrZStmnhUtSS_9X9yk6k0XFGQxEJrPAZ5jwzabIhDQUq9aXSfgNT7gujezaMQhT7ji3FZ14Fidw1RGnVyyx_lNMSBGTralvA9yUsSEZIXuDt6zNA8ORVVaymCy8O7fIGyTepYjqT05wrIzKiUwgX6LdyQdRqmSK3lnO_VQNMm6GchoTrP01Kgd-cUw.jpg",
+    "image": "https://cdn4.telesco.pe/file/hVe4Zc0CpalXOyJ00UEIiQybxKTby5mCznCuNVjF-ojxT8MMXPhonAI7Hau9Xv3WxKjFGkoEhDw8wbLDasv_drnMOsBuqrT8_727IjqtvBcEzlgxXSo1aSWiK3atfC0elFMf1uYcP0W2OmrwAnTD8t4PbYfSB3T2PzmvYETLIuvxBVqZUb3NMX0dX183_FeQvBO-hCYriuLCNuO58O6RscodR3CY8B02Kk_fm2F23F-UTmFgAQnylZHfOARdo8dlNSLag53uNdHu9KHcGw3F1jWMct7mdy_ifuZKUQDuBRIMrgObwf-Cqnk6g_4_25NSZqCfDa15_9kw5_FYGQhTZg.jpg",
     "summary": "➡️Вышла новая модель GPT 6.1 Terra. Хорошо и дешевле\n\nЭто средняя из линейки. По показателям близка к Sol, но дешевле. И они ещё снизили стоимость\n\nТеперь 1 долляр и 5 долляров за 1 млн токенов на вход и выход соответсвенно. Кэш 50 центов.\n\nУже раскатывают... Должна быть хорошая и рабочая лошадка\n\nздесь больше графиков, сравнений, текста и визуализаций",
     "link": "https://t.me/serge_ai/1564"
   },
