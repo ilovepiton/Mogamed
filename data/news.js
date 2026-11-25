@@ -127,7 +127,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-11-14",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/mXV9s4GEBCesClBSyQZOff39JCt0IrslmQyJ3pwthGkZE54PVPjTtVRhMmom4cZ1TJeInOhlB9x92TBt6wdiweCPe9A3Le4bDyvo0KTLdd7cDhpjyGFJOIFBAaeaQ91_oehCx-MYVXyHTL9LKq0OWdiHPknf8HdjLAYdLntDgsxVandANcYul_vDWH5KZnJfqWvPgJTIcWGRL8dpHrjOuYfarPaXnL_AV38arMIRACSfuZzEg0KTQX9jI1rmtXG78o0oX-EN7nyumS_iY22XSq3YzIUl1Bz1ANMaXIM2SznvJC1IwaCy5rRr12TqvpcLizk-6Jzg3SeThWUMKh72Cg.jpg",
+    "image": "https://cdn4.telesco.pe/file/nwEuJHjiNj2lYplFU3GCqAHfdZ1yzWT_QZrrNa40pRCQD94JmPsJXc-4DSNr7htLjdVjQjQQk9PrT93LwMi-P_lMWBnMIEOLfneLjG0Qy3-IVy47uBCriJActXOi5DLL2TcOrx2DjJaUvQiZuAfFmh_6chiaog3zfVGNiTERqA6RjJabT7A4NFn5fbsbbmuNQR9FkdrlO3Wcg24KB_jks7l-OVlmZOiwxbHabugipkQt7cTz7EhxxjsckP20SY7TazjWlrjVwqEi9Y1GWWU6LYGSSAOHllrBiL9bPIDpbhXobELcNSWA6ECuXvNuJ2yd9Q1GBGmXqSjGIhUJd5RygQ.jpg",
     "summary": "✅KEISOSUBBOTA\n\nКейсосуббота — это рубрика, где мы делимся своими работами и взаимодействиями с ИИ. Это может быть что угодно:\n\n-картинки\n-анимации\n-текст\n-код\n-боты\n-песни\n-видео и т.д.\n\n❤️ Не забывайте оставлять обратную связь на работы других людей. Это очень ценно\n\n#keisosubbota@serge_ai",
     "link": "https://t.me/serge_ai/1574"
   },
@@ -160,7 +160,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-11-07",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/hDN1A0eESGr5brj-i7-kS6s23TyfdnoKx_gKIsAulosuC0j2NJFZopk43ajMs_89d-5o3WFGF9xH9nBZEgZbmUBPDOYPFPOWFchAyRMW8mfRX7sETyPOSSkK3mIyJYurnc6pCtoeuMb_sUJby4R4rSnpCbKFbNVeEeefiMRkV8u5-LuoRdeUNYrUt6Ik70P-FMKcIOZgoaTLLPXVjL3wNx4UQlG9Ue3dwnEgi0vC0wC7C7QcSGtra5bmxwF333UqNn1iiLOYq6aYNcp4BkJY-dBZkbaE6vnSIt7RZCcIPIA5Vq2R04m1a7xlTaZuURaU_fBPiaTKcNh3qawXHdYUrA.jpg",
+    "image": "https://cdn4.telesco.pe/file/X-DufEOrDKrfO-Q4kNxh8nBTWecjHnbYsBh1jxIwgADv6Z4SavV1w_XOtmZ-1arC4xKwIkofdomCXhMWarPuYr7v6-m7rCjt7wqmhnif30X7dei8SjMVlj7qJab2XP-rhs5rTbFTFOlohuYkXB172ULr-e51uJZtdMp37r4Tqwx9BiqOqCeLuE_f7YvqIxa-ulXcE-C1VVc2Vfk8cGd3HmuUwcLgFCAq8NLxbOV1zB7adwmtj_H_Joe-AkiEwktaJjzAQbtoNhjzj5tAFG4TsyXDXW8FbQ0ewxUb-ez1Rl8L43WpwRluPJXZ8Ue4oQvmtEzgfRyP7OFmunFY7XtKyA.jpg",
     "summary": "Да. Это она. Но пост не длинный",
     "link": "https://t.me/serge_ai/1573"
   },
