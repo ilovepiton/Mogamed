@@ -105,7 +105,7 @@ window.aiNews = [
     "channel": "your_pet_project",
     "date": "2026-11-18",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/XRpKH_WNGWhMs9v1QEAHylgVw66MQE21irNpCzujRptNyE32xTM5YF2at1j0kZEGGXJ1ZC60FZExn4QS0urcRSra5_sTGt2ncII_1Wwqw1u-8dqHQc2HksW6pQxPRksk5VflylYAKyT-x_-Pw1PnSffMovoudsnDJmUjrDE6_4viPjLDhwEjNJPrM3MAhF1lH2s9XEXjpNbr43OHgIcXR0N66_4kBTh7y8-d3GJhoIcY0n-M0zGufYTmkMizhR3wFzoWkkdMFv08R1pOBm_9QAfbxBrY2QjR8Fng1tGHPMmKQyed0m-Qzbsh1a_72HgT7Fo2DZiCh05wX4fXkzvN-g.jpg",
+    "image": "https://cdn4.telesco.pe/file/An6FDz_Cuc7RjaWa5WBuxEz6cxOqCvP4qlnTnKiWQQhxmxlOFx5DfcwYgrp6GRbbIGkogt6R3rsGjhoZUoelgo94TAnf6D-CRQQqJ3-t_4bzw6GtG_OUBICc6VeRyE_xbj7CowzmeDhVqVlwCyyc4IQrgKo2XnsAE9zPFHNFuCOFVmEtd9MCZGxVTtJ_DYVMEUTiBFJ15X-90_2_TXA8gM5Vb3uxvnKba43z9lK3EY9UdXs3HXPf7pW5lBXwLpdW1CpxBKGH3_aAQYmw7-yE9oOsy08FCSwUd3y1bWaoh-loKe7RG1OtSW7usx8gaCr1AvvKb7iJ03rJ_7H_sXX1ew.jpg",
     "summary": "Семь дней до старта\n\nВ следующую среду стартует ноябрьский поток практикума.\n\n80% времени на программе – это маркетинг: анализ рынка и запуск трафика.\n\nПочему нужно идти на программу:\n\n1. Мы решаем самую главную проблему – это сбыт. Код сейчас написать может много кто. Найти то, что покупают, и довести до продаж может далеко не каждый.\n2. Мы не надеемся на удачу и гипотезы. Есть логика: если делать по ней – рано или поздно все получится.\n3. Каждый найдет себе идею по душе, которая будет отвечать всем критериям чеклиста. Поможем каждому.\n4. Больше половины программы – это работа с трафиком.\n5. Не нужно быть разработчиком и иметь продукт. Полно вариантов запуститься с лендингом и найти разработчика на потоке.\n6. Я сам постоянно запускаю свои проекты.\n\nУ нас нет никаких методологий от венчурных фондов, стартап-инкубаторов и продактов из корпораций.\n\nТолько мой личный многолетний опыт бутстрепа нескольких проектов с нуля до выручки в &#036;1M+ с прибылью в 30%.\n\nПрактикум прошли разработчики, менеджеры, маркетологи, дизайнеры, консультанты и аналитики.\n\nПодумай вот о чем: как-то ты тут оказался. Подписан на мой канал, интересуешься этой проблемой.\n\nСкорее всего, что-то уже пробовал делать или планируешь в ближайшее время.\n\nУ тебя два варианта:\n\n1. Пытаться самому\n2. Взять схему, которая логичная, понятная, и она работает.\n\nРешать тебе.\n\nНо если выберешь второй вариант – вот что тебя ждёт:\n\n1. Исследование зеленых рынков через AI и сервисы (Находим где уже покупают)\n2. Анализ конкурентов и их экономики (Видишь всю кухню до запуска)\n3. Готовые воронки продаж и схемы трафика\n4. Групповой темп, чёткие дедлайны и пинки кураторов\n5. Платёжные решения и юридические схемы (Принимаешь деньги с первого дня через нашу платежку без регистрации юрлиц)\n6. Живое комьюнити выпускников, где могут дать совет\n7. Год моей поддержки после программы (бесплатные еженедельные разборы по понедельникам)\n\nДо старта всего неделя, места разбирают. Заполняй анкету и ждём на потоке.",
     "link": "https://t.me/your_pet_project/832"
   },
@@ -160,7 +160,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-11-14",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/nwEuJHjiNj2lYplFU3GCqAHfdZ1yzWT_QZrrNa40pRCQD94JmPsJXc-4DSNr7htLjdVjQjQQk9PrT93LwMi-P_lMWBnMIEOLfneLjG0Qy3-IVy47uBCriJActXOi5DLL2TcOrx2DjJaUvQiZuAfFmh_6chiaog3zfVGNiTERqA6RjJabT7A4NFn5fbsbbmuNQR9FkdrlO3Wcg24KB_jks7l-OVlmZOiwxbHabugipkQt7cTz7EhxxjsckP20SY7TazjWlrjVwqEi9Y1GWWU6LYGSSAOHllrBiL9bPIDpbhXobELcNSWA6ECuXvNuJ2yd9Q1GBGmXqSjGIhUJd5RygQ.jpg",
+    "image": "https://cdn4.telesco.pe/file/D0g1kCSjWtjxFgtIJC-8DUcAnF8qr99v6gCP5SvH0-ypLFkIqDIVRpbyk7GUY2Kpnd6Zd2L-vR_diol1e707ut6fU0Htic13sD3S0L9uGF29Gw75Nh-NxR5FrWS0ua4wUHgRyeZB8Vn_EUvlwe_GOM0MOEaj3nc0yoTjYAmzrYF_OTE_d41Zf06e8CAC0cWf9W2ctN_exZeFE78zgLFzNrM4fjrtHRkHUX2L63_8rNmPJMw2_h4L2KbiLTljyz1GBnlyQKZtioinbZHVrrsnDHhiSUunf6dHcVh88b6nW8auRwfhnGceetjiGQcSmgretWJDn89XZhB9rjVZbu_lXg.jpg",
     "summary": "✅KEISOSUBBOTA\n\nКейсосуббота — это рубрика, где мы делимся своими работами и взаимодействиями с ИИ. Это может быть что угодно:\n\n-картинки\n-анимации\n-текст\n-код\n-боты\n-песни\n-видео и т.д.\n\n❤️ Не забывайте оставлять обратную связь на работы других людей. Это очень ценно\n\n#keisosubbota@serge_ai",
     "link": "https://t.me/serge_ai/1574"
   },
@@ -171,7 +171,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-11-07",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/X-DufEOrDKrfO-Q4kNxh8nBTWecjHnbYsBh1jxIwgADv6Z4SavV1w_XOtmZ-1arC4xKwIkofdomCXhMWarPuYr7v6-m7rCjt7wqmhnif30X7dei8SjMVlj7qJab2XP-rhs5rTbFTFOlohuYkXB172ULr-e51uJZtdMp37r4Tqwx9BiqOqCeLuE_f7YvqIxa-ulXcE-C1VVc2Vfk8cGd3HmuUwcLgFCAq8NLxbOV1zB7adwmtj_H_Joe-AkiEwktaJjzAQbtoNhjzj5tAFG4TsyXDXW8FbQ0ewxUb-ez1Rl8L43WpwRluPJXZ8Ue4oQvmtEzgfRyP7OFmunFY7XtKyA.jpg",
+    "image": "https://cdn4.telesco.pe/file/flLHnhINjqvTCBnhEhqTl6i4m2cg_cWbYR2A_VRHO2JZe-D8B1a1vPwuRaS6cOpxBwo8fCyX_GpCcpKqeW8yblMzVl2CowZuM08q5gjdB4teu_6nn8lKaDcKPcaI-W6tgbUY-5bs8tEbHvqEW997ohiW43N8gYRRPV03FCivZxYhaPWKclDIcoOKv3-ziQ8mW6TWhfgCpYsKUzzUcC-ze-pBMjB5Q0UF0NSiyi8NSy-YM3cY_1YHZgEroG9oDFH1wifbtBMMRLHJhBqY4N3AArKjZYSkWSW2hQ_qXhenr-qtgtSy9pojYkIOhKpzsr9wjkbKqCp49EUxK9fbPk3BJg.jpg",
     "summary": "Да. Это она. Но пост не длинный",
     "link": "https://t.me/serge_ai/1573"
   },
