@@ -1,5 +1,16 @@
 window.aiNews = [
   {
+    "title": "Я отменяю ИИ панику",
+    "category": "AI / Projects",
+    "source": "Your Pet Project",
+    "channel": "your_pet_project",
+    "date": "2026-11-27",
+    "importance": 4,
+    "image": "",
+    "summary": "Я отменяю ИИ панику\n\nРебят, недавно просил вас накидать вопросов. Записали первый выпуск с ответами, спасибо всем, кто написал.\n\n🌐 Газ смотреть\n\n0:00 — Вступление\n0:38 — Что делать айтишнику, если ИИ забирает работу?\n2:46 — Убьёт ли вайбкодинг SaaS?\n7:38 — Как конкурировать, если вайбкодить может каждый?\n11:13 — Будем ли мы все покупать через ИИ-агентов?\n13:18 — Чем рискуешь, когда строишь продукт на чужой нейросети?\n14:16 — Как изменится работа продакт-менеджера?\n14:53 — Что делать в 15 лет, чтобы научиться зарабатывать?\n17:38 — Как запустить свой продукт в 47 лет?",
+    "link": "https://t.me/your_pet_project/851"
+  },
+  {
     "title": "Терпение и труд всё перетрут",
     "category": "AI / Projects",
     "source": "Your Pet Project",
@@ -39,7 +50,7 @@ window.aiNews = [
     "channel": "your_pet_project",
     "date": "2026-11-24",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/RetII1yZ-leCi9v82A-omVWpmcP6wYF6BtKmAbktEpya8H07s8UWoyYiCeHriJPlEhyl98G9-R3Wj2bgwDMyuxU_Xl7U2xaguOYfm-P1sPc3czYDvQ3Ins7rl71o-feSt_-FjKi_MOv2WDkB6G9sVZWh3T23UmL9D6xymaZaOJF659e-uq6IvlfR_tVw6huZGO2QciSOkC_BdKxYN1YUx75Nd5EFp6LtEZWd6qOD_LS4aPM_k5HA8mxnln2Xz239Hkmm_x0eSNoxhmV-NjH2str0HqaeZoHNiEM4epqec7adcRUs6OkBGxGd9XmVj3qD4W75ZB5YplkkyXFvt_EfVA.jpg",
+    "image": "https://cdn4.telesco.pe/file/G8-QErWuWigjK0rrTvwlme1ti6tEL2wf8kFUi3TMCIFKFo5BK_lEqYH7KVcKDxyQArsSKF7HFO5pJ1rbweFXOpukfmUG7yQiQZ0mbo-5fCnAvOar2GG_-8-vrN4N8fMMckIB-S5yPx9Ym6LxgeA8ixw1bSu6cVa926geW78XL4fYDEK0BF9VnKGaQeMh-fYyqOrD9i7I4kVbLxINrDynhbJkEr2d6lUxs96EhQFnqAOXHgPX4HKljGi_ZDaYzKROKqQ6za-O4eHQOeMLAFDnZRzjIJBEFIoHm-T-GDsthr9NUZEitldPyenKOeuQIwMqotISRbmAr_hHcMsPce7AUw.jpg",
     "summary": "День до старта\n\nЗавтра стартует ноябрьский поток практикума.\n\nРезультаты программы – на скриншоте выше.\n\nКак это работает: находим трафик (он же спрос), быстро вайбкодим простой продукт, запускаем рекламу и отлаживаем воронку.\n\n7 причин, почему свой проект сейчас – идеальный карьерный хак:\n\n1. Железный аргумент на собесах: ты сделал продукт, за который в интернете платят деньги. Остальные умеют только двигать таски и ныть.\n\n2. Скиллы, которых нет у 99%: маркетинг, продажи, работа с клиентами – этому не учат ни в универе, ни на работе. Разберёшься один раз – пригодится на всю жизнь.\n\n3. Это весело: свой продукт, эксперименты, живые пользователи – это затягивает и открывает кучу возможностей.\n\n4. Следующая карьерная ступень: если хочешь в CTO, CPO или CEO – нужен опыт в продукте, маркетинге и продажах. Свой проект даёт всё это разом.\n\n5. Активы: продукты, которые мы запустили 5 лет назад, до сих пор приносят доход. Это не зарплата, которая заканчивается в день увольнения.\n\n6. Нет потолка: в найме твою зарплату определяет рынок, если таких, как ты, много – зарплата падает. В бизнесе потолка нет, &#036;2-3K в месяц за год – реально.\n\n7. Свобода: тебя могут сократить, не повысить, заставить разгребать километры багов за три копейки. Но когда есть доход с проекта – спокойно уходишь и спокойно ищешь новое.\n\nВ основе программы – только мой личный многолетний опыт: несколько проектов, которые я бутстрепил с нуля до выручки &#036;1M+ с прибылью 30%.\n\nПрактикум прошли разработчики, менеджеры, маркетологи, дизайнеры, консультанты и аналитики. Их результаты выходили здесь и будут выходить дальше.\n\nДля тех, кто сомневается, – ответы на частые возражения:\n\n– \"Очередные инфоцыгане\". Я продаю свой личный опыт. Делаю программу, которая была нужна мне 10 лет назад: тогда я набивал все шишки сам и было больно, а ты можешь пройти этот путь за 8 недель. Никаких гарантий, волшебных таблеток и успешного успеха не будет: будешь работать – будет получаться. Обучение – самый экологичный способ развивать этот канал дальше. Если всё равно мерещатся инфоцыгане – отписывайся, досвидули.\n\n– \"Пойду на следующий поток\". Проекты этого потока будут запускаться в январе – в месяц с самым дешёвым трафиком в году. Это лучшее время для старта – в следующий раз такая возможность будет только через год.\n\n– \"Мне не нужны курсы\". У нас лайв-программа: живые созвоны + задания + материалы в записи. Учимся на практике, а не в теории.\n\n– \"Какая статистика запусков?\". По прошлому году: все домашки сдают 30-50%, из них до запуска стабильно доходят 45%, из них в течение года каждый второй получает первые оплаты. Не сразу, постепенно, и это очень хорошие цифры.\n\n– \"А вдруг не получится\". Считаем потери: час по вечерам и небольшие фиксированные расходы на трафик и обучение. Считаем возможный выигрыш: проект, который через год может приносить прибыль и изменить твою жизнь.\n\n– \"Попробую сам по твоим постам\". Пробуй, но помни: посты вырваны из контекста, а самый частый запрос на программе – «я пытался сам и не понимаю, что делал не так».\n\nЗаполняй анкету и заходи на поток.\n\nСтарт завтра.",
     "link": "https://t.me/your_pet_project/840"
   },
@@ -105,7 +116,7 @@ window.aiNews = [
     "channel": "your_pet_project",
     "date": "2026-11-18",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/An6FDz_Cuc7RjaWa5WBuxEz6cxOqCvP4qlnTnKiWQQhxmxlOFx5DfcwYgrp6GRbbIGkogt6R3rsGjhoZUoelgo94TAnf6D-CRQQqJ3-t_4bzw6GtG_OUBICc6VeRyE_xbj7CowzmeDhVqVlwCyyc4IQrgKo2XnsAE9zPFHNFuCOFVmEtd9MCZGxVTtJ_DYVMEUTiBFJ15X-90_2_TXA8gM5Vb3uxvnKba43z9lK3EY9UdXs3HXPf7pW5lBXwLpdW1CpxBKGH3_aAQYmw7-yE9oOsy08FCSwUd3y1bWaoh-loKe7RG1OtSW7usx8gaCr1AvvKb7iJ03rJ_7H_sXX1ew.jpg",
+    "image": "https://cdn4.telesco.pe/file/bieuADO25PW6Xfd8aAQvhs8E0tcTVjMrpLLof8eA2IAqFXLT2qNkV7T5fzuQ-JK4eNhg_ohu_02F_uEFKjsKKHtWpYTtfemI9YBgwnAYKNg7rmCVfEwr1wDcMn0dKump5u-FJMD8Fz7fw9vx3gBy9Q74dwDkxf_ORI-txXfHXdkYEKxndNYKBnGcIRQrmC6T8rbl7GhOp-3Gk1C9ZibcdBlVrtwqSV7S7A6A1AL4jwfW5-ARRF_2ilDFO_TXucshmmuAjAu26nqd4r-pfupXwdXR6iU4m4QUcf9W8xG_gGpbMfgX7Ba8Ckjn6QFmTEHr0grweyPp8QC3A29-Osfyhg.jpg",
     "summary": "Семь дней до старта\n\nВ следующую среду стартует ноябрьский поток практикума.\n\n80% времени на программе – это маркетинг: анализ рынка и запуск трафика.\n\nПочему нужно идти на программу:\n\n1. Мы решаем самую главную проблему – это сбыт. Код сейчас написать может много кто. Найти то, что покупают, и довести до продаж может далеко не каждый.\n2. Мы не надеемся на удачу и гипотезы. Есть логика: если делать по ней – рано или поздно все получится.\n3. Каждый найдет себе идею по душе, которая будет отвечать всем критериям чеклиста. Поможем каждому.\n4. Больше половины программы – это работа с трафиком.\n5. Не нужно быть разработчиком и иметь продукт. Полно вариантов запуститься с лендингом и найти разработчика на потоке.\n6. Я сам постоянно запускаю свои проекты.\n\nУ нас нет никаких методологий от венчурных фондов, стартап-инкубаторов и продактов из корпораций.\n\nТолько мой личный многолетний опыт бутстрепа нескольких проектов с нуля до выручки в &#036;1M+ с прибылью в 30%.\n\nПрактикум прошли разработчики, менеджеры, маркетологи, дизайнеры, консультанты и аналитики.\n\nПодумай вот о чем: как-то ты тут оказался. Подписан на мой канал, интересуешься этой проблемой.\n\nСкорее всего, что-то уже пробовал делать или планируешь в ближайшее время.\n\nУ тебя два варианта:\n\n1. Пытаться самому\n2. Взять схему, которая логичная, понятная, и она работает.\n\nРешать тебе.\n\nНо если выберешь второй вариант – вот что тебя ждёт:\n\n1. Исследование зеленых рынков через AI и сервисы (Находим где уже покупают)\n2. Анализ конкурентов и их экономики (Видишь всю кухню до запуска)\n3. Готовые воронки продаж и схемы трафика\n4. Групповой темп, чёткие дедлайны и пинки кураторов\n5. Платёжные решения и юридические схемы (Принимаешь деньги с первого дня через нашу платежку без регистрации юрлиц)\n6. Живое комьюнити выпускников, где могут дать совет\n7. Год моей поддержки после программы (бесплатные еженедельные разборы по понедельникам)\n\nДо старта всего неделя, места разбирают. Заполняй анкету и ждём на потоке.",
     "link": "https://t.me/your_pet_project/832"
   },
@@ -143,24 +154,13 @@ window.aiNews = [
     "link": "https://t.me/your_pet_project/830"
   },
   {
-    "title": "Что интересного вышло в пет-проекте за эту неделю",
-    "category": "AI / Projects",
-    "source": "Your Pet Project",
-    "channel": "your_pet_project",
-    "date": "2026-11-15",
-    "importance": 3,
-    "image": "",
-    "summary": "Что интересного вышло в пет-проекте за эту неделю\n\n– Грин-флаги и ред-флаги пет-проекта\n\n– История, как дата-саентист делает &#036;7K в месяц на микропродуктах параллельно с работой\n\n– Как бы я сейчас запускал продукт за месяц с бюджетом &#036;300 – вот плейбук\n\n– Пять вредных мыслей, которые мешают запустить проект\n\n– Кейс нашего ученика: как он заработал первые 100к рублей на игре по озвучке фильмов\n\n– В предзаписи ещё один кейс ученика: как ИИ-помощник для собесов вышел в плюс в первый же месяц\n\n– Разбор ниши ИИ-клипперов (сервисы для нарезки рилсов из горизонтальных видосов) в подписке YP: всё про трафик, конкурентов и монетизацию\n\nПродолжаем набор на практикум по пет-проектам. Если хочешь начать 2027 с запуска своего продукта – залетай к нам на поток",
-    "link": "https://t.me/your_pet_project/829"
-  },
-  {
     "title": "✅KEISOSUBBOTA",
     "category": "AI News",
     "source": "Serge AI",
     "channel": "serge_ai",
     "date": "2026-11-14",
     "importance": 4,
-    "image": "https://cdn4.telesco.pe/file/D0g1kCSjWtjxFgtIJC-8DUcAnF8qr99v6gCP5SvH0-ypLFkIqDIVRpbyk7GUY2Kpnd6Zd2L-vR_diol1e707ut6fU0Htic13sD3S0L9uGF29Gw75Nh-NxR5FrWS0ua4wUHgRyeZB8Vn_EUvlwe_GOM0MOEaj3nc0yoTjYAmzrYF_OTE_d41Zf06e8CAC0cWf9W2ctN_exZeFE78zgLFzNrM4fjrtHRkHUX2L63_8rNmPJMw2_h4L2KbiLTljyz1GBnlyQKZtioinbZHVrrsnDHhiSUunf6dHcVh88b6nW8auRwfhnGceetjiGQcSmgretWJDn89XZhB9rjVZbu_lXg.jpg",
+    "image": "https://cdn4.telesco.pe/file/OW3kU7Mp1IwuLRrC3chHJ1nZVcyYZ0KbuXVlYMz85EPYhLjs7dXWfeExgKFopyWdVgDPMHG3xCPV-kF2qaymF9ETAcMt2oWJdK12IHXKgeYrood5y6MgsS0YQMSr4idcItPSavdCFjD2VhnnpBNeN1Q-yMV8QMQqG4MDm0p8Rl3RtDAq-j_Uj9saZPzqgN50KoUH2_BlkjhestHv-b_SOIUQrDcO8M8LFm-bNZVVdM5_C13iyawRyxw1SxfTKZZWkAi8uwdVMaHWigF85E0c0eN4VbXe1H07ZTwlvswMr9_cWyqPJbadrQdJEwQkJCNzNxeDnMKxq9t_8u2ntvLpWA.jpg",
     "summary": "✅KEISOSUBBOTA\n\nКейсосуббота — это рубрика, где мы делимся своими работами и взаимодействиями с ИИ. Это может быть что угодно:\n\n-картинки\n-анимации\n-текст\n-код\n-боты\n-песни\n-видео и т.д.\n\n❤️ Не забывайте оставлять обратную связь на работы других людей. Это очень ценно\n\n#keisosubbota@serge_ai",
     "link": "https://t.me/serge_ai/1574"
   },
@@ -171,7 +171,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-11-07",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/flLHnhINjqvTCBnhEhqTl6i4m2cg_cWbYR2A_VRHO2JZe-D8B1a1vPwuRaS6cOpxBwo8fCyX_GpCcpKqeW8yblMzVl2CowZuM08q5gjdB4teu_6nn8lKaDcKPcaI-W6tgbUY-5bs8tEbHvqEW997ohiW43N8gYRRPV03FCivZxYhaPWKclDIcoOKv3-ziQ8mW6TWhfgCpYsKUzzUcC-ze-pBMjB5Q0UF0NSiyi8NSy-YM3cY_1YHZgEroG9oDFH1wifbtBMMRLHJhBqY4N3AArKjZYSkWSW2hQ_qXhenr-qtgtSy9pojYkIOhKpzsr9wjkbKqCp49EUxK9fbPk3BJg.jpg",
+    "image": "https://cdn4.telesco.pe/file/b8NYrJUdDlyUh9gfQqLKtfNcZx-G-VgDCx7nfBBAzKh_b9hg6HBkHzifc-ol6G69YLRlZrpBAvoqWailZN8chHpr4NrwWk7EsooccIA9BPSk9WhaS2bHDuushtE045tkdmrIzecXauN1NtqwNBG3u9jYM46J9xZ3TKIelFRiStptacq-JPwZS5nhxeWHaz_wzH0zwqUxbd8uTHqCxChbwVLKnk29OCl00EifvmyEbD-k1dH6TvnDGf_yMQ2dBwj6ICekQmOFI3Oc-wR__SzFOmutbRsmUiH1JGGScA3VxywQ3wm7RqMqNu0unkM3YipwypqcqOqf5AOfuxfhYyTkNQ.jpg",
     "summary": "Да. Это она. Но пост не длинный",
     "link": "https://t.me/serge_ai/1573"
   },
@@ -204,7 +204,7 @@ window.aiNews = [
     "channel": "serge_ai",
     "date": "2026-11-02",
     "importance": 3,
-    "image": "https://cdn4.telesco.pe/file/JRmX3STkbHGI86h6YMr7tS7Ws1_baHP6bulFJ_2iZKudWlFbDd6lYd0ISoTuff8-gGRLUNTsURqI3Iph33RdI3V1oWCczzaP10V5jkrgeOZIsv2HIMypPQZtRnj916MTXWl0lro2ge8lXgMdBrP07JlsIsYnuRYgdcXo34OP5XN-4gMxUDV-psTcpdSGQJylfhCrhQinT9XUEEPo-b7R4FXIdVf9Gt09SC_NwRSQUDYElUVAxjArIrfOetL6mIzzri6iaQ0zL87-PXPCOZLKNodqx5_bI5GInB_eFwZYwBWxFkytt6ZrmAhcU3Yw9ChOqHBm-iKrpOk4VTfhztNwRw.jpg",
+    "image": "https://cdn4.telesco.pe/file/MugKt7vW1tBpPYNJZY_jhVhcme_nEFsvBYSr79lgsrHmvRUvcULgP6SlEQCDcYpXBo04g-5WBcl0XxYqa0163vFhDsoSLD-RdZuLk1bKiTXa3tdOSQ1FYmJczHClVT_4CTQGPIHxzEITmGnw6ZRNh1A6dPmkhAWWdz7RsOeQbhZkecEKCNqnRunyKLnZssqwdzXcM79pyIWAEHA0La9yUiNGUB4UpyafACuXLzYrcKuJM-wH6Db1gKbP-UIeFCOBb4sfgHTvMAO99WaIZnuYJ-9vbNBgW_Ws7AFqJUT9JLAatlT7OSUb660h8FdhyIq4t7UlZmLpZ3whVL58IOoAcQ.jpg",
     "summary": "Такого ни разу не постил (вообще далеко от ИИ)\n\nНо чего-то так рад за мужика, что просто оставлю здесь, на память\n\nНа фоне всех этих слухов про новую астру и мифос - меня больше впечатлил этот человек. Следил за ним последние пару лет",
     "link": "https://t.me/serge_ai/1569"
   },
